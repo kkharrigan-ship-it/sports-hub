@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sports Hub</title>
+<meta name="description" content="What's on across 19 sports, refreshed twice a week.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+  <header class="header">
+    <div>
+      <div class="header-eyebrow">Sports Hub</div>
+      <h1 class="header-title">What's on</h1>
+      <div class="header-meta" id="updated">Loading…</div>
+    </div>
+    <div class="header-controls">
+      <div class="tz-group" role="group" aria-label="Show times in">
+        <button class="tz-btn" data-tz="CST" aria-pressed="false">CST</button>
+        <button class="tz-btn" data-tz="ET" aria-pressed="false">ET</button>
+        <button class="tz-btn" data-tz="GMT" aria-pressed="false" title="UK time (GMT, or BST in summer)">GMT</button>
+        <button class="tz-btn" data-tz="Local" aria-pressed="false" title="Your device's time zone">Local</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="notice hidden" id="notice" role="status"></div>
+  <div class="reminder hidden" id="reminder" role="status"></div>
+  <div class="live-banner hidden" id="liveBanner" role="status"></div>
+
+  <section class="whats-on" aria-labelledby="whatsOnTitle">
+    <h2 class="section-title" id="whatsOnTitle">This week and next</h2>
+    <div class="horizon-grid" id="horizons"></div>
+  </section>
+
+  <nav class="view-tabs" aria-label="Views">
+    <button class="view-tab" data-view="sports" aria-pressed="false">Sports</button>
+    <button class="view-tab" data-view="timeline" aria-pressed="false">Timeline</button>
+    <button class="view-tab" data-view="watchlist" aria-pressed="false">⭐ Watchlist</button>
+  </nav>
+
+  <div class="filters">
+    <div class="cat-filter" id="catFilter" role="group" aria-label="Category"></div>
+    <label class="search">
+      <span class="visually-hidden">Search Sports, Events and venues</span>
+      <input type="search" id="search" placeholder="Search sports, events, venues…" autocomplete="off">
+    </label>
+  </div>
+
+  <main>
+    <section id="view-sports">
+      <div class="legend" id="legend"></div>
+      <div class="sport-grid" id="sportGrid"></div>
+      <div class="offseason-strip" id="offseason"></div>
+    </section>
+
+    <section id="view-timeline" class="hidden">
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section id="view-watchlist" class="hidden">
+      <div class="wl-head">
+        <p class="wl-intro">Star ☆ any Event to add it here. Stars are kept on this device.</p>
+        <button class="pill-btn" id="exportWatchlist">⬇ Add Watchlist to calendar</button>
+      </div>
+      <div id="watchlist"></div>
+    </section>
+
+    <div class="empty hidden" id="noMatches">
+      Nothing matches those filters. <button class="link-btn" id="clearFilters">Clear filters</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Times are converted in your browser. Calendar links keep your calendar up to date; “Add” saves a single Event.</p>
+    <p>VPN options reach free broadcasters abroad but are against those services' terms.</p>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+# The Sports Hub Refresh: Mondays and Thursdays at 11:00 UTC
+# (6am in Memphis in summer, 5am in winter), or by hand from the Actions tab.
+#
+# Four jobs, each with only the permissions it needs:
+#   build     - install, test and Refresh (read-only; no secrets except mail)
+#   publish   - put the Hub on GitHub Pages
+#   save      - commit the last-good state back to the repo
+#   finish    - email Katie about anything she hasn't heard yet, and mark the run red if needed
+name: Refresh
+
+on:
+  schedule:
+    - cron: "0 11 * * 1,4"
+  workflow_dispatch:
+
+# Never run two Refreshes at once; a second one waits for the first.
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+permissions: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      code: ${{ steps.refresh.outputs.code }}
+    env:
+      UV_PROJECT_ENVIRONMENT: .venv
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: astral-sh/setup-uv@v10
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: uv sync --locked
+
+      - name: Test
+        run: uv run pytest -q
+
+      # The Refresh's exit code says what happened (see src/sports_hub/run_outcome.py).
+      # It's recorded rather than failing this job, so publishing still happens
+      # when the Hub was built but an Alert email couldn't be sent.
+      - name: Refresh
+        id: refresh
+        env:
+          SPORTS_HUB_MAIL_USER: ${{ secrets.SPORTS_HUB_MAIL_USER }}
+          SPORTS_HUB_MAIL_APP_PASSWORD: ${{ secrets.SPORTS_HUB_MAIL_APP_PASSWORD }}
+          SPORTS_HUB_ALERT_TO: ${{ secrets.SPORTS_HUB_ALERT_TO }}
+        run: |
+          owner=$(echo "$GITHUB_REPOSITORY_OWNER" | tr '[:upper:]' '[:lower:]')
+          export SPORTS_HUB_URL="https://${owner}.github.io/${GITHUB_REPOSITORY#*/}/"
+          set +e
+          uv run sports-hub refresh --out dist --state state/last_good.json --send-alerts
+          code=$?
+          set -e
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+
+      - name: Keep the Hub for publishing
+        if: steps.refresh.outputs.code == '0' || steps.refresh.outputs.code == '3'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+      - name: Keep the last-good state for saving
+        if: steps.refresh.outputs.code == '0' || steps.refresh.outputs.code == '3'
+        uses: actions/upload-artifact@v7
+        with:
+          name: last-good-state
+          path: state/last_good.json
+          retention-days: 7
+
+  publish:
+    needs: build
+    if: needs.build.outputs.code == '0' || needs.build.outputs.code == '3'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v6
+      - id: publish
+        uses: actions/deploy-pages@v5
+
+  save:
+    needs: build
+    if: needs.build.outputs.code == '0' || needs.build.outputs.code == '3'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v8
+        with:
+          name: last-good-state
+          path: state
+      - name: Commit the last-good state if it changed
+        run: |
+          if git ls-files --error-unmatch state/last_good.json >/dev/null 2>&1 && git diff --quiet -- state/last_good.json; then
+            echo "Last-good state unchanged."
+            exit 0
+          fi
+          git config user.name "sports-hub-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/last_good.json
+          git commit -m "Refresh: update last-good state"
+          git push
+
+  finish:
+    needs: [build, publish, save]
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+      # System Python, no installs: this has to work even if installing the project failed.
+      - name: Email Katie if needed, and set the run's result
+        env:
+          REFRESH_CODE: ${{ needs.build.outputs.code }}
+          PUBLISH_RESULT: ${{ needs.publish.result }}
+          SAVE_RESULT: ${{ needs.save.result }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          SPORTS_HUB_MAIL_USER: ${{ secrets.SPORTS_HUB_MAIL_USER }}
+          SPORTS_HUB_MAIL_APP_PASSWORD: ${{ secrets.SPORTS_HUB_MAIL_APP_PASSWORD }}
+          SPORTS_HUB_ALERT_TO: ${{ secrets.SPORTS_HUB_ALERT_TO }}
+        run: python3 scripts/finish_run.py

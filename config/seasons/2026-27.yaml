@@ -1,0 +1,185 @@
+# Season file for 2026-27: hand-checked Events for Sports without a usable
+# data feed, plus every Sport's off-season label.
+#
+# How to edit:
+# - Each Sport (by its id from sports.yaml) can have:
+#     returns:         short label shown when nothing is upcoming, e.g. "Returns Feb 2027"
+#     offseason_note:  one sentence shown with it
+#     events:          a list of entries (below)
+# - Each entry needs name, date (YYYY-MM-DD, local at the venue) and source
+#   (the page where the date was checked). Optional:
+#     session:   e.g. "Race 1", "Final"
+#     end_date:  last day of a multi-day event
+#     time + tz: local start time (24-hour HH:MM) and its IANA zone, e.g. "14:00" + Europe/London.
+#                Leave both out if no official time is published: the Event is then all-day.
+#     location:  "City, Country"
+#     tags:      e.g. [slam] for curling Grand Slams
+# - Only add what's officially announced. Never guess a date.
+
+sports:
+  # Data-feed Sports: only their off-season labels live here.
+  f1:
+    returns: Returns in 2027
+    offseason_note: The 2027 calendar hasn't been published yet.
+  alpine:
+    returns: Returns next winter
+    offseason_note: The World Cup runs from late October to March.
+  snowboard:
+    returns: Returns next winter
+    offseason_note: The World Cup runs from autumn to March.
+  freestyle:
+    returns: Returns next winter
+    offseason_note: The World Cup runs from autumn to March.
+  biathlon:
+    returns: Returns next winter
+    offseason_note: The World Cup runs from late November to March.
+  pwhl:
+    returns: Returns next season
+    offseason_note: The regular season runs from December to April, with playoffs in May.
+  swimming:
+    returns: Next date TBA
+    offseason_note: The next World Aquatics competition hasn't been listed yet.
+  diving:
+    returns: Next date TBA
+    offseason_note: The next World Aquatics competition hasn't been listed yet.
+  motogp:
+    returns: Returns Mar 2027
+    offseason_note: The 2027 season opens in Thailand in early March.
+  speed-skating:
+    returns: Returns next winter
+    offseason_note: The World Cup runs from November to February, with the World Championships after.
+  short-track:
+    returns: Returns next winter
+    offseason_note: The World Tour runs from October to February, with the World Championships in March.
+
+  # Researched 2026-10-24. No official start times yet, so all are all-day.
+  # 2026 Bahrain/Qatar were cancelled; Monza replaced them (FIA, 28 Jul 2026).
+  # Race day is the last day of each published event.
+  wec:
+    returns: Returns Mar 2027
+    offseason_note: The nine-round 2027 season opens with the Qatar 1812km in late March.
+    events:
+      - { name: 6 Hours of Monza, date: 2026-11-08, location: "Monza, Italy", source: "https://www.fia.com/news/fia-and-fia-wec-confirm-venues-final-two-rounds-2026" }
+      - { name: Qatar 1812km, date: 2027-03-27, location: "Lusail, Qatar", source: "https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar-as-series-expands/13598" }
+      - { name: 6 Hours of Imola, date: 2027-04-11, location: "Imola, Italy", source: "https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar-as-series-expands/13598" }
+      - { name: 6 Hours of Silverstone, date: 2027-04-25, location: "Silverstone, UK", source: "https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar-as-series-expands/13598" }
+      - { name: 6 Hours of Spa-Francorchamps, date: 2027-05-15, location: "Spa-Francorchamps, Belgium", source: "https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar-as-series-expands/13598" }
+      - { name: 24 Hours of Le Mans, date: 2027-06-12, end_date: 2027-06-13, location: "Le Mans, France", source: "https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar-as-series-expands/13598" }
+      - { name: 6 Hours of São Paulo, date: 2027-07-11, location: "São Paulo, Brazil", source: "https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar-as-series-expands/13598" }
+      - { name: Lone Star Le Mans, date: 2027-09-12, location: "Austin, USA", source: "https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar-as-series-expands/13598" }
+      - { name: 6 Hours of Fuji, date: 2027-09-26, location: "Oyama, Japan", source: "https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar-as-series-expands/13598" }
+      - { name: 8 Hours of Bahrain, date: 2027-11-06, location: "Sakhir, Bahrain", source: "https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar-as-series-expands/13598" }
+
+  # Researched 2026-10-24. No race start times published. 2027 dates are from
+  # SailGP's preliminary calendar (tagged provisional); Perth (Feb), Italy
+  # (11-12 Sep) and the Grand Final have no fixed date/venue yet, so are left out.
+  sailgp:
+    returns: Returns Jan 2027
+    offseason_note: The 2027 season opens with SailGP's first Hong Kong event in late January.
+    events:
+      - { name: Dubai Sail Grand Prix, date: 2026-11-21, end_date: 2026-11-22, location: "Dubai, UAE", source: "https://en.wikipedia.org/wiki/2026_SailGP_championship" }
+      - { name: Abu Dhabi Sail Grand Prix, session: Grand Final, date: 2026-11-28, end_date: 2026-11-29, location: "Abu Dhabi, UAE", source: "https://www.mediaoffice.abudhabi/en/sport/organised-by-abu-dhabi-sports-council-mubadala-abu-dhabi-sail-grand-prix-2026-season-grand-final-to-take-place-in-the-emirate/" }
+      - { name: Hong Kong Sail Grand Prix, date: 2027-01-23, end_date: 2027-01-24, location: "Hong Kong", tags: [provisional], source: "https://www.sportcal.com/news/sailgp-reveals-preliminary-2027-calendar-with-hong-kong-debut-season-launch/" }
+      - { name: San Francisco Sail Grand Prix, date: 2027-04-03, end_date: 2027-04-04, location: "San Francisco, USA", tags: [provisional], source: "https://www.sportcal.com/news/sailgp-reveals-preliminary-2027-calendar-with-hong-kong-debut-season-launch/" }
+      - { name: Bermuda Sail Grand Prix, date: 2027-05-01, end_date: 2027-05-02, location: "Bermuda", tags: [provisional], source: "https://www.sportcal.com/news/sailgp-reveals-preliminary-2027-calendar-with-hong-kong-debut-season-launch/" }
+      - { name: Canada Sail Grand Prix, date: 2027-05-15, end_date: 2027-05-16, location: "Halifax, Canada", tags: [provisional], source: "https://www.sportcal.com/news/sailgp-reveals-preliminary-2027-calendar-with-hong-kong-debut-season-launch/" }
+      - { name: New York Sail Grand Prix, date: 2027-06-05, end_date: 2027-06-06, location: "New York, USA", tags: [provisional], source: "https://www.sportcal.com/news/sailgp-reveals-preliminary-2027-calendar-with-hong-kong-debut-season-launch/" }
+
+  # Researched 2026-10-24. No draw times confirmed, so all are all-day.
+  # Grand Slams carry tags: [slam]. curling.ca blocks bots; Curling Canada
+  # dates come from its blog posts, TSN/CP and Wikipedia. Canadian Mixed
+  # Doubles 2027 is TBD, so left out.
+  curling-ca:
+    returns: Returns Oct 2027
+    offseason_note: The 2027-28 Grand Slam dates haven't been announced yet.
+    events:
+      - { name: GSOC Invitational, date: 2026-10-13, end_date: 2026-10-18, location: "Victoria, BC", tags: [slam], source: "https://www.thegrandslamofcurling.com/media/grand-slam-of-curling-unveils-2026-27-season-schedule" }
+      - { name: GSOC Masters, date: 2026-11-03, end_date: 2026-11-08, location: "Medicine Hat, AB", tags: [slam], source: "https://www.thegrandslamofcurling.com/media/grand-slam-of-curling-unveils-2026-27-season-schedule" }
+      - { name: Canadian Mixed Curling Championship, date: 2026-11-08, end_date: 2026-11-14, location: "Woodstock, PE", source: "https://www.curling.ca/blog/2025/11/13/canadian-mixed-curling-championship-returns-to-prince-edward-island-after-30-years/" }
+      - { name: GSOC National, date: 2026-11-17, end_date: 2026-11-22, location: "Sydney, NS", tags: [slam], source: "https://www.thegrandslamofcurling.com/media/grand-slam-of-curling-unveils-2026-27-season-schedule" }
+      - { name: GSOC Open, date: 2026-12-01, end_date: 2026-12-06, location: "Thunder Bay, ON", tags: [slam], source: "https://www.thegrandslamofcurling.com/media/grand-slam-of-curling-unveils-2026-27-season-schedule" }
+      - { name: Canadian Senior Curling Championships, date: 2026-12-06, end_date: 2026-12-13, location: "Saskatoon, SK", source: "https://www.curling.ca/blog/2025/12/09/saskatoon-to-host-2026-canadian-senior-curling-championships/" }
+      - { name: "GSOC Players' Cup", date: 2026-12-15, end_date: 2026-12-20, location: "Kingston, ON", tags: [slam], source: "https://www.thegrandslamofcurling.com/media/grand-slam-of-curling-unveils-2026-27-season-schedule" }
+      - { name: Scotties Tournament of Hearts, date: 2027-02-12, end_date: 2027-02-21, location: "Charlottetown, PE", source: "https://www.tsn.ca/curling/charlottetown-set-to-host-scotties-tournament-of-hearts-for-record-fifth-time-in-2027-1.2323498" }
+      - { name: "Montana's Brier", date: 2027-02-26, end_date: 2027-03-07, location: "Saskatoon, SK", source: "https://www.curling.ca/blog/2025/11/12/saint-john-n-b-to-host-2027-bkt-world-mens-curling-championship/" }
+      - { name: Canadian Junior Curling Championships, date: 2027-03-20, end_date: 2027-03-27, location: "Rivière-du-Loup, QC", source: "https://en.wikipedia.org/wiki/2026%E2%80%9327_curling_season" }
+      - { name: Canadian Wheelchair Curling Championship, date: 2027-04-19, end_date: 2027-04-24, location: "Richmond, BC", source: "https://en.wikipedia.org/wiki/2026%E2%80%9327_curling_season" }
+
+  # Researched 2026-10-24. The Pan Continentals are replaced by the new World
+  # Championship Qualifiers. Hosts marked TBA have no location yet.
+  curling-intl:
+    returns: Returns Oct 2027
+    offseason_note: World Curling's next season starts with the October qualifiers and the European Championships.
+    events:
+      - { name: World Mixed Doubles Qualification Event, date: 2026-10-02, end_date: 2026-10-08, location: "Lafayette, USA", source: "https://worldcurling.org/events/" }
+      - { name: European Curling Championships, date: 2026-10-27, end_date: 2026-11-01, location: "Ostrava, Czechia", source: "https://worldcurling.org/events/" }
+      - { name: World Championship Qualifier (Men), date: 2026-11-08, end_date: 2026-11-13, location: "Aberdeen, Scotland", source: "https://worldcurling.org/2026/06/wcq2026-host-announcement/" }
+      - { name: World Championship Qualifier (Women), date: 2026-11-21, end_date: 2026-11-26, location: "Östersund, Sweden", source: "https://worldcurling.org/2026/06/wcq2026-host-announcement/" }
+      - { name: World Mixed Doubles Curling Championship, date: 2027-01-04, end_date: 2027-01-10, location: "Lohja, Finland", source: "https://results.worldcurling.org/Championship/Year/2026" }
+      - { name: World Junior Curling Championships, date: 2027-02-06, end_date: 2027-02-14, location: "Aberdeen, Scotland", source: "https://worldcurling.org/2026/06/wcq2026-host-announcement/" }
+      - { name: "World Women's Curling Championship", date: 2027-03-13, end_date: 2027-03-21, location: Host TBA, source: "https://results.worldcurling.org/Championship/Year/2026" }
+      - { name: "World Men's Curling Championship", date: 2027-03-26, end_date: 2027-04-04, location: "Saint John, NB, Canada", source: "https://results.worldcurling.org/Championship/Year/2026" }
+      - { name: World Mixed Curling Championship, date: 2027-04-03, end_date: 2027-04-10, location: "Penticton, BC, Canada", source: "https://worldcurling.org/events/" }
+      - { name: World Mixed Doubles Qualification Event, date: 2027-04-10, end_date: 2027-04-17, location: "Winnipeg, MB, Canada", source: "https://results.worldcurling.org/Championship/Year/2026" }
+      - { name: World Senior Curling Championships, date: 2027-04-24, end_date: 2027-05-01, location: Host TBA, source: "https://results.worldcurling.org/Championship/Year/2026" }
+
+  # November tests only; the 2027 Six Nations comes from sixnationsrugby.com.
+  # Researched 2026-10-24.
+  ireland-rugby:
+    returns: Returns Feb 2027
+    offseason_note: The Six Nations opens against England in Dublin on 5 February.
+    events:
+      - { name: Ireland v Argentina, session: Nations Championship, date: 2026-11-06, time: "20:10", tz: Europe/Dublin, location: "Aviva Stadium, Dublin", source: "https://www.irishrugby.ie/2026/05/15/fifty-days-to-go-to-start-of-nations-championship/" }
+      - { name: Ireland v Fiji, session: Nations Championship, date: 2026-11-14, time: "20:10", tz: Europe/Dublin, location: "Aviva Stadium, Dublin", source: "https://www.irishrugby.ie/2026/05/15/fifty-days-to-go-to-start-of-nations-championship/" }
+      - { name: Ireland v South Africa, session: Nations Championship, date: 2026-11-21, time: "16:40", tz: Europe/Dublin, location: "Aviva Stadium, Dublin", source: "https://www.irishrugby.ie/2026/05/15/fifty-days-to-go-to-start-of-nations-championship/" }
+
+  # Researched 2026-10-24 from the FIG events database. Artistic World Cups,
+  # World Challenge Cups and all World Championships; other disciplines' World
+  # Cups are left out. Doha is listed as "approved" (the 2026 leg was cancelled).
+  gymnastics:
+    returns: Returns Feb 2027
+    offseason_note: The artistic World Cup circuit restarts in Cottbus on 25 February.
+    events:
+      - { name: Artistic Gymnastics World Championships, date: 2026-10-17, end_date: 2026-10-25, location: "Rotterdam, Netherlands", source: "https://www.gymnastics.sport/site/events/detail.php?id=17247" }
+      - { name: Trampoline & Tumbling World Championships, date: 2026-11-04, end_date: 2026-11-08, location: "Nanjing, China", source: "https://www.gymnastics.sport/site/events/detail.php?id=18189" }
+      - { name: Artistic World Cup Cottbus, date: 2027-02-25, end_date: 2027-02-28, location: "Cottbus, Germany", source: "https://www.gymnastics.sport/site/events/detail.php?id=17940" }
+      - { name: Artistic World Cup Baku, date: 2027-03-11, end_date: 2027-03-14, location: "Baku, Azerbaijan", source: "https://www.gymnastics.sport/site/events/detail.php?id=17941" }
+      - { name: Artistic World Cup Antalya, date: 2027-03-25, end_date: 2027-03-28, location: "Antalya, Turkey", source: "https://www.gymnastics.sport/site/events/detail.php?id=17942" }
+      - { name: Artistic World Cup Cairo, date: 2027-04-02, end_date: 2027-04-05, location: "Cairo, Egypt", source: "https://www.gymnastics.sport/site/events/detail.php?id=17943" }
+      - { name: Artistic World Cup Osijek, date: 2027-04-08, end_date: 2027-04-11, location: "Osijek, Croatia", source: "https://www.gymnastics.sport/site/events/detail.php?id=17944" }
+      - { name: Artistic World Cup Doha, date: 2027-04-14, end_date: 2027-04-17, location: "Doha, Qatar", tags: [provisional], source: "https://www.gymnastics.sport/site/events/detail.php?id=17945" }
+      - { name: Artistic World Challenge Cup Koper, date: 2027-05-13, end_date: 2027-05-16, location: "Koper, Slovenia", source: "https://www.gymnastics.sport/site/events/detail.php?id=18674" }
+      - { name: Artistic World Challenge Cup Tashkent, date: 2027-05-20, end_date: 2027-05-23, location: "Tashkent, Uzbekistan", source: "https://www.gymnastics.sport/site/events/detail.php?id=18653" }
+      - { name: Rhythmic Gymnastics World Championships, date: 2027-09-15, end_date: 2027-09-19, location: "Baku, Azerbaijan", source: "https://www.gymnastics.sport/site/events/detail.php?id=17462" }
+      - { name: Artistic Gymnastics World Championships, date: 2027-09-29, end_date: 2027-10-08, location: "Chengdu, China", source: "https://www.gymnastics.sport/site/events/detail.php?id=17648" }
+      - { name: Trampoline Gymnastics World Championships, date: 2027-11-10, end_date: 2027-11-13, location: "Sofia, Bulgaria", source: "https://www.gymnastics.sport/site/events/detail.php?id=17546" }
+
+  # Researched 2026-10-24. The World Skate Games (incl. World Championships)
+  # ended 18 Oct; no top-level 2027 dates are out yet.
+  world-skate:
+    returns: Returns 2027 (dates TBA)
+    offseason_note: No top-level 2027 World Skate events have been dated yet.
+    events:
+      - { name: Speed Track Series World Cup Final, date: 2026-11-13, end_date: 2026-11-15, location: "Xinhua, China", source: "https://www.worldskate.org/events/upcoming-events.html" }
+      - { name: WST Utsunomiya Street, date: 2026-11-16, end_date: 2026-11-23, location: "Utsunomiya, Japan", source: "https://www.worldskate.org/events/upcoming-events.html" }
+
+  # Researched 2026-10-24: World Athletics' 2027 calendar announcement.
+  diamond-league:
+    returns: Returns May 2027
+    offseason_note: The 2027 series opens in Doha on 7 May and ends with the Zurich final on 25-26 August.
+    events:
+      - { name: Diamond League Doha, date: 2027-05-07, location: "Doha, Qatar", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Diamond League Shanghai/Keqiao, date: 2027-05-15, location: "Shanghai/Keqiao, China", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Diamond League Xiamen, date: 2027-05-22, location: "Xiamen, China", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Diamond League Rome, date: 2027-05-27, location: "Rome, Italy", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Diamond League Rabat, date: 2027-05-30, location: "Rabat, Morocco", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Diamond League Oslo, date: 2027-06-03, location: "Oslo, Norway", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Diamond League Stockholm, date: 2027-06-06, location: "Stockholm, Sweden", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Diamond League Paris, date: 2027-06-25, location: "Paris, France", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Prefontaine Classic, date: 2027-07-03, location: "Eugene, USA", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Diamond League Monaco, date: 2027-07-09, location: "Monaco", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Diamond League Lausanne, date: 2027-07-13, location: "Lausanne, Switzerland", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Diamond League London, date: 2027-07-17, location: "London, UK", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Diamond League Silesia, date: 2027-08-15, location: "Silesia, Poland", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Diamond League Brussels, date: 2027-08-20, location: "Brussels, Belgium", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }
+      - { name: Diamond League Final, date: 2027-08-25, end_date: 2027-08-26, location: "Zurich, Switzerland", source: "https://worldathletics.org/competitions/diamond-league/news/wanda-diamond-league-2027-calendar" }

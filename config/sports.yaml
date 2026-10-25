@@ -1,0 +1,202 @@
+# The Sports on the Hub. Single source of truth for names, categories,
+# data sources and Watch options. Every Watch option, note and price comes
+# from docs/research/watch-guide-2026-27.md; don't add one that isn't there.
+#
+# Watch option types: have (we already pay for it), free, vpn (free abroad,
+# reached via VPN), consider (a paid service we don't have; add a `price`).
+# rights_unconfirmed: true flags a Sport whose 2026-27 broadcast deal wasn't
+# confirmed in research, so it gets rechecked before its season opener.
+# Off-season labels and hand-checked Events live in config/seasons/.
+
+sports:
+  - id: f1
+    name: Formula 1
+    category: motor
+    source: jolpica
+    watch:
+      - { label: Apple TV, type: have }
+
+  - id: alpine
+    name: Alpine Skiing
+    category: snow
+    source: fis
+    params: { sector: AL }
+    watch:
+      - { label: Peacock, type: have }
+      - { label: ORF ON, type: vpn }
+      - { label: SRF, type: vpn }
+
+  - id: snowboard
+    name: Snowboarding
+    category: snow
+    source: fis
+    params: { sector: SB }
+    rights_unconfirmed: true
+    watch:
+      - { label: Outside TV, type: free, note: US events; free with an email }
+      - { label: Peacock, type: have }
+      - { label: ORF ON, type: vpn }
+      - { label: SRF, type: vpn }
+      - { label: ARD/ZDF, type: vpn }
+
+  - id: freestyle
+    name: Freestyle Skiing
+    category: snow
+    source: fis
+    params: { sector: FS }
+    rights_unconfirmed: true
+    watch:
+      - { label: Outside TV, type: free, note: US events; free with an email }
+      - { label: Peacock, type: have }
+      - { label: ORF ON, type: vpn }
+      - { label: SRF, type: vpn }
+      - { label: ARD/ZDF, type: vpn }
+
+  - id: biathlon
+    name: Biathlon
+    category: snow
+    source: ibu
+    rights_unconfirmed: true
+    watch:
+      - { label: Eurovision Sport, type: free, note: free in the US, no VPN }
+      - { label: ARD/ZDF, type: vpn }
+      - { label: ORF ON, type: vpn }
+      - { label: SRF, type: vpn }
+
+  - id: wec
+    name: FIA WEC
+    category: motor
+    source: season
+    rights_unconfirmed: true
+    watch:
+      - { label: HBO Max, type: consider, price: "~$11/mo", note: carries TNT Sports; TNT and truTV are cable }
+
+  - id: sailgp
+    name: SailGP
+    category: motor
+    source: season
+    watch:
+      - { label: CBS, type: free, note: over the air on key weekends }
+      - { label: Paramount+, type: consider, price: "~$8-13/mo", note: CBS Sports Network coverage unclear }
+
+  - id: curling-ca
+    name: Curling (Canada)
+    category: ice
+    source: season
+    rights_unconfirmed: true
+    watch:
+      - { label: ESPN+, type: consider, price: "~$12.99/mo", note: Grand Slams only; subscribe in Slam months }
+      - { label: CBC Gem, type: vpn, note: Saturday playoffs only }
+
+  - id: curling-intl
+    name: Curling (Intl)
+    category: ice
+    source: season
+    rights_unconfirmed: true
+    watch:
+      - { label: World Curling YouTube, type: free, note: historically open in countries without a TV deal }
+      - { label: SRF, type: vpn }
+      - { label: ARD/ZDF, type: vpn }
+      - { label: CBC Gem, type: vpn }
+
+  - id: pwhl
+    name: PWHL
+    category: ice
+    source: pwhl
+    watch:
+      - { label: PWHL YouTube, type: free, note: every game outside Canada }
+      - { label: ION, type: free, note: over the air, Saturday game of the week }
+      - { label: Scripps Sports Network, type: free, note: free channel on Roku/Tubi, 2 games a week }
+
+  - id: swimming
+    name: Swimming
+    category: aqua
+    source: world_aquatics
+    params: { discipline: SW, types: "SWC,SWCH,WCH" }
+    watch:
+      - { label: Peacock, type: have }
+
+  - id: diving
+    name: Diving
+    category: aqua
+    source: world_aquatics
+    params: { discipline: DV, types: "DWC,WCH" }
+    watch:
+      - { label: Peacock, type: have }
+
+  - id: motogp
+    name: MotoGP
+    category: motor
+    source: motogp
+    watch:
+      - { label: FOX, type: free, note: over the air for the Austin round }
+      - { label: MotoGP Channel, type: free, note: free streaming channel; launch and live coverage unconfirmed }
+      - { label: ServusTV, type: vpn, note: free-to-air in past seasons; unconfirmed }
+      - { label: FOX One, type: consider, price: "~$19.99/mo", note: includes FS1/FS2 }
+
+  - id: ireland-rugby
+    name: Ireland Rugby
+    category: rugby
+    sources: [season, six_nations]
+    params: { team: IRE }
+    rights_unconfirmed: true
+    watch:
+      - { label: RugbyPass TV, type: free, note: November tests; free with registration }
+      - { label: Peacock, type: have, note: Six Nations (2027 deal unconfirmed) }
+      - { label: RTÉ Player, type: vpn }
+      - { label: Virgin Media Player, type: vpn }
+
+  - id: speed-skating
+    name: Speed Skating
+    category: ice
+    source: isu
+    params: { discipline: speed-skating }
+    rights_unconfirmed: true
+    watch:
+      - { label: Peacock, type: have }
+      - { label: ISU YouTube, type: free, note: in countries without a TV deal }
+      - { label: NOS, type: vpn }
+      - { label: CBC Gem, type: vpn }
+      - { label: ORF ON, type: vpn }
+
+  - id: short-track
+    name: Short Track
+    category: ice
+    source: isu
+    params: { discipline: short-track }
+    rights_unconfirmed: true
+    watch:
+      - { label: Peacock, type: have }
+      - { label: ISU YouTube, type: free, note: in countries without a TV deal }
+      - { label: CBC Gem, type: vpn }
+      - { label: NOS, type: vpn }
+      - { label: ORF ON, type: vpn }
+
+  - id: gymnastics
+    name: Gymnastics
+    category: track
+    source: season
+    rights_unconfirmed: true
+    watch:
+      - { label: Peacock, type: have, note: had the 2026 Worlds finals; World Cups unclear }
+      - { label: Eurovision Sport, type: free }
+      - { label: ARD/ZDF, type: vpn }
+
+  - id: world-skate
+    name: World Skate
+    category: track
+    source: season
+    watch:
+      - { label: World Skate YouTube, type: free }
+      - { label: Olympics.com, type: free }
+
+  - id: diamond-league
+    name: Diamond League
+    category: track
+    source: season
+    rights_unconfirmed: true
+    watch:
+      - { label: Peacock, type: have, note: Prefontaine Classic (Eugene) only }
+      - { label: SRF, type: vpn, note: Zurich and Lausanne; unconfirmed }
+      - { label: ARD/ZDF, type: vpn, note: some meetings; unconfirmed }
+      - { label: FloTrack, type: consider, price: "~$30/mo or ~$150/yr" }

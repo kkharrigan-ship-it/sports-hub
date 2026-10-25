@@ -1,0 +1,2763 @@
+BEGIN:VCALENDAR
+PRODID:-//FIS//Calendar//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Zurich
+TZURL:http://tzurl.org/zoneinfo/Europe/Zurich
+X-LIC-LOCATION:Europe/Zurich
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+BEGIN:STANDARD
+TZOFFSETFROM:+003408
+TZOFFSETTO:+002946
+TZNAME:BMT
+DTSTART:18530716T000000
+RDATE:18530716T000000
+END:STANDARD
+BEGIN:STANDARD
+TZOFFSETFROM:+002946
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:18940601T000000
+RDATE:18940601T000000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19410505T010000
+RDATE:19410505T010000
+RDATE:19420504T010000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19411006T020000
+RDATE:19411006T020000
+RDATE:19421005T020000
+RDATE:19810927T030000
+RDATE:19820926T030000
+RDATE:19830925T030000
+RDATE:19840930T030000
+RDATE:19850929T030000
+RDATE:19860928T030000
+RDATE:19870927T030000
+RDATE:19880925T030000
+RDATE:19890924T030000
+RDATE:19900930T030000
+RDATE:19910929T030000
+RDATE:19920927T030000
+RDATE:19930926T030000
+RDATE:19940925T030000
+RDATE:19950924T030000
+END:STANDARD
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19810101T000000
+RDATE:19810101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20261023T081024Z
+LAST-MODIFIED:20261023T081024Z
+DTSTAMP:20261024T211422Z
+UID:FS19546
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19546\nOrganisation: \nAUT\nE-mail: (removed)
+SUMMARY:Innsbruck (AUT) - Freestyle World Cup Freeski Big Air Qualification
+LOCATION:Innsbruck
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T081024Z
+LAST-MODIFIED:20261023T081024Z
+DTSTAMP:20261024T211422Z
+UID:FS19548
+DTSTART:20261127T174500Z
+DTEND:20261127T214500Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Big Air\nRun 1 loc: 18:45\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19548\nOrganisation: \nAUT\nE-mail: (removed)
+SUMMARY:Innsbruck (AUT) - Freestyle World Cup Freeski Big Air
+LOCATION:Innsbruck
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T081024Z
+LAST-MODIFIED:20261023T081024Z
+DTSTAMP:20261024T211422Z
+UID:FS19550
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19550\nOrganisation: \nAUT\nE-mail: (removed)
+SUMMARY:Innsbruck (AUT) - Freestyle World Cup Freeski Big Air Qualification
+LOCATION:Innsbruck
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T081024Z
+LAST-MODIFIED:20261023T081024Z
+DTSTAMP:20261024T211422Z
+UID:FS19701
+DTSTART:20261127T174500Z
+DTEND:20261127T214500Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Big Air\nRun 1 loc: 18:45\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19701\nOrganisation: \nAUT\nE-mail: (removed)
+SUMMARY:Innsbruck (AUT) - Freestyle World Cup Freeski Big Air
+LOCATION:Innsbruck
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011053Z
+LAST-MODIFIED:20261014T011053Z
+DTSTAMP:20261024T211422Z
+UID:FS19551
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19551\nOrganisation: \nBeijing Municipal Bureau of Sports\nBld No. 1, Yard No.209, Songzhuang South 3rd Street, Tongzhou District\n100050 Chongwen District\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Beijing (CHN) - Freestyle World Cup Freeski Big Air Qualification
+LOCATION:Beijing
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011053Z
+LAST-MODIFIED:20261014T011053Z
+DTSTAMP:20261024T211422Z
+UID:FS19552
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19552\nOrganisation: \nBeijing Municipal Bureau of Sports\nBld No. 1, Yard No.209, Songzhuang South 3rd Street, Tongzhou District\n100050 Chongwen District\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Beijing (CHN) - Freestyle World Cup Freeski Big Air Qualification
+LOCATION:Beijing
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011053Z
+LAST-MODIFIED:20261014T011053Z
+DTSTAMP:20261024T211422Z
+UID:FS19553
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Big Air\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19553\nOrganisation: \nBeijing Municipal Bureau of Sports\nBld No. 1, Yard No.209, Songzhuang South 3rd Street, Tongzhou District\n100050 Chongwen District\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Beijing (CHN) - Freestyle World Cup Freeski Big Air
+LOCATION:Beijing
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011053Z
+LAST-MODIFIED:20261014T011053Z
+DTSTAMP:20261024T211422Z
+UID:FS19554
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Big Air\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19554\nOrganisation: \nBeijing Municipal Bureau of Sports\nBld No. 1, Yard No.209, Songzhuang South 3rd Street, Tongzhou District\n100050 Chongwen District\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Beijing (CHN) - Freestyle World Cup Freeski Big Air
+LOCATION:Beijing
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T091029Z
+LAST-MODIFIED:20261008T091029Z
+DTSTAMP:20261024T211422Z
+UID:FS19523
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19523\nOrganisation: \nClub des Sports de Val Thorens\n818 grande rue\n73440\nLes Belleville\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val Thorens (FRA) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Val Thorens
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T091029Z
+LAST-MODIFIED:20261008T091029Z
+DTSTAMP:20261024T211422Z
+UID:FS19524
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19524\nOrganisation: \nClub des Sports de Val Thorens\n818 grande rue\n73440\nLes Belleville\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val Thorens (FRA) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Val Thorens
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T091029Z
+LAST-MODIFIED:20261008T091029Z
+DTSTAMP:20261024T211422Z
+UID:FS19525
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19525\nOrganisation: \nClub des Sports de Val Thorens\n818 grande rue\n73440\nLes Belleville\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val Thorens (FRA) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Val Thorens
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T091029Z
+LAST-MODIFIED:20261008T091029Z
+DTSTAMP:20261024T211422Z
+UID:FS19526
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19526\nOrganisation: \nClub des Sports de Val Thorens\n818 grande rue\n73440\nLes Belleville\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val Thorens (FRA) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Val Thorens
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T091029Z
+LAST-MODIFIED:20261008T091029Z
+DTSTAMP:20261024T211422Z
+UID:FS19527
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19527\nOrganisation: \nClub des Sports de Val Thorens\n818 grande rue\n73440\nLes Belleville\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val Thorens (FRA) - Freestyle World Cup Ski Cross
+LOCATION:Val Thorens
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T091029Z
+LAST-MODIFIED:20261008T091029Z
+DTSTAMP:20261024T211422Z
+UID:FS19528
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19528\nOrganisation: \nClub des Sports de Val Thorens\n818 grande rue\n73440\nLes Belleville\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val Thorens (FRA) - Freestyle World Cup Ski Cross
+LOCATION:Val Thorens
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T091029Z
+LAST-MODIFIED:20261008T091029Z
+DTSTAMP:20261024T211422Z
+UID:FS19529
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19529\nOrganisation: \nClub des Sports de Val Thorens\n818 grande rue\n73440\nLes Belleville\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val Thorens (FRA) - Freestyle World Cup Ski Cross
+LOCATION:Val Thorens
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T091029Z
+LAST-MODIFIED:20261008T091029Z
+DTSTAMP:20261024T211422Z
+UID:FS19530
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19530\nOrganisation: \nClub des Sports de Val Thorens\n818 grande rue\n73440\nLes Belleville\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val Thorens (FRA) - Freestyle World Cup Ski Cross
+LOCATION:Val Thorens
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011055Z
+LAST-MODIFIED:20261014T011055Z
+DTSTAMP:20261024T211422Z
+UID:FS19555
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19555\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com
+SUMMARY:Secret Garden (CHN) - Freestyle World Cup Freeski Halfpipe Qualification
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011055Z
+LAST-MODIFIED:20261014T011055Z
+DTSTAMP:20261024T211422Z
+UID:FS19556
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19556\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com
+SUMMARY:Secret Garden (CHN) - Freestyle World Cup Freeski Halfpipe Qualification
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011055Z
+LAST-MODIFIED:20261014T011055Z
+DTSTAMP:20261024T211422Z
+UID:FS19557
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19557\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com
+SUMMARY:Secret Garden (CHN) - Freestyle World Cup Freeski Halfpipe
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011055Z
+LAST-MODIFIED:20261014T011055Z
+DTSTAMP:20261024T211422Z
+UID:FS19702
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19702\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com
+SUMMARY:Secret Garden (CHN) - Freestyle World Cup Freeski Halfpipe
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011056Z
+LAST-MODIFIED:20261014T011056Z
+DTSTAMP:20261024T211422Z
+UID:FS19558
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19558\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Breckenridge (USA) - Freestyle World Cup Freeski Slopestyle Qualification
+LOCATION:Breckenridge
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011056Z
+LAST-MODIFIED:20261014T011056Z
+DTSTAMP:20261024T211422Z
+UID:FS19559
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19559\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Breckenridge (USA) - Freestyle World Cup Freeski Slopestyle Qualification
+LOCATION:Breckenridge
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011056Z
+LAST-MODIFIED:20261014T011056Z
+DTSTAMP:20261024T211422Z
+UID:FS19560
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19560\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Breckenridge (USA) - Freestyle World Cup Freeski Slopestyle
+LOCATION:Breckenridge
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011056Z
+LAST-MODIFIED:20261014T011056Z
+DTSTAMP:20261024T211422Z
+UID:FS19561
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19561\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Breckenridge (USA) - Freestyle World Cup Freeski Slopestyle
+LOCATION:Breckenridge
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T031022Z
+LAST-MODIFIED:20261019T031022Z
+DTSTAMP:20261024T211422Z
+UID:FS19477
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19477\nOrganisation: \nSki Sport Finland ry\nValimotie 10\n00380 Helsinki\nFinland\nFIN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.freestyleopening.fi/
+SUMMARY:Ruka (FIN) - Freestyle World Cup Moguls
+LOCATION:Ruka
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T031022Z
+LAST-MODIFIED:20261019T031022Z
+DTSTAMP:20261024T211422Z
+UID:FS19478
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19478\nOrganisation: \nSki Sport Finland ry\nValimotie 10\n00380 Helsinki\nFinland\nFIN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.freestyleopening.fi/
+SUMMARY:Ruka (FIN) - Freestyle World Cup Moguls
+LOCATION:Ruka
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121057Z
+LAST-MODIFIED:20261024T121057Z
+DTSTAMP:20261024T211422Z
+UID:FS19532
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19532\nOrganisation: \nOrganisation Committee FIS Ski Cross World Cup\nc/o Arosa Tourism\nChantal Baron, Sport- and Conference Centre\n7050 Arosa\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://arosalenzerheide.swiss/de/Arosa/Top-Events/Sport/FIS-Ski-Cross-World-Cup
+SUMMARY:Arosa Lenzerheide (SUI) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Arosa Lenzerheide
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121057Z
+LAST-MODIFIED:20261024T121057Z
+DTSTAMP:20261024T211422Z
+UID:FS19533
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19533\nOrganisation: \nOrganisation Committee FIS Ski Cross World Cup\nc/o Arosa Tourism\nChantal Baron, Sport- and Conference Centre\n7050 Arosa\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://arosalenzerheide.swiss/de/Arosa/Top-Events/Sport/FIS-Ski-Cross-World-Cup
+SUMMARY:Arosa Lenzerheide (SUI) - Freestyle World Cup Ski Cross
+LOCATION:Arosa Lenzerheide
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121057Z
+LAST-MODIFIED:20261024T121057Z
+DTSTAMP:20261024T211422Z
+UID:FS19534
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19534\nOrganisation: \nOrganisation Committee FIS Ski Cross World Cup\nc/o Arosa Tourism\nChantal Baron, Sport- and Conference Centre\n7050 Arosa\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://arosalenzerheide.swiss/de/Arosa/Top-Events/Sport/FIS-Ski-Cross-World-Cup
+SUMMARY:Arosa Lenzerheide (SUI) - Freestyle World Cup Ski Cross
+LOCATION:Arosa Lenzerheide
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121057Z
+LAST-MODIFIED:20261024T121057Z
+DTSTAMP:20261024T211422Z
+UID:FS19535
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19535\nOrganisation: \nOrganisation Committee FIS Ski Cross World Cup\nc/o Arosa Tourism\nChantal Baron, Sport- and Conference Centre\n7050 Arosa\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://arosalenzerheide.swiss/de/Arosa/Top-Events/Sport/FIS-Ski-Cross-World-Cup
+SUMMARY:Arosa Lenzerheide (SUI) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Arosa Lenzerheide
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121057Z
+LAST-MODIFIED:20261024T121057Z
+DTSTAMP:20261024T211422Z
+UID:FS19536
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19536\nOrganisation: \nA.S.I. SAN CANDIDO A.S.D.\nAPT San Candido - Piazza del Magistrato 1\n39038 San Candido, San Candido\n00350\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:3 Zinnen Dolomites (ITA) - Freestyle World Cup Ski Cross Qualification
+LOCATION:3 Zinnen Dolomites
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121057Z
+LAST-MODIFIED:20261024T121057Z
+DTSTAMP:20261024T211422Z
+UID:FS19537
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19537\nOrganisation: \nA.S.I. SAN CANDIDO A.S.D.\nAPT San Candido - Piazza del Magistrato 1\n39038 San Candido, San Candido\n00350\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:3 Zinnen Dolomites (ITA) - Freestyle World Cup Ski Cross Qualification
+LOCATION:3 Zinnen Dolomites
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121057Z
+LAST-MODIFIED:20261024T121057Z
+DTSTAMP:20261024T211422Z
+UID:FS19538
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19538\nOrganisation: \nA.S.I. SAN CANDIDO A.S.D.\nAPT San Candido - Piazza del Magistrato 1\n39038 San Candido, San Candido\n00350\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:3 Zinnen Dolomites (ITA) - Freestyle World Cup Ski Cross Qualification
+LOCATION:3 Zinnen Dolomites
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121057Z
+LAST-MODIFIED:20261024T121057Z
+DTSTAMP:20261024T211422Z
+UID:FS19539
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19539\nOrganisation: \nA.S.I. SAN CANDIDO A.S.D.\nAPT San Candido - Piazza del Magistrato 1\n39038 San Candido, San Candido\n00350\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:3 Zinnen Dolomites (ITA) - Freestyle World Cup Ski Cross Qualification
+LOCATION:3 Zinnen Dolomites
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121057Z
+LAST-MODIFIED:20261024T121057Z
+DTSTAMP:20261024T211422Z
+UID:FS19540
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19540\nOrganisation: \nA.S.I. SAN CANDIDO A.S.D.\nAPT San Candido - Piazza del Magistrato 1\n39038 San Candido, San Candido\n00350\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:3 Zinnen Dolomites (ITA) - Freestyle World Cup Ski Cross
+LOCATION:3 Zinnen Dolomites
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121057Z
+LAST-MODIFIED:20261024T121057Z
+DTSTAMP:20261024T211422Z
+UID:FS19541
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19541\nOrganisation: \nA.S.I. SAN CANDIDO A.S.D.\nAPT San Candido - Piazza del Magistrato 1\n39038 San Candido, San Candido\n00350\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:3 Zinnen Dolomites (ITA) - Freestyle World Cup Ski Cross
+LOCATION:3 Zinnen Dolomites
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121057Z
+LAST-MODIFIED:20261024T121057Z
+DTSTAMP:20261024T211422Z
+UID:FS19542
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19542\nOrganisation: \nA.S.I. SAN CANDIDO A.S.D.\nAPT San Candido - Piazza del Magistrato 1\n39038 San Candido, San Candido\n00350\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:3 Zinnen Dolomites (ITA) - Freestyle World Cup Ski Cross
+LOCATION:3 Zinnen Dolomites
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121057Z
+LAST-MODIFIED:20261024T121057Z
+DTSTAMP:20261024T211422Z
+UID:FS19543
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19543\nOrganisation: \nA.S.I. SAN CANDIDO A.S.D.\nAPT San Candido - Piazza del Magistrato 1\n39038 San Candido, San Candido\n00350\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:3 Zinnen Dolomites (ITA) - Freestyle World Cup Ski Cross
+LOCATION:3 Zinnen Dolomites
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260911T100957Z
+LAST-MODIFIED:20260911T100957Z
+DTSTAMP:20261024T211422Z
+UID:FS19562
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19562\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Copper (USA) - Freestyle World Cup Freeski Halfpipe Qualification
+LOCATION:Copper
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260911T100957Z
+LAST-MODIFIED:20260911T100957Z
+DTSTAMP:20261024T211422Z
+UID:FS19563
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19563\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Copper (USA) - Freestyle World Cup Freeski Halfpipe Qualification
+LOCATION:Copper
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260911T100957Z
+LAST-MODIFIED:20260911T100957Z
+DTSTAMP:20261024T211422Z
+UID:FS19564
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19564\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Copper (USA) - Freestyle World Cup Freeski Halfpipe
+LOCATION:Copper
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260911T100957Z
+LAST-MODIFIED:20260911T100957Z
+DTSTAMP:20261024T211422Z
+UID:FS19565
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19565\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Copper (USA) - Freestyle World Cup Freeski Halfpipe
+LOCATION:Copper
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T011034Z
+LAST-MODIFIED:20261012T011034Z
+DTSTAMP:20261024T211422Z
+UID:FS19566
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19566\nOrganisation: \nKreisch Indios\nKreischbergstr. 1\n8861 St. Georgen am Kreischberg\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Kreischberg (AUT) - Freestyle World Cup Freeski Big Air Qualification
+LOCATION:Kreischberg
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T011034Z
+LAST-MODIFIED:20261012T011034Z
+DTSTAMP:20261024T211422Z
+UID:FS19567
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19567\nOrganisation: \nKreisch Indios\nKreischbergstr. 1\n8861 St. Georgen am Kreischberg\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Kreischberg (AUT) - Freestyle World Cup Freeski Big Air Qualification
+LOCATION:Kreischberg
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T011034Z
+LAST-MODIFIED:20261012T011034Z
+DTSTAMP:20261024T211422Z
+UID:FS19568
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Men\Event: Freeski Big Air\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19568\nOrganisation: \nKreisch Indios\nKreischbergstr. 1\n8861 St. Georgen am Kreischberg\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Kreischberg (AUT) - Freestyle World Cup Freeski Big Air
+LOCATION:Kreischberg
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T011034Z
+LAST-MODIFIED:20261012T011034Z
+DTSTAMP:20261024T211422Z
+UID:FS19569
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Women\Event: Freeski Big Air\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19569\nOrganisation: \nKreisch Indios\nKreischbergstr. 1\n8861 St. Georgen am Kreischberg\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Kreischberg (AUT) - Freestyle World Cup Freeski Big Air
+LOCATION:Kreischberg
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T091030Z
+LAST-MODIFIED:20261015T091030Z
+DTSTAMP:20261024T211422Z
+UID:FS19482
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Aerials\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19482\nOrganisation: \nCAN
+SUMMARY:Lac-Beauport (CAN) - Freestyle World Cup Aerials
+LOCATION:Lac-Beauport
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T091030Z
+LAST-MODIFIED:20261015T091030Z
+DTSTAMP:20261024T211422Z
+UID:FS19483
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Aerials\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19483\nOrganisation: \nCAN
+SUMMARY:Lac-Beauport (CAN) - Freestyle World Cup Aerials
+LOCATION:Lac-Beauport
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T091030Z
+LAST-MODIFIED:20261015T091030Z
+DTSTAMP:20261024T211422Z
+UID:FS19484
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Mixed\Event: Aerials Team\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19484\nOrganisation: \nCAN
+SUMMARY:Lac-Beauport (CAN) - Freestyle World Cup Aerials Team
+LOCATION:Lac-Beauport
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T091030Z
+LAST-MODIFIED:20261015T091030Z
+DTSTAMP:20261024T211422Z
+UID:FS20172
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Aerials Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=20172\nOrganisation: \nCAN
+SUMMARY:Lac-Beauport (CAN) - Freestyle World Cup Aerials Qualification
+LOCATION:Lac-Beauport
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T041050Z
+LAST-MODIFIED:20261016T041050Z
+DTSTAMP:20261024T211422Z
+UID:FS19570
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19570\nOrganisation: \nWeiss Arena Gruppe\nVia Murschetg\n7032 Laax\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://laaxopen.com/
+SUMMARY:Laax (SUI) - Freestyle World Cup Freeski Slopestyle Qualification
+LOCATION:Laax
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T041050Z
+LAST-MODIFIED:20261016T041050Z
+DTSTAMP:20261024T211422Z
+UID:FS19571
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19571\nOrganisation: \nWeiss Arena Gruppe\nVia Murschetg\n7032 Laax\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://laaxopen.com/
+SUMMARY:Laax (SUI) - Freestyle World Cup Freeski Slopestyle Qualification
+LOCATION:Laax
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T041050Z
+LAST-MODIFIED:20261016T041050Z
+DTSTAMP:20261024T211422Z
+UID:FS19572
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19572\nOrganisation: \nWeiss Arena Gruppe\nVia Murschetg\n7032 Laax\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://laaxopen.com/
+SUMMARY:Laax (SUI) - Freestyle World Cup Freeski Slopestyle
+LOCATION:Laax
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T041050Z
+LAST-MODIFIED:20261016T041050Z
+DTSTAMP:20261024T211422Z
+UID:FS19573
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19573\nOrganisation: \nWeiss Arena Gruppe\nVia Murschetg\n7032 Laax\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://laaxopen.com/
+SUMMARY:Laax (SUI) - Freestyle World Cup Freeski Slopestyle
+LOCATION:Laax
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121059Z
+LAST-MODIFIED:20261024T121059Z
+DTSTAMP:20261024T211422Z
+UID:FS19605
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19605\nOrganisation: \nASVG\nPreunegg 66\n8973 Schladming\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Reiteralm (AUT) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Reiteralm
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121059Z
+LAST-MODIFIED:20261024T121059Z
+DTSTAMP:20261024T211422Z
+UID:FS19608
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19608\nOrganisation: \nASVG\nPreunegg 66\n8973 Schladming\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Reiteralm (AUT) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Reiteralm
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121058Z
+LAST-MODIFIED:20261024T121058Z
+DTSTAMP:20261024T211422Z
+UID:FS19609
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19609\nOrganisation: \nASVG\nPreunegg 66\n8973 Schladming\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Reiteralm (AUT) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Reiteralm
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121058Z
+LAST-MODIFIED:20261024T121058Z
+DTSTAMP:20261024T211422Z
+UID:FS19610
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19610\nOrganisation: \nASVG\nPreunegg 66\n8973 Schladming\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Reiteralm (AUT) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Reiteralm
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121058Z
+LAST-MODIFIED:20261024T121058Z
+DTSTAMP:20261024T211422Z
+UID:FS19611
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19611\nOrganisation: \nASVG\nPreunegg 66\n8973 Schladming\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Reiteralm (AUT) - Freestyle World Cup Ski Cross
+LOCATION:Reiteralm
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121058Z
+LAST-MODIFIED:20261024T121058Z
+DTSTAMP:20261024T211422Z
+UID:FS19612
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19612\nOrganisation: \nASVG\nPreunegg 66\n8973 Schladming\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Reiteralm (AUT) - Freestyle World Cup Ski Cross
+LOCATION:Reiteralm
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121058Z
+LAST-MODIFIED:20261024T121058Z
+DTSTAMP:20261024T211422Z
+UID:FS19613
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19613\nOrganisation: \nASVG\nPreunegg 66\n8973 Schladming\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Reiteralm (AUT) - Freestyle World Cup Ski Cross
+LOCATION:Reiteralm
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121058Z
+LAST-MODIFIED:20261024T121058Z
+DTSTAMP:20261024T211422Z
+UID:FS19614
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19614\nOrganisation: \nASVG\nPreunegg 66\n8973 Schladming\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Reiteralm (AUT) - Freestyle World Cup Ski Cross
+LOCATION:Reiteralm
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T101006Z
+LAST-MODIFIED:20261015T101006Z
+DTSTAMP:20261024T211422Z
+UID:FS19491
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19491\nOrganisation: \nCAN
+SUMMARY:Val St. Come (CAN) - Freestyle World Cup Moguls
+LOCATION:Val St. Come
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T101006Z
+LAST-MODIFIED:20261015T101006Z
+DTSTAMP:20261024T211422Z
+UID:FS19492
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19492\nOrganisation: \nCAN
+SUMMARY:Val St. Come (CAN) - Freestyle World Cup Moguls
+LOCATION:Val St. Come
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T101006Z
+LAST-MODIFIED:20261015T101006Z
+DTSTAMP:20261024T211422Z
+UID:FS19493
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Dual Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19493\nOrganisation: \nCAN
+SUMMARY:Val St. Come (CAN) - Freestyle World Cup Dual Moguls
+LOCATION:Val St. Come
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T101006Z
+LAST-MODIFIED:20261015T101006Z
+DTSTAMP:20261024T211422Z
+UID:FS19598
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Dual Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19598\nOrganisation: \nCAN
+SUMMARY:Val St. Come (CAN) - Freestyle World Cup Dual Moguls
+LOCATION:Val St. Come
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261022T071027Z
+LAST-MODIFIED:20261022T071027Z
+DTSTAMP:20261024T211422Z
+UID:FS19494
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Aerials\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19494\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Lake Placid (USA) - Freestyle World Cup Aerials
+LOCATION:Lake Placid
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261022T071027Z
+LAST-MODIFIED:20261022T071027Z
+DTSTAMP:20261024T211422Z
+UID:FS19495
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Aerials\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19495\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Lake Placid (USA) - Freestyle World Cup Aerials
+LOCATION:Lake Placid
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261022T071027Z
+LAST-MODIFIED:20261022T071027Z
+DTSTAMP:20261024T211422Z
+UID:FS19908
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Mixed\Event: Aerials Team\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19908\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Lake Placid (USA) - Freestyle World Cup Aerials Team
+LOCATION:Lake Placid
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T021038Z
+LAST-MODIFIED:20261020T021038Z
+DTSTAMP:20261024T211422Z
+UID:FS19574
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19574\nOrganisation: \nTignes Développement\n104 impasse de la Marlière\n73320\nTignes\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Tignes (FRA) - Freestyle World Cup Freeski Big Air Qualification
+LOCATION:Tignes
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T021038Z
+LAST-MODIFIED:20261020T021038Z
+DTSTAMP:20261024T211422Z
+UID:FS19575
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19575\nOrganisation: \nTignes Développement\n104 impasse de la Marlière\n73320\nTignes\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Tignes (FRA) - Freestyle World Cup Freeski Big Air Qualification
+LOCATION:Tignes
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T021038Z
+LAST-MODIFIED:20261020T021038Z
+DTSTAMP:20261024T211422Z
+UID:FS19576
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Big Air\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19576\nOrganisation: \nTignes Développement\n104 impasse de la Marlière\n73320\nTignes\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Tignes (FRA) - Freestyle World Cup Freeski Big Air
+LOCATION:Tignes
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T021038Z
+LAST-MODIFIED:20261020T021038Z
+DTSTAMP:20261024T211422Z
+UID:FS19577
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Big Air\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19577\nOrganisation: \nTignes Développement\n104 impasse de la Marlière\n73320\nTignes\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Tignes (FRA) - Freestyle World Cup Freeski Big Air
+LOCATION:Tignes
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121059Z
+LAST-MODIFIED:20261024T121059Z
+DTSTAMP:20261024T211422Z
+UID:FS19615
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19615\nOrganisation: \nAzienda per il Turismo della Val di Fassa - Società Cooperativa\nSTREDA ROMA 36\n38032 CANAZEI (TN)\n00063\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val di Fassa (ITA) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Val di Fassa
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121059Z
+LAST-MODIFIED:20261024T121059Z
+DTSTAMP:20261024T211422Z
+UID:FS19616
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19616\nOrganisation: \nAzienda per il Turismo della Val di Fassa - Società Cooperativa\nSTREDA ROMA 36\n38032 CANAZEI (TN)\n00063\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val di Fassa (ITA) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Val di Fassa
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121059Z
+LAST-MODIFIED:20261024T121059Z
+DTSTAMP:20261024T211422Z
+UID:FS19617
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19617\nOrganisation: \nAzienda per il Turismo della Val di Fassa - Società Cooperativa\nSTREDA ROMA 36\n38032 CANAZEI (TN)\n00063\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val di Fassa (ITA) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Val di Fassa
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121059Z
+LAST-MODIFIED:20261024T121059Z
+DTSTAMP:20261024T211422Z
+UID:FS19618
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19618\nOrganisation: \nAzienda per il Turismo della Val di Fassa - Società Cooperativa\nSTREDA ROMA 36\n38032 CANAZEI (TN)\n00063\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val di Fassa (ITA) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Val di Fassa
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121059Z
+LAST-MODIFIED:20261024T121059Z
+DTSTAMP:20261024T211422Z
+UID:FS19619
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19619\nOrganisation: \nAzienda per il Turismo della Val di Fassa - Società Cooperativa\nSTREDA ROMA 36\n38032 CANAZEI (TN)\n00063\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val di Fassa (ITA) - Freestyle World Cup Ski Cross
+LOCATION:Val di Fassa
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121059Z
+LAST-MODIFIED:20261024T121059Z
+DTSTAMP:20261024T211422Z
+UID:FS19620
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19620\nOrganisation: \nAzienda per il Turismo della Val di Fassa - Società Cooperativa\nSTREDA ROMA 36\n38032 CANAZEI (TN)\n00063\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val di Fassa (ITA) - Freestyle World Cup Ski Cross
+LOCATION:Val di Fassa
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121059Z
+LAST-MODIFIED:20261024T121059Z
+DTSTAMP:20261024T211422Z
+UID:FS19621
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19621\nOrganisation: \nAzienda per il Turismo della Val di Fassa - Società Cooperativa\nSTREDA ROMA 36\n38032 CANAZEI (TN)\n00063\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val di Fassa (ITA) - Freestyle World Cup Ski Cross
+LOCATION:Val di Fassa
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T121059Z
+LAST-MODIFIED:20261024T121059Z
+DTSTAMP:20261024T211422Z
+UID:FS19622
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19622\nOrganisation: \nAzienda per il Turismo della Val di Fassa - Società Cooperativa\nSTREDA ROMA 36\n38032 CANAZEI (TN)\n00063\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Val di Fassa (ITA) - Freestyle World Cup Ski Cross
+LOCATION:Val di Fassa
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T081000Z
+LAST-MODIFIED:20261023T081000Z
+DTSTAMP:20261024T211422Z
+UID:FS19497
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19497\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Waterville Valley (USA) - Freestyle World Cup Moguls
+LOCATION:Waterville Valley
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T081000Z
+LAST-MODIFIED:20261023T081000Z
+DTSTAMP:20261024T211422Z
+UID:FS19498
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19498\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Waterville Valley (USA) - Freestyle World Cup Moguls
+LOCATION:Waterville Valley
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T081000Z
+LAST-MODIFIED:20261023T081000Z
+DTSTAMP:20261024T211422Z
+UID:FS19499
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Dual Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19499\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Waterville Valley (USA) - Freestyle World Cup Dual Moguls
+LOCATION:Waterville Valley
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T081000Z
+LAST-MODIFIED:20261023T081000Z
+DTSTAMP:20261024T211422Z
+UID:FS19500
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Dual Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19500\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Waterville Valley (USA) - Freestyle World Cup Dual Moguls
+LOCATION:Waterville Valley
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T081000Z
+LAST-MODIFIED:20261023T081000Z
+DTSTAMP:20261024T211422Z
+UID:FS20173
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Moguls Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=20173\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Waterville Valley (USA) - Freestyle World Cup Moguls Qualification
+LOCATION:Waterville Valley
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T081000Z
+LAST-MODIFIED:20261023T081000Z
+DTSTAMP:20261024T211422Z
+UID:FS20174
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Moguls Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=20174\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Waterville Valley (USA) - Freestyle World Cup Moguls Qualification
+LOCATION:Waterville Valley
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081005Z
+LAST-MODIFIED:20261016T081005Z
+DTSTAMP:20261024T211422Z
+UID:FS19501
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19501\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Deer Valley (USA) - Freestyle World Cup Moguls
+LOCATION:Deer Valley
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081005Z
+LAST-MODIFIED:20261016T081005Z
+DTSTAMP:20261024T211422Z
+UID:FS19502
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19502\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Deer Valley (USA) - Freestyle World Cup Moguls
+LOCATION:Deer Valley
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081005Z
+LAST-MODIFIED:20261016T081005Z
+DTSTAMP:20261024T211422Z
+UID:FS19503
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Aerials\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19503\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Deer Valley (USA) - Freestyle World Cup Aerials
+LOCATION:Deer Valley
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081005Z
+LAST-MODIFIED:20261016T081005Z
+DTSTAMP:20261024T211422Z
+UID:FS19504
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Dual Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19504\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Deer Valley (USA) - Freestyle World Cup Dual Moguls
+LOCATION:Deer Valley
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081005Z
+LAST-MODIFIED:20261016T081005Z
+DTSTAMP:20261024T211422Z
+UID:FS19505
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Dual Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19505\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Deer Valley (USA) - Freestyle World Cup Dual Moguls
+LOCATION:Deer Valley
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081005Z
+LAST-MODIFIED:20261016T081005Z
+DTSTAMP:20261024T211422Z
+UID:FS19506
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Aerials\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19506\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Deer Valley (USA) - Freestyle World Cup Aerials
+LOCATION:Deer Valley
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011000Z
+LAST-MODIFIED:20261024T011000Z
+DTSTAMP:20261024T211422Z
+UID:FS19623
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19623\nOrganisation: \nDidier Bonvin\nChemin de Coin 20\n1974 Arbaz\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.veysonnaz.ch/de/P77199/fis-ski-cross-weltcup-veysonnaz
+SUMMARY:Veysonnaz (SUI) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Veysonnaz
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011000Z
+LAST-MODIFIED:20261024T011000Z
+DTSTAMP:20261024T211422Z
+UID:FS19624
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19624\nOrganisation: \nDidier Bonvin\nChemin de Coin 20\n1974 Arbaz\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.veysonnaz.ch/de/P77199/fis-ski-cross-weltcup-veysonnaz
+SUMMARY:Veysonnaz (SUI) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Veysonnaz
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011000Z
+LAST-MODIFIED:20261024T011000Z
+DTSTAMP:20261024T211422Z
+UID:FS19625
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19625\nOrganisation: \nDidier Bonvin\nChemin de Coin 20\n1974 Arbaz\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.veysonnaz.ch/de/P77199/fis-ski-cross-weltcup-veysonnaz
+SUMMARY:Veysonnaz (SUI) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Veysonnaz
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011000Z
+LAST-MODIFIED:20261024T011000Z
+DTSTAMP:20261024T211422Z
+UID:FS19626
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19626\nOrganisation: \nDidier Bonvin\nChemin de Coin 20\n1974 Arbaz\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.veysonnaz.ch/de/P77199/fis-ski-cross-weltcup-veysonnaz
+SUMMARY:Veysonnaz (SUI) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Veysonnaz
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011000Z
+LAST-MODIFIED:20261024T011000Z
+DTSTAMP:20261024T211422Z
+UID:FS19627
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19627\nOrganisation: \nDidier Bonvin\nChemin de Coin 20\n1974 Arbaz\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.veysonnaz.ch/de/P77199/fis-ski-cross-weltcup-veysonnaz
+SUMMARY:Veysonnaz (SUI) - Freestyle World Cup Ski Cross
+LOCATION:Veysonnaz
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011000Z
+LAST-MODIFIED:20261024T011000Z
+DTSTAMP:20261024T211422Z
+UID:FS19628
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19628\nOrganisation: \nDidier Bonvin\nChemin de Coin 20\n1974 Arbaz\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.veysonnaz.ch/de/P77199/fis-ski-cross-weltcup-veysonnaz
+SUMMARY:Veysonnaz (SUI) - Freestyle World Cup Ski Cross
+LOCATION:Veysonnaz
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011000Z
+LAST-MODIFIED:20261024T011000Z
+DTSTAMP:20261024T211422Z
+UID:FS19629
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19629\nOrganisation: \nDidier Bonvin\nChemin de Coin 20\n1974 Arbaz\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.veysonnaz.ch/de/P77199/fis-ski-cross-weltcup-veysonnaz
+SUMMARY:Veysonnaz (SUI) - Freestyle World Cup Ski Cross
+LOCATION:Veysonnaz
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011000Z
+LAST-MODIFIED:20261024T011000Z
+DTSTAMP:20261024T211422Z
+UID:FS19630
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19630\nOrganisation: \nDidier Bonvin\nChemin de Coin 20\n1974 Arbaz\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.veysonnaz.ch/de/P77199/fis-ski-cross-weltcup-veysonnaz
+SUMMARY:Veysonnaz (SUI) - Freestyle World Cup Ski Cross
+LOCATION:Veysonnaz
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011001Z
+LAST-MODIFIED:20261024T011001Z
+DTSTAMP:20261024T211422Z
+UID:FS19631
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19631\nOrganisation: \nBIH
+SUMMARY:Bjelasnica (BIH) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Bjelasnica
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011001Z
+LAST-MODIFIED:20261024T011001Z
+DTSTAMP:20261024T211422Z
+UID:FS19632
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19632\nOrganisation: \nBIH
+SUMMARY:Bjelasnica (BIH) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Bjelasnica
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011001Z
+LAST-MODIFIED:20261024T011001Z
+DTSTAMP:20261024T211422Z
+UID:FS19633
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19633\nOrganisation: \nBIH
+SUMMARY:Bjelasnica (BIH) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Bjelasnica
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011001Z
+LAST-MODIFIED:20261024T011001Z
+DTSTAMP:20261024T211422Z
+UID:FS19634
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19634\nOrganisation: \nBIH
+SUMMARY:Bjelasnica (BIH) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Bjelasnica
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011001Z
+LAST-MODIFIED:20261024T011001Z
+DTSTAMP:20261024T211422Z
+UID:FS19635
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19635\nOrganisation: \nBIH
+SUMMARY:Bjelasnica (BIH) - Freestyle World Cup Ski Cross
+LOCATION:Bjelasnica
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011001Z
+LAST-MODIFIED:20261024T011001Z
+DTSTAMP:20261024T211422Z
+UID:FS19636
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19636\nOrganisation: \nBIH
+SUMMARY:Bjelasnica (BIH) - Freestyle World Cup Ski Cross
+LOCATION:Bjelasnica
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011001Z
+LAST-MODIFIED:20261024T011001Z
+DTSTAMP:20261024T211422Z
+UID:FS19637
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19637\nOrganisation: \nBIH
+SUMMARY:Bjelasnica (BIH) - Freestyle World Cup Ski Cross
+LOCATION:Bjelasnica
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011001Z
+LAST-MODIFIED:20261024T011001Z
+DTSTAMP:20261024T211422Z
+UID:FS19638
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19638\nOrganisation: \nBIH
+SUMMARY:Bjelasnica (BIH) - Freestyle World Cup Ski Cross
+LOCATION:Bjelasnica
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T211422Z
+UID:FS19578
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19578\nOrganisation: \nCAN
+SUMMARY:Calgary (CAN) - Freestyle World Cup Freeski Halfpipe Qualification
+LOCATION:Calgary
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T211422Z
+UID:FS19579
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19579\nOrganisation: \nCAN
+SUMMARY:Calgary (CAN) - Freestyle World Cup Freeski Halfpipe Qualification
+LOCATION:Calgary
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T211422Z
+UID:FS19580
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19580\nOrganisation: \nCAN
+SUMMARY:Calgary (CAN) - Freestyle World Cup Freeski Halfpipe
+LOCATION:Calgary
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T211422Z
+UID:FS19581
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19581\nOrganisation: \nCAN
+SUMMARY:Calgary (CAN) - Freestyle World Cup Freeski Halfpipe
+LOCATION:Calgary
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T101046Z
+LAST-MODIFIED:20261015T101046Z
+DTSTAMP:20261024T211422Z
+UID:FS19479
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Aerials\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19479\nOrganisation: \nCHN
+SUMMARY:Secret Garden (CHN) - Freestyle World Cup Aerials
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T101046Z
+LAST-MODIFIED:20261015T101046Z
+DTSTAMP:20261024T211422Z
+UID:FS19480
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Aerials\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19480\nOrganisation: \nCHN
+SUMMARY:Secret Garden (CHN) - Freestyle World Cup Aerials
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T101046Z
+LAST-MODIFIED:20261015T101046Z
+DTSTAMP:20261024T211422Z
+UID:FS19481
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Mixed\Event: Aerials Team\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19481\nOrganisation: \nCHN
+SUMMARY:Secret Garden (CHN) - Freestyle World Cup Aerials Team
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T101046Z
+LAST-MODIFIED:20261015T101046Z
+DTSTAMP:20261024T211422Z
+UID:FS20179
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Aerials Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=20179\nOrganisation: \nCHN
+SUMMARY:Secret Garden (CHN) - Freestyle World Cup Aerials Qualification
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T101046Z
+LAST-MODIFIED:20261015T101046Z
+DTSTAMP:20261024T211422Z
+UID:FS20180
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Aerials Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=20180\nOrganisation: \nCHN
+SUMMARY:Secret Garden (CHN) - Freestyle World Cup Aerials Qualification
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011002Z
+LAST-MODIFIED:20261024T011002Z
+DTSTAMP:20261024T211422Z
+UID:FS19663
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19663\nOrganisation: \nSRB
+SUMMARY:Kopaonik (SRB) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Kopaonik
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011002Z
+LAST-MODIFIED:20261024T011002Z
+DTSTAMP:20261024T211422Z
+UID:FS19664
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19664\nOrganisation: \nSRB
+SUMMARY:Kopaonik (SRB) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Kopaonik
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011002Z
+LAST-MODIFIED:20261024T011002Z
+DTSTAMP:20261024T211422Z
+UID:FS19665
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19665\nOrganisation: \nSRB
+SUMMARY:Kopaonik (SRB) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Kopaonik
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011002Z
+LAST-MODIFIED:20261024T011002Z
+DTSTAMP:20261024T211422Z
+UID:FS19666
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19666\nOrganisation: \nSRB
+SUMMARY:Kopaonik (SRB) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Kopaonik
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011002Z
+LAST-MODIFIED:20261024T011002Z
+DTSTAMP:20261024T211422Z
+UID:FS19667
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19667\nOrganisation: \nSRB
+SUMMARY:Kopaonik (SRB) - Freestyle World Cup Ski Cross
+LOCATION:Kopaonik
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011002Z
+LAST-MODIFIED:20261024T011002Z
+DTSTAMP:20261024T211422Z
+UID:FS19668
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19668\nOrganisation: \nSRB
+SUMMARY:Kopaonik (SRB) - Freestyle World Cup Ski Cross
+LOCATION:Kopaonik
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011002Z
+LAST-MODIFIED:20261024T011002Z
+DTSTAMP:20261024T211422Z
+UID:FS19669
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19669\nOrganisation: \nSRB
+SUMMARY:Kopaonik (SRB) - Freestyle World Cup Ski Cross
+LOCATION:Kopaonik
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011002Z
+LAST-MODIFIED:20261024T011002Z
+DTSTAMP:20261024T211422Z
+UID:FS19670
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19670\nOrganisation: \nSRB
+SUMMARY:Kopaonik (SRB) - Freestyle World Cup Ski Cross
+LOCATION:Kopaonik
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050857Z
+LAST-MODIFIED:20260831T050857Z
+DTSTAMP:20261024T211422Z
+UID:FS19582
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19582\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Freestyle World Cup Freeski Halfpipe Qualification
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050857Z
+LAST-MODIFIED:20260831T050857Z
+DTSTAMP:20261024T211422Z
+UID:FS19583
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19583\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Freestyle World Cup Freeski Halfpipe Qualification
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050857Z
+LAST-MODIFIED:20260831T050857Z
+DTSTAMP:20261024T211422Z
+UID:FS19584
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19584\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Freestyle World Cup Freeski Slopestyle Qualification
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050857Z
+LAST-MODIFIED:20260831T050857Z
+DTSTAMP:20261024T211422Z
+UID:FS19585
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19585\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Freestyle World Cup Freeski Slopestyle Qualification
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050857Z
+LAST-MODIFIED:20260831T050857Z
+DTSTAMP:20261024T211422Z
+UID:FS19586
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19586\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Freestyle World Cup Freeski Halfpipe
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050857Z
+LAST-MODIFIED:20260831T050857Z
+DTSTAMP:20261024T211422Z
+UID:FS19587
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19587\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Freestyle World Cup Freeski Halfpipe
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050857Z
+LAST-MODIFIED:20260831T050857Z
+DTSTAMP:20261024T211422Z
+UID:FS19588
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19588\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Freestyle World Cup Freeski Slopestyle
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050857Z
+LAST-MODIFIED:20260831T050857Z
+DTSTAMP:20261024T211422Z
+UID:FS19589
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19589\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Freestyle World Cup Freeski Slopestyle
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260917T070959Z
+LAST-MODIFIED:20260917T070959Z
+DTSTAMP:20261024T211422Z
+UID:FS19507
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Replaces: 19.02.2027\nCategory: World Cup\nGender: Women\Event: Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19507\nOrganisation: \nKAZ
+SUMMARY:Almaty (KAZ) - Freestyle World Cup Moguls
+LOCATION:Almaty
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260917T070959Z
+LAST-MODIFIED:20260917T070959Z
+DTSTAMP:20261024T211422Z
+UID:FS19508
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Replaces: 19.02.2027\nCategory: World Cup\nGender: Men\Event: Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19508\nOrganisation: \nKAZ
+SUMMARY:Almaty (KAZ) - Freestyle World Cup Moguls
+LOCATION:Almaty
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260917T080900Z
+LAST-MODIFIED:20260917T080900Z
+DTSTAMP:20261024T211422Z
+UID:FS19509
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Dual Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19509\nOrganisation: \nKAZ
+SUMMARY:Almaty (KAZ) - Freestyle World Cup Dual Moguls
+LOCATION:Almaty
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260917T080900Z
+LAST-MODIFIED:20260917T080900Z
+DTSTAMP:20261024T211422Z
+UID:FS19510
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Dual Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19510\nOrganisation: \nKAZ
+SUMMARY:Almaty (KAZ) - Freestyle World Cup Dual Moguls
+LOCATION:Almaty
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260917T080900Z
+LAST-MODIFIED:20260917T080900Z
+DTSTAMP:20261024T211422Z
+UID:FS19511
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Aerials\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19511\nOrganisation: \nKAZ
+SUMMARY:Almaty (KAZ) - Freestyle World Cup Aerials
+LOCATION:Almaty
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260917T080900Z
+LAST-MODIFIED:20260917T080900Z
+DTSTAMP:20261024T211422Z
+UID:FS19512
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Aerials\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19512\nOrganisation: \nKAZ
+SUMMARY:Almaty (KAZ) - Freestyle World Cup Aerials
+LOCATION:Almaty
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19647
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19647\nOrganisation: \nWorldcup Dundret\nBox 299\nSE-982 39 Gällivare\nSWE\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.dundretgallivare.se
+SUMMARY:Gällivare (SWE) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Gällivare
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19648
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19648\nOrganisation: \nWorldcup Dundret\nBox 299\nSE-982 39 Gällivare\nSWE\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.dundretgallivare.se
+SUMMARY:Gällivare (SWE) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Gällivare
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19649
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19649\nOrganisation: \nWorldcup Dundret\nBox 299\nSE-982 39 Gällivare\nSWE\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.dundretgallivare.se
+SUMMARY:Gällivare (SWE) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Gällivare
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19650
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19650\nOrganisation: \nWorldcup Dundret\nBox 299\nSE-982 39 Gällivare\nSWE\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.dundretgallivare.se
+SUMMARY:Gällivare (SWE) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Gällivare
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19651
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19651\nOrganisation: \nWorldcup Dundret\nBox 299\nSE-982 39 Gällivare\nSWE\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.dundretgallivare.se
+SUMMARY:Gällivare (SWE) - Freestyle World Cup Ski Cross
+LOCATION:Gällivare
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19652
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19652\nOrganisation: \nWorldcup Dundret\nBox 299\nSE-982 39 Gällivare\nSWE\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.dundretgallivare.se
+SUMMARY:Gällivare (SWE) - Freestyle World Cup Ski Cross
+LOCATION:Gällivare
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19653
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19653\nOrganisation: \nWorldcup Dundret\nBox 299\nSE-982 39 Gällivare\nSWE\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.dundretgallivare.se
+SUMMARY:Gällivare (SWE) - Freestyle World Cup Ski Cross
+LOCATION:Gällivare
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19654
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19654\nOrganisation: \nWorldcup Dundret\nBox 299\nSE-982 39 Gällivare\nSWE\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.dundretgallivare.se
+SUMMARY:Gällivare (SWE) - Freestyle World Cup Ski Cross
+LOCATION:Gällivare
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T111033Z
+LAST-MODIFIED:20261015T111033Z
+DTSTAMP:20261024T211422Z
+UID:FS19599
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19599\nOrganisation: \nAzerbaijan Winter Sports Federation\n134, Uzeyir Hajibeyli street\nBaku\nAzerbaijan\nAZE\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Shahdag (AZE) - Freestyle World Cup Moguls
+LOCATION:Shahdag
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T111033Z
+LAST-MODIFIED:20261015T111033Z
+DTSTAMP:20261024T211422Z
+UID:FS19600
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19600\nOrganisation: \nAzerbaijan Winter Sports Federation\n134, Uzeyir Hajibeyli street\nBaku\nAzerbaijan\nAZE\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Shahdag (AZE) - Freestyle World Cup Moguls
+LOCATION:Shahdag
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T111033Z
+LAST-MODIFIED:20261015T111033Z
+DTSTAMP:20261024T211422Z
+UID:FS19601
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Dual Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19601\nOrganisation: \nAzerbaijan Winter Sports Federation\n134, Uzeyir Hajibeyli street\nBaku\nAzerbaijan\nAZE\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Shahdag (AZE) - Freestyle World Cup Dual Moguls
+LOCATION:Shahdag
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T111033Z
+LAST-MODIFIED:20261015T111033Z
+DTSTAMP:20261024T211422Z
+UID:FS19602
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Dual Moguls\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19602\nOrganisation: \nAzerbaijan Winter Sports Federation\n134, Uzeyir Hajibeyli street\nBaku\nAzerbaijan\nAZE\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Shahdag (AZE) - Freestyle World Cup Dual Moguls
+LOCATION:Shahdag
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T111033Z
+LAST-MODIFIED:20261015T111033Z
+DTSTAMP:20261024T211422Z
+UID:FS19603
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Aerials\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19603\nOrganisation: \nAzerbaijan Winter Sports Federation\n134, Uzeyir Hajibeyli street\nBaku\nAzerbaijan\nAZE\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Shahdag (AZE) - Freestyle World Cup Aerials
+LOCATION:Shahdag
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261015T111033Z
+LAST-MODIFIED:20261015T111033Z
+DTSTAMP:20261024T211422Z
+UID:FS19604
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Aerials\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19604\nOrganisation: \nAzerbaijan Winter Sports Federation\n134, Uzeyir Hajibeyli street\nBaku\nAzerbaijan\nAZE\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Shahdag (AZE) - Freestyle World Cup Aerials
+LOCATION:Shahdag
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19673
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19673\nOrganisation: \nCAN
+SUMMARY:Craigleith (CAN) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Craigleith
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19674
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19674\nOrganisation: \nCAN
+SUMMARY:Craigleith (CAN) - Freestyle World Cup Ski Cross Qualification
+LOCATION:Craigleith
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19675
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19675\nOrganisation: \nCAN
+SUMMARY:Craigleith (CAN) - Freestyle World Cup Ski Cross
+LOCATION:Craigleith
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19676
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19676\nOrganisation: \nCAN
+SUMMARY:Craigleith (CAN) - Freestyle World Cup Ski Cross
+LOCATION:Craigleith
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19677
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19677\nOrganisation: \nCAN
+SUMMARY:Craigleith (CAN) - Freestyle World Cup Ski Cross
+LOCATION:Craigleith
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T011003Z
+LAST-MODIFIED:20261024T011003Z
+DTSTAMP:20261024T211422Z
+UID:FS19678
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Ski Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19678\nOrganisation: \nCAN
+SUMMARY:Craigleith (CAN) - Freestyle World Cup Ski Cross
+LOCATION:Craigleith
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091057Z
+LAST-MODIFIED:20261012T091057Z
+DTSTAMP:20261024T211422Z
+UID:FS19590
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19590\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513 Silvaplana\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Freestyle World Cup Freeski Slopestyle Qualification
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091057Z
+LAST-MODIFIED:20261012T091057Z
+DTSTAMP:20261024T211422Z
+UID:FS19591
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19591\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513 Silvaplana\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Freestyle World Cup Freeski Slopestyle Qualification
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091057Z
+LAST-MODIFIED:20261012T091057Z
+DTSTAMP:20261024T211422Z
+UID:FS19592
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19592\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513 Silvaplana\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Freestyle World Cup Freeski Halfpipe Qualification
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091057Z
+LAST-MODIFIED:20261012T091057Z
+DTSTAMP:20261024T211422Z
+UID:FS19593
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19593\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513 Silvaplana\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Freestyle World Cup Freeski Halfpipe Qualification
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-FS-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091057Z
+LAST-MODIFIED:20261012T091057Z
+DTSTAMP:20261024T211422Z
+UID:FS19594
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19594\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513 Silvaplana\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Freestyle World Cup Freeski Slopestyle
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091057Z
+LAST-MODIFIED:20261012T091057Z
+DTSTAMP:20261024T211422Z
+UID:FS19595
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19595\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513 Silvaplana\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Freestyle World Cup Freeski Slopestyle
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091057Z
+LAST-MODIFIED:20261012T091057Z
+DTSTAMP:20261024T211422Z
+UID:FS19596
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Freeski Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19596\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513 Silvaplana\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Freestyle World Cup Freeski Halfpipe
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091057Z
+LAST-MODIFIED:20261012T091057Z
+DTSTAMP:20261024T211422Z
+UID:FS19597
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Freeski Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=FS&raceid=19597\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513 Silvaplana\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Freestyle World Cup Freeski Halfpipe
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-FS-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+
+END:VCALENDAR

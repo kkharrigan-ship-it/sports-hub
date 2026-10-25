@@ -1,0 +1,61 @@
+# Sports Hub
+
+A shared schedule of 19 sports. It refreshes itself twice a week and is published as a web page with calendar feeds.
+
+- **What it is and why:** [CONTEXT.md](CONTEXT.md) (vocabulary and decisions) and [.scratch/python-rebuild/design-brief.md](.scratch/python-rebuild/design-brief.md).
+- **Where watch options come from:** [docs/research/watch-guide-2026-27.md](docs/research/watch-guide-2026-27.md).
+- **Hand-checked dates:** [config/seasons/2026-27.yaml](config/seasons/2026-27.yaml). You can edit this file; the top of it explains how.
+
+## How it runs
+
+GitHub runs the **Refresh** workflow (`.github/workflows/refresh.yml`) every **Monday and Thursday at 11:00 UTC**: 6am in Memphis in summer, 5am in winter. The workflow has four jobs, each with only the permissions it needs:
+
+1. **build:** installs the project, runs the tests (a failing test stops everything), then fetches every Sport and builds the Hub: the page, `data.json` and one calendar feed per Sport
+2. **publish:** puts the Hub on GitHub Pages
+3. **save:** commits the last-good state (`state/last_good.json`) back into the repo
+4. **finish:** emails Katie about anything she hasn't already heard, and marks the run red if something went wrong
+
+**To run it by hand:** go to the repo's **Actions** tab, choose **Refresh**, then **Run workflow**. Past runs and their logs are listed on the same page.
+
+**If something goes wrong,** Katie gets one email that says what actually happened:
+
+| What happened | Email | The Hub |
+|---|---|---|
+| Some Sports' sources failed | "N problems in the … Refresh", listing each one | Updated; those Sports show last-good Events, marked stale |
+| The Refresh stopped (bad config, a date problem, unreadable state) | "not updated", with the reason | Unchanged |
+| Installing or testing failed | "the scheduled run failed", with a link to the log | Unchanged |
+| The Refresh worked but publishing or saving failed | "refreshed, but not fully published" | May still show the previous version |
+| The alert email itself couldn't be sent | None (mail is what's broken); the run is marked red | Updated |
+
+As a backstop, GitHub also emails the repo owner whenever a scheduled run fails.
+
+## Secrets
+
+Secrets live only in the repo's **Settings → Secrets and variables → Actions**. Their values are never written to files, logs or emails.
+
+| Name | What it holds |
+|---|---|
+| `SPORTS_HUB_MAIL_USER` | The Gmail address the Hub sends from |
+| `SPORTS_HUB_MAIL_APP_PASSWORD` | A Gmail **app password** for that account (needs Google 2-Step Verification) |
+| `SPORTS_HUB_ALERT_TO` | Who gets failure alerts (comma-separated) |
+
+The guided setup walks through creating the repo, turning on Pages and adding these secrets. Run it from the project folder:
+
+```bash
+bash scripts/setup-wizard.sh
+```
+
+## Working on it locally
+
+Needs [uv](https://docs.astral.sh/uv/), which installs Python 3.12 itself.
+
+```bash
+export UV_PROJECT_ENVIRONMENT=.venv.nosync   # keeps the virtualenv out of iCloud sync
+uv sync
+uv run pytest -q                              # tests use saved responses, no network
+uv run mypy                                   # type checks
+uv run sports-hub refresh --out dist          # a live Refresh into ./dist
+python3 -m http.server 8765 --directory dist  # then open http://127.0.0.1:8765
+```
+
+Add `?now=2026-11-03T15:00:00Z` to the page's address to see it as it would look at another time.

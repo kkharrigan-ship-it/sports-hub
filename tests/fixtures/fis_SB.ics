@@ -1,0 +1,2619 @@
+BEGIN:VCALENDAR
+PRODID:-//FIS//Calendar//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Zurich
+TZURL:http://tzurl.org/zoneinfo/Europe/Zurich
+X-LIC-LOCATION:Europe/Zurich
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+BEGIN:STANDARD
+TZOFFSETFROM:+003408
+TZOFFSETTO:+002946
+TZNAME:BMT
+DTSTART:18530716T000000
+RDATE:18530716T000000
+END:STANDARD
+BEGIN:STANDARD
+TZOFFSETFROM:+002946
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:18940601T000000
+RDATE:18940601T000000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19410505T010000
+RDATE:19410505T010000
+RDATE:19420504T010000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19411006T020000
+RDATE:19411006T020000
+RDATE:19421005T020000
+RDATE:19810927T030000
+RDATE:19820926T030000
+RDATE:19830925T030000
+RDATE:19840930T030000
+RDATE:19850929T030000
+RDATE:19860928T030000
+RDATE:19870927T030000
+RDATE:19880925T030000
+RDATE:19890924T030000
+RDATE:19900930T030000
+RDATE:19910929T030000
+RDATE:19920927T030000
+RDATE:19930926T030000
+RDATE:19940925T030000
+RDATE:19950924T030000
+END:STANDARD
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19810101T000000
+RDATE:19810101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20261023T081024Z
+LAST-MODIFIED:20261023T081024Z
+DTSTAMP:20261024T212607Z
+UID:SB25530
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25530\nOrganisation: \nAUT\nE-mail: (removed)
+SUMMARY:Innsbruck (AUT) - Snowboard World Cup Big Air Qualification
+LOCATION:Innsbruck
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T081024Z
+LAST-MODIFIED:20261023T081024Z
+DTSTAMP:20261024T212607Z
+UID:SB25531
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25531\nOrganisation: \nAUT\nE-mail: (removed)
+SUMMARY:Innsbruck (AUT) - Snowboard World Cup Big Air Qualification
+LOCATION:Innsbruck
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T081024Z
+LAST-MODIFIED:20261023T081024Z
+DTSTAMP:20261024T212607Z
+UID:SB25532
+DTSTART:20261128T180000Z
+DTEND:20261128T220000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Big Air\nRun 1 loc: 19:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25532\nOrganisation: \nAUT\nE-mail: (removed)
+SUMMARY:Innsbruck (AUT) - Snowboard World Cup Big Air
+LOCATION:Innsbruck
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T081024Z
+LAST-MODIFIED:20261023T081024Z
+DTSTAMP:20261024T212607Z
+UID:SB25533
+DTSTART:20261128T180000Z
+DTEND:20261128T220000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Big Air\nRun 1 loc: 19:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25533\nOrganisation: \nAUT\nE-mail: (removed)
+SUMMARY:Innsbruck (AUT) - Snowboard World Cup Big Air
+LOCATION:Innsbruck
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T091059Z
+LAST-MODIFIED:20261014T091059Z
+DTSTAMP:20261024T212607Z
+UID:SB25456
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25456\nOrganisation: \nChinese Ski Association\n56,Zhongguancun South Street\n100044,Beijing\nChina\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Snow Ruyi (CHN) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Snow Ruyi
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T091059Z
+LAST-MODIFIED:20261014T091059Z
+DTSTAMP:20261024T212607Z
+UID:SB25457
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25457\nOrganisation: \nChinese Ski Association\n56,Zhongguancun South Street\n100044,Beijing\nChina\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Snow Ruyi (CHN) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Snow Ruyi
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T091059Z
+LAST-MODIFIED:20261014T091059Z
+DTSTAMP:20261024T212607Z
+UID:SB25594
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25594\nOrganisation: \nChinese Ski Association\n56,Zhongguancun South Street\n100044,Beijing\nChina\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Snow Ruyi (CHN) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Snow Ruyi
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T091059Z
+LAST-MODIFIED:20261014T091059Z
+DTSTAMP:20261024T212607Z
+UID:SB25595
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25595\nOrganisation: \nChinese Ski Association\n56,Zhongguancun South Street\n100044,Beijing\nChina\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Snow Ruyi (CHN) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Snow Ruyi
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T091059Z
+LAST-MODIFIED:20261014T091059Z
+DTSTAMP:20261024T212607Z
+UID:SB25846
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Mixed\Event: Parallel Team\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25846\nOrganisation: \nChinese Ski Association\n56,Zhongguancun South Street\n100044,Beijing\nChina\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Snow Ruyi (CHN) - Snowboard World Cup Parallel Team
+LOCATION:Snow Ruyi
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011053Z
+LAST-MODIFIED:20261014T011053Z
+DTSTAMP:20261024T212607Z
+UID:SB25534
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25534\nOrganisation: \nBeijing Municipal Bureau of Sports\nBld No. 1, Yard No.209, Songzhuang South 3rd Street, Tongzhou District\n100050 Chongwen District\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Beijing (CHN) - Snowboard World Cup Big Air Qualification
+LOCATION:Beijing
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011053Z
+LAST-MODIFIED:20261014T011053Z
+DTSTAMP:20261024T212607Z
+UID:SB25535
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25535\nOrganisation: \nBeijing Municipal Bureau of Sports\nBld No. 1, Yard No.209, Songzhuang South 3rd Street, Tongzhou District\n100050 Chongwen District\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Beijing (CHN) - Snowboard World Cup Big Air Qualification
+LOCATION:Beijing
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011053Z
+LAST-MODIFIED:20261014T011053Z
+DTSTAMP:20261024T212607Z
+UID:SB25536
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Women\Event: Big Air\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25536\nOrganisation: \nBeijing Municipal Bureau of Sports\nBld No. 1, Yard No.209, Songzhuang South 3rd Street, Tongzhou District\n100050 Chongwen District\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Beijing (CHN) - Snowboard World Cup Big Air
+LOCATION:Beijing
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011053Z
+LAST-MODIFIED:20261014T011053Z
+DTSTAMP:20261024T212607Z
+UID:SB25537
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Men\Event: Big Air\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25537\nOrganisation: \nBeijing Municipal Bureau of Sports\nBld No. 1, Yard No.209, Songzhuang South 3rd Street, Tongzhou District\n100050 Chongwen District\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Beijing (CHN) - Snowboard World Cup Big Air
+LOCATION:Beijing
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081003Z
+LAST-MODIFIED:20261016T081003Z
+DTSTAMP:20261024T212607Z
+UID:SB25485
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25485\nOrganisation: \nFIS Snowboard Alpine World Cup Mylin(CHN) Organising Committee\nMylin, Kalaqinqi, Chifeng, Inner Mongolia\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Mylin (CHN) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Mylin
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081003Z
+LAST-MODIFIED:20261016T081003Z
+DTSTAMP:20261024T212607Z
+UID:SB25486
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25486\nOrganisation: \nFIS Snowboard Alpine World Cup Mylin(CHN) Organising Committee\nMylin, Kalaqinqi, Chifeng, Inner Mongolia\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Mylin (CHN) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Mylin
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081003Z
+LAST-MODIFIED:20261016T081003Z
+DTSTAMP:20261024T212607Z
+UID:SB25487
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25487\nOrganisation: \nFIS Snowboard Alpine World Cup Mylin(CHN) Organising Committee\nMylin, Kalaqinqi, Chifeng, Inner Mongolia\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Mylin (CHN) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Mylin
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081003Z
+LAST-MODIFIED:20261016T081003Z
+DTSTAMP:20261024T212607Z
+UID:SB25488
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25488\nOrganisation: \nFIS Snowboard Alpine World Cup Mylin(CHN) Organising Committee\nMylin, Kalaqinqi, Chifeng, Inner Mongolia\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Mylin (CHN) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Mylin
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081003Z
+LAST-MODIFIED:20261016T081003Z
+DTSTAMP:20261024T212607Z
+UID:SB25590
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25590\nOrganisation: \nFIS Snowboard Alpine World Cup Mylin(CHN) Organising Committee\nMylin, Kalaqinqi, Chifeng, Inner Mongolia\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Mylin (CHN) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Mylin
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081003Z
+LAST-MODIFIED:20261016T081003Z
+DTSTAMP:20261024T212607Z
+UID:SB25591
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25591\nOrganisation: \nFIS Snowboard Alpine World Cup Mylin(CHN) Organising Committee\nMylin, Kalaqinqi, Chifeng, Inner Mongolia\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Mylin (CHN) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Mylin
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081003Z
+LAST-MODIFIED:20261016T081003Z
+DTSTAMP:20261024T212607Z
+UID:SB25592
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25592\nOrganisation: \nFIS Snowboard Alpine World Cup Mylin(CHN) Organising Committee\nMylin, Kalaqinqi, Chifeng, Inner Mongolia\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Mylin (CHN) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Mylin
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T081003Z
+LAST-MODIFIED:20261016T081003Z
+DTSTAMP:20261024T212607Z
+UID:SB25593
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25593\nOrganisation: \nFIS Snowboard Alpine World Cup Mylin(CHN) Organising Committee\nMylin, Kalaqinqi, Chifeng, Inner Mongolia\nCHN\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Mylin (CHN) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Mylin
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011055Z
+LAST-MODIFIED:20261014T011055Z
+DTSTAMP:20261024T212607Z
+UID:SB25538
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25538\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com
+SUMMARY:Secret Garden (CHN) - Snowboard World Cup Halfpipe Qualification
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011055Z
+LAST-MODIFIED:20261014T011055Z
+DTSTAMP:20261024T212607Z
+UID:SB25539
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25539\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com
+SUMMARY:Secret Garden (CHN) - Snowboard World Cup Halfpipe Qualification
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011055Z
+LAST-MODIFIED:20261014T011055Z
+DTSTAMP:20261024T212607Z
+UID:SB25540
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25540\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com
+SUMMARY:Secret Garden (CHN) - Snowboard World Cup Halfpipe
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011055Z
+LAST-MODIFIED:20261014T011055Z
+DTSTAMP:20261024T212607Z
+UID:SB25541
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25541\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com
+SUMMARY:Secret Garden (CHN) - Snowboard World Cup Halfpipe
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011056Z
+LAST-MODIFIED:20261014T011056Z
+DTSTAMP:20261024T212607Z
+UID:SB25542
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25542\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Breckenridge (USA) - Snowboard World Cup Slopestyle Qualification
+LOCATION:Breckenridge
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011056Z
+LAST-MODIFIED:20261014T011056Z
+DTSTAMP:20261024T212607Z
+UID:SB25543
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25543\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Breckenridge (USA) - Snowboard World Cup Slopestyle Qualification
+LOCATION:Breckenridge
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011056Z
+LAST-MODIFIED:20261014T011056Z
+DTSTAMP:20261024T212607Z
+UID:SB25544
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25544\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Breckenridge (USA) - Snowboard World Cup Slopestyle
+LOCATION:Breckenridge
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T011056Z
+LAST-MODIFIED:20261014T011056Z
+DTSTAMP:20261024T212607Z
+UID:SB25545
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25545\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Breckenridge (USA) - Snowboard World Cup Slopestyle
+LOCATION:Breckenridge
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T031054Z
+LAST-MODIFIED:20261019T031054Z
+DTSTAMP:20261024T212607Z
+UID:SB25489
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25489\nOrganisation: \nCERVINIA WORLD CUP\nLOC. BARDONEY\n11021 BREUIL-CERVINIA\n03780\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cervinia.it/eventi/coppa-del-mondo-snowboard-cross-2026-2027
+SUMMARY:Cervinia (ITA) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Cervinia
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T031054Z
+LAST-MODIFIED:20261019T031054Z
+DTSTAMP:20261024T212607Z
+UID:SB25490
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25490\nOrganisation: \nCERVINIA WORLD CUP\nLOC. BARDONEY\n11021 BREUIL-CERVINIA\n03780\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cervinia.it/eventi/coppa-del-mondo-snowboard-cross-2026-2027
+SUMMARY:Cervinia (ITA) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Cervinia
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T031054Z
+LAST-MODIFIED:20261019T031054Z
+DTSTAMP:20261024T212607Z
+UID:SB25491
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25491\nOrganisation: \nCERVINIA WORLD CUP\nLOC. BARDONEY\n11021 BREUIL-CERVINIA\n03780\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cervinia.it/eventi/coppa-del-mondo-snowboard-cross-2026-2027
+SUMMARY:Cervinia (ITA) - Snowboard World Cup Snowboard Cross
+LOCATION:Cervinia
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T031054Z
+LAST-MODIFIED:20261019T031054Z
+DTSTAMP:20261024T212607Z
+UID:SB25492
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25492\nOrganisation: \nCERVINIA WORLD CUP\nLOC. BARDONEY\n11021 BREUIL-CERVINIA\n03780\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cervinia.it/eventi/coppa-del-mondo-snowboard-cross-2026-2027
+SUMMARY:Cervinia (ITA) - Snowboard World Cup Snowboard Cross
+LOCATION:Cervinia
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T031054Z
+LAST-MODIFIED:20261019T031054Z
+DTSTAMP:20261024T212607Z
+UID:SB25493
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25493\nOrganisation: \nCERVINIA WORLD CUP\nLOC. BARDONEY\n11021 BREUIL-CERVINIA\n03780\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cervinia.it/eventi/coppa-del-mondo-snowboard-cross-2026-2027
+SUMMARY:Cervinia (ITA) - Snowboard World Cup Snowboard Cross
+LOCATION:Cervinia
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T031054Z
+LAST-MODIFIED:20261019T031054Z
+DTSTAMP:20261024T212607Z
+UID:SB26251
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=26251\nOrganisation: \nCERVINIA WORLD CUP\nLOC. BARDONEY\n11021 BREUIL-CERVINIA\n03780\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cervinia.it/eventi/coppa-del-mondo-snowboard-cross-2026-2027
+SUMMARY:Cervinia (ITA) - Snowboard World Cup Snowboard Cross
+LOCATION:Cervinia
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T031054Z
+LAST-MODIFIED:20261019T031054Z
+DTSTAMP:20261024T212607Z
+UID:SB26252
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=26252\nOrganisation: \nCERVINIA WORLD CUP\nLOC. BARDONEY\n11021 BREUIL-CERVINIA\n03780\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cervinia.it/eventi/coppa-del-mondo-snowboard-cross-2026-2027
+SUMMARY:Cervinia (ITA) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Cervinia
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T031054Z
+LAST-MODIFIED:20261019T031054Z
+DTSTAMP:20261024T212607Z
+UID:SB26253
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=26253\nOrganisation: \nCERVINIA WORLD CUP\nLOC. BARDONEY\n11021 BREUIL-CERVINIA\n03780\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cervinia.it/eventi/coppa-del-mondo-snowboard-cross-2026-2027
+SUMMARY:Cervinia (ITA) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Cervinia
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T041045Z
+LAST-MODIFIED:20261014T041045Z
+DTSTAMP:20261024T212607Z
+UID:SB25462
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25462\nOrganisation: \nFondazione Cortina\nVia Marangoi, 1\n32043 Cortina d'Ampezzo\n02937\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cortinasnowboardworldcup.com/
+SUMMARY:Cortina d'Ampezzo (ITA) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Cortina d'Ampezzo
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T041045Z
+LAST-MODIFIED:20261014T041045Z
+DTSTAMP:20261024T212607Z
+UID:SB25463
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25463\nOrganisation: \nFondazione Cortina\nVia Marangoi, 1\n32043 Cortina d'Ampezzo\n02937\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cortinasnowboardworldcup.com/
+SUMMARY:Cortina d'Ampezzo (ITA) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Cortina d'Ampezzo
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T041045Z
+LAST-MODIFIED:20261014T041045Z
+DTSTAMP:20261024T212607Z
+UID:SB25596
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25596\nOrganisation: \nFondazione Cortina\nVia Marangoi, 1\n32043 Cortina d'Ampezzo\n02937\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cortinasnowboardworldcup.com/
+SUMMARY:Cortina d'Ampezzo (ITA) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Cortina d'Ampezzo
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261014T041045Z
+LAST-MODIFIED:20261014T041045Z
+DTSTAMP:20261024T212607Z
+UID:SB25597
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25597\nOrganisation: \nFondazione Cortina\nVia Marangoi, 1\n32043 Cortina d'Ampezzo\n02937\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cortinasnowboardworldcup.com/
+SUMMARY:Cortina d'Ampezzo (ITA) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Cortina d'Ampezzo
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260918T090923Z
+LAST-MODIFIED:20260918T090923Z
+DTSTAMP:20261024T212607Z
+UID:SB25464
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25464\nOrganisation: \nCarezza Event - ASV Welschnofen\nVia Carezza 21 A\n39056 Nova Levante\n00039\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://carezza.it/it
+SUMMARY:Carezza (ITA) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Carezza
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260918T090923Z
+LAST-MODIFIED:20260918T090923Z
+DTSTAMP:20261024T212607Z
+UID:SB25465
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25465\nOrganisation: \nCarezza Event - ASV Welschnofen\nVia Carezza 21 A\n39056 Nova Levante\n00039\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://carezza.it/it
+SUMMARY:Carezza (ITA) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Carezza
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260918T090923Z
+LAST-MODIFIED:20260918T090923Z
+DTSTAMP:20261024T212607Z
+UID:SB25598
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25598\nOrganisation: \nCarezza Event - ASV Welschnofen\nVia Carezza 21 A\n39056 Nova Levante\n00039\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://carezza.it/it
+SUMMARY:Carezza (ITA) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Carezza
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260918T090923Z
+LAST-MODIFIED:20260918T090923Z
+DTSTAMP:20261024T212607Z
+UID:SB25599
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25599\nOrganisation: \nCarezza Event - ASV Welschnofen\nVia Carezza 21 A\n39056 Nova Levante\n00039\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://carezza.it/it
+SUMMARY:Carezza (ITA) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Carezza
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260911T100957Z
+LAST-MODIFIED:20260911T100957Z
+DTSTAMP:20261024T212607Z
+UID:SB25546
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25546\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Copper (USA) - Snowboard World Cup Halfpipe Qualification
+LOCATION:Copper
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260911T100957Z
+LAST-MODIFIED:20260911T100957Z
+DTSTAMP:20261024T212607Z
+UID:SB25547
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25547\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Copper (USA) - Snowboard World Cup Halfpipe Qualification
+LOCATION:Copper
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260911T100957Z
+LAST-MODIFIED:20260911T100957Z
+DTSTAMP:20261024T212607Z
+UID:SB25548
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25548\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Copper (USA) - Snowboard World Cup Halfpipe
+LOCATION:Copper
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260911T100957Z
+LAST-MODIFIED:20260911T100957Z
+DTSTAMP:20261024T212607Z
+UID:SB25672
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25672\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Copper (USA) - Snowboard World Cup Halfpipe
+LOCATION:Copper
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T111032Z
+LAST-MODIFIED:20261008T111032Z
+DTSTAMP:20261024T212607Z
+UID:SB25466
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Women\Event: Parallel Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25466\nOrganisation: \nOK Snowboard Alpin Weltcup Davos\nBrämabuelstrasse 11\n7270 Davos Platz\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://snowboardweltcupdavos.ch/
+SUMMARY:Davos (SUI) - Snowboard World Cup Parallel Slalom Qualification
+LOCATION:Davos
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T111032Z
+LAST-MODIFIED:20261008T111032Z
+DTSTAMP:20261024T212607Z
+UID:SB25467
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Men\Event: Parallel Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25467\nOrganisation: \nOK Snowboard Alpin Weltcup Davos\nBrämabuelstrasse 11\n7270 Davos Platz\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://snowboardweltcupdavos.ch/
+SUMMARY:Davos (SUI) - Snowboard World Cup Parallel Slalom Qualification
+LOCATION:Davos
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T111032Z
+LAST-MODIFIED:20261008T111032Z
+DTSTAMP:20261024T212607Z
+UID:SB25600
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Women\Event: Parallel Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25600\nOrganisation: \nOK Snowboard Alpin Weltcup Davos\nBrämabuelstrasse 11\n7270 Davos Platz\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://snowboardweltcupdavos.ch/
+SUMMARY:Davos (SUI) - Snowboard World Cup Parallel Slalom
+LOCATION:Davos
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T111032Z
+LAST-MODIFIED:20261008T111032Z
+DTSTAMP:20261024T212607Z
+UID:SB25601
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Men\Event: Parallel Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25601\nOrganisation: \nOK Snowboard Alpin Weltcup Davos\nBrämabuelstrasse 11\n7270 Davos Platz\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://snowboardweltcupdavos.ch/
+SUMMARY:Davos (SUI) - Snowboard World Cup Parallel Slalom
+LOCATION:Davos
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T111057Z
+LAST-MODIFIED:20261008T111057Z
+DTSTAMP:20261024T212607Z
+UID:SB25549
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25549\nOrganisation: \nKreisch Indios\nKreischberg 4\n8861 St. Georgen am Kreischberg\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Kreischberg (AUT) - Snowboard World Cup Big Air Qualification
+LOCATION:Kreischberg
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T111057Z
+LAST-MODIFIED:20261008T111057Z
+DTSTAMP:20261024T212607Z
+UID:SB25550
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25550\nOrganisation: \nKreisch Indios\nKreischberg 4\n8861 St. Georgen am Kreischberg\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Kreischberg (AUT) - Snowboard World Cup Big Air Qualification
+LOCATION:Kreischberg
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T111057Z
+LAST-MODIFIED:20261008T111057Z
+DTSTAMP:20261024T212607Z
+UID:SB25551
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Women\Event: Big Air\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25551\nOrganisation: \nKreisch Indios\nKreischberg 4\n8861 St. Georgen am Kreischberg\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Kreischberg (AUT) - Snowboard World Cup Big Air
+LOCATION:Kreischberg
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T111057Z
+LAST-MODIFIED:20261008T111057Z
+DTSTAMP:20261024T212607Z
+UID:SB25552
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Men\Event: Big Air\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25552\nOrganisation: \nKreisch Indios\nKreischberg 4\n8861 St. Georgen am Kreischberg\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Kreischberg (AUT) - Snowboard World Cup Big Air
+LOCATION:Kreischberg
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T111025Z
+LAST-MODIFIED:20261008T111025Z
+DTSTAMP:20261024T212607Z
+UID:SB25468
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25468\nOrganisation: \nDMO Turismus Engadin\nStradun 403a\n7550 Scuol\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.engadin.com/de/fis-snowboard-weltcup-scuol
+SUMMARY:Scuol (SUI) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Scuol
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T111025Z
+LAST-MODIFIED:20261008T111025Z
+DTSTAMP:20261024T212607Z
+UID:SB25469
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25469\nOrganisation: \nDMO Turismus Engadin\nStradun 403a\n7550 Scuol\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.engadin.com/de/fis-snowboard-weltcup-scuol
+SUMMARY:Scuol (SUI) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Scuol
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T111025Z
+LAST-MODIFIED:20261008T111025Z
+DTSTAMP:20261024T212607Z
+UID:SB25586
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25586\nOrganisation: \nDMO Turismus Engadin\nStradun 403a\n7550 Scuol\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.engadin.com/de/fis-snowboard-weltcup-scuol
+SUMMARY:Scuol (SUI) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Scuol
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261008T111025Z
+LAST-MODIFIED:20261008T111025Z
+DTSTAMP:20261024T212607Z
+UID:SB25587
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25587\nOrganisation: \nDMO Turismus Engadin\nStradun 403a\n7550 Scuol\nSwitzerland\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.engadin.com/de/fis-snowboard-weltcup-scuol
+SUMMARY:Scuol (SUI) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Scuol
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T041050Z
+LAST-MODIFIED:20261016T041050Z
+DTSTAMP:20261024T212607Z
+UID:SB25553
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25553\nOrganisation: \nWeiss Arena Gruppe\nVia Murschetg\n7032 Laax\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://laaxopen.com/
+SUMMARY:Laax (SUI) - Snowboard World Cup Slopestyle Qualification
+LOCATION:Laax
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T041050Z
+LAST-MODIFIED:20261016T041050Z
+DTSTAMP:20261024T212607Z
+UID:SB25554
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25554\nOrganisation: \nWeiss Arena Gruppe\nVia Murschetg\n7032 Laax\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://laaxopen.com/
+SUMMARY:Laax (SUI) - Snowboard World Cup Slopestyle Qualification
+LOCATION:Laax
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T101057Z
+LAST-MODIFIED:20261024T101057Z
+DTSTAMP:20261024T212607Z
+UID:SB25555
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25555\nOrganisation: \nWeiss Arena Gruppe\nVia Murschetg\n7032 Laax\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://laaxopen.com/
+SUMMARY:Laax (SUI) - Snowboard World Cup Halfpipe Qualification
+LOCATION:Laax
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T101057Z
+LAST-MODIFIED:20261024T101057Z
+DTSTAMP:20261024T212607Z
+UID:SB25556
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25556\nOrganisation: \nWeiss Arena Gruppe\nVia Murschetg\n7032 Laax\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://laaxopen.com/
+SUMMARY:Laax (SUI) - Snowboard World Cup Halfpipe Qualification
+LOCATION:Laax
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T101057Z
+LAST-MODIFIED:20261024T101057Z
+DTSTAMP:20261024T212607Z
+UID:SB25557
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25557\nOrganisation: \nWeiss Arena Gruppe\nVia Murschetg\n7032 Laax\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://laaxopen.com/
+SUMMARY:Laax (SUI) - Snowboard World Cup Slopestyle
+LOCATION:Laax
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T101057Z
+LAST-MODIFIED:20261024T101057Z
+DTSTAMP:20261024T212607Z
+UID:SB25558
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25558\nOrganisation: \nWeiss Arena Gruppe\nVia Murschetg\n7032 Laax\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://laaxopen.com/
+SUMMARY:Laax (SUI) - Snowboard World Cup Slopestyle
+LOCATION:Laax
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T041050Z
+LAST-MODIFIED:20261016T041050Z
+DTSTAMP:20261024T212607Z
+UID:SB25559
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Women\Event: Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25559\nOrganisation: \nWeiss Arena Gruppe\nVia Murschetg\n7032 Laax\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://laaxopen.com/
+SUMMARY:Laax (SUI) - Snowboard World Cup Halfpipe
+LOCATION:Laax
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261016T041050Z
+LAST-MODIFIED:20261016T041050Z
+DTSTAMP:20261024T212607Z
+UID:SB25560
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Men\Event: Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25560\nOrganisation: \nWeiss Arena Gruppe\nVia Murschetg\n7032 Laax\nGraubünden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://laaxopen.com/
+SUMMARY:Laax (SUI) - Snowboard World Cup Halfpipe
+LOCATION:Laax
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T101000Z
+LAST-MODIFIED:20261023T101000Z
+DTSTAMP:20261024T212607Z
+UID:SB25494
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25494\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com/
+SUMMARY:Secret Garden (CHN) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T101000Z
+LAST-MODIFIED:20261023T101000Z
+DTSTAMP:20261024T212607Z
+UID:SB25495
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25495\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com/
+SUMMARY:Secret Garden (CHN) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T101000Z
+LAST-MODIFIED:20261023T101000Z
+DTSTAMP:20261024T212607Z
+UID:SB25496
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25496\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com/
+SUMMARY:Secret Garden (CHN) - Snowboard World Cup Snowboard Cross
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T101000Z
+LAST-MODIFIED:20261023T101000Z
+DTSTAMP:20261024T212607Z
+UID:SB25497
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25497\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com/
+SUMMARY:Secret Garden (CHN) - Snowboard World Cup Snowboard Cross
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T101000Z
+LAST-MODIFIED:20261023T101000Z
+DTSTAMP:20261024T212607Z
+UID:SB25498
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25498\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com/
+SUMMARY:Secret Garden (CHN) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T101000Z
+LAST-MODIFIED:20261023T101000Z
+DTSTAMP:20261024T212607Z
+UID:SB25499
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25499\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com/
+SUMMARY:Secret Garden (CHN) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T101000Z
+LAST-MODIFIED:20261023T101000Z
+DTSTAMP:20261024T212607Z
+UID:SB25500
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25500\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com/
+SUMMARY:Secret Garden (CHN) - Snowboard World Cup Snowboard Cross
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261023T101000Z
+LAST-MODIFIED:20261023T101000Z
+DTSTAMP:20261024T212607Z
+UID:SB25501
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25501\nOrganisation: \nSECRET GARDEN\nGOTONG AVENUE, SITAIZUI\nCHONGLI, ZHANGJIAKOU CITY  076350\nHEBEI, P.R.CHINA\nCHN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.secretgardenresorts.com/
+SUMMARY:Secret Garden (CHN) - Snowboard World Cup Snowboard Cross
+LOCATION:Secret Garden
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260713T020748Z
+LAST-MODIFIED:20260713T020748Z
+DTSTAMP:20261024T212607Z
+UID:SB25470
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25470\nOrganisation: \nBulgarian Ski Federation\nOFFICE OF THE BULGARIAN SKI FEDERATION, "Bulgaria" Blvd. N:81, vh. V,\n1404 Sofia\nBulgaria\nBUL\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.banskoworldcup.com
+SUMMARY:Bansko (BUL) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Bansko
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260713T020748Z
+LAST-MODIFIED:20260713T020748Z
+DTSTAMP:20261024T212607Z
+UID:SB25471
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25471\nOrganisation: \nBulgarian Ski Federation\nOFFICE OF THE BULGARIAN SKI FEDERATION, "Bulgaria" Blvd. N:81, vh. V,\n1404 Sofia\nBulgaria\nBUL\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.banskoworldcup.com
+SUMMARY:Bansko (BUL) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Bansko
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260713T020748Z
+LAST-MODIFIED:20260713T020748Z
+DTSTAMP:20261024T212607Z
+UID:SB25472
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25472\nOrganisation: \nBulgarian Ski Federation\nOFFICE OF THE BULGARIAN SKI FEDERATION, "Bulgaria" Blvd. N:81, vh. V,\n1404 Sofia\nBulgaria\nBUL\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.banskoworldcup.com
+SUMMARY:Bansko (BUL) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Bansko
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260713T020748Z
+LAST-MODIFIED:20260713T020748Z
+DTSTAMP:20261024T212607Z
+UID:SB25473
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25473\nOrganisation: \nBulgarian Ski Federation\nOFFICE OF THE BULGARIAN SKI FEDERATION, "Bulgaria" Blvd. N:81, vh. V,\n1404 Sofia\nBulgaria\nBUL\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.banskoworldcup.com
+SUMMARY:Bansko (BUL) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Bansko
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25602
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25602\nOrganisation: \nBulgarian Ski Federation\nOFFICE OF THE BULGARIAN SKI FEDERATION, "Bulgaria" Blvd. N:81, vh. V,\n1404 Sofia\nBulgaria\nBUL\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.banskoworldcup.com
+SUMMARY:Bansko (BUL) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Bansko
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25603
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25603\nOrganisation: \nBulgarian Ski Federation\nOFFICE OF THE BULGARIAN SKI FEDERATION, "Bulgaria" Blvd. N:81, vh. V,\n1404 Sofia\nBulgaria\nBUL\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.banskoworldcup.com
+SUMMARY:Bansko (BUL) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Bansko
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25604
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25604\nOrganisation: \nBulgarian Ski Federation\nOFFICE OF THE BULGARIAN SKI FEDERATION, "Bulgaria" Blvd. N:81, vh. V,\n1404 Sofia\nBulgaria\nBUL\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.banskoworldcup.com
+SUMMARY:Bansko (BUL) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Bansko
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25605
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25605\nOrganisation: \nBulgarian Ski Federation\nOFFICE OF THE BULGARIAN SKI FEDERATION, "Bulgaria" Blvd. N:81, vh. V,\n1404 Sofia\nBulgaria\nBUL\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.banskoworldcup.com
+SUMMARY:Bansko (BUL) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Bansko
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T021038Z
+LAST-MODIFIED:20261020T021038Z
+DTSTAMP:20261024T212607Z
+UID:SB25561
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25561\nOrganisation: \nTignes Développement\n104 impasse de la Marlière\n73320\nTignes\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Tignes (FRA) - Snowboard World Cup Big Air Qualification
+LOCATION:Tignes
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T021038Z
+LAST-MODIFIED:20261020T021038Z
+DTSTAMP:20261024T212607Z
+UID:SB25562
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Big Air Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25562\nOrganisation: \nTignes Développement\n104 impasse de la Marlière\n73320\nTignes\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Tignes (FRA) - Snowboard World Cup Big Air Qualification
+LOCATION:Tignes
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T021038Z
+LAST-MODIFIED:20261020T021038Z
+DTSTAMP:20261024T212607Z
+UID:SB25563
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Big Air\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25563\nOrganisation: \nTignes Développement\n104 impasse de la Marlière\n73320\nTignes\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Tignes (FRA) - Snowboard World Cup Big Air
+LOCATION:Tignes
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T021038Z
+LAST-MODIFIED:20261020T021038Z
+DTSTAMP:20261024T212607Z
+UID:SB25564
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Big Air\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25564\nOrganisation: \nTignes Développement\n104 impasse de la Marlière\n73320\nTignes\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Tignes (FRA) - Snowboard World Cup Big Air
+LOCATION:Tignes
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260911T110912Z
+LAST-MODIFIED:20260911T110912Z
+DTSTAMP:20261024T212607Z
+UID:SB25474
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25474\nOrganisation: \nUnitur d.o.o. and SBK Rogla\nCesta na Roglo 15\n3214, Zreče\nSlovenia\nSLO\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.snowboardrogla.com/sl/
+SUMMARY:Rogla (SLO) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Rogla
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260911T110912Z
+LAST-MODIFIED:20260911T110912Z
+DTSTAMP:20261024T212607Z
+UID:SB25475
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25475\nOrganisation: \nUnitur d.o.o. and SBK Rogla\nCesta na Roglo 15\n3214, Zreče\nSlovenia\nSLO\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.snowboardrogla.com/sl/
+SUMMARY:Rogla (SLO) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Rogla
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260911T110912Z
+LAST-MODIFIED:20260911T110912Z
+DTSTAMP:20261024T212607Z
+UID:SB25606
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25606\nOrganisation: \nUnitur d.o.o. and SBK Rogla\nCesta na Roglo 15\n3214, Zreče\nSlovenia\nSLO\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.snowboardrogla.com/sl/
+SUMMARY:Rogla (SLO) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Rogla
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260911T110912Z
+LAST-MODIFIED:20260911T110912Z
+DTSTAMP:20261024T212607Z
+UID:SB25607
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25607\nOrganisation: \nUnitur d.o.o. and SBK Rogla\nCesta na Roglo 15\n3214, Zreče\nSlovenia\nSLO\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.snowboardrogla.com/sl/
+SUMMARY:Rogla (SLO) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Rogla
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T061029Z
+LAST-MODIFIED:20261020T061029Z
+DTSTAMP:20261024T212607Z
+UID:SB25476
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25476\nOrganisation: \nKur-und Tourismusverband Bad Gastein\nKaiser Franz Josefstr. 27\n5640 Bad Gastein\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Bad Gastein (AUT) - Snowboard World Cup Parallel Slalom Qualification
+LOCATION:Bad Gastein
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T061029Z
+LAST-MODIFIED:20261020T061029Z
+DTSTAMP:20261024T212607Z
+UID:SB25477
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25477\nOrganisation: \nKur-und Tourismusverband Bad Gastein\nKaiser Franz Josefstr. 27\n5640 Bad Gastein\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Bad Gastein (AUT) - Snowboard World Cup Parallel Slalom Qualification
+LOCATION:Bad Gastein
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T061029Z
+LAST-MODIFIED:20261020T061029Z
+DTSTAMP:20261024T212607Z
+UID:SB25478
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Women\Event: Parallel Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25478\nOrganisation: \nKur-und Tourismusverband Bad Gastein\nKaiser Franz Josefstr. 27\n5640 Bad Gastein\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Bad Gastein (AUT) - Snowboard World Cup Parallel Slalom
+LOCATION:Bad Gastein
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T061029Z
+LAST-MODIFIED:20261020T061029Z
+DTSTAMP:20261024T212607Z
+UID:SB25608
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Men\Event: Parallel Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25608\nOrganisation: \nKur-und Tourismusverband Bad Gastein\nKaiser Franz Josefstr. 27\n5640 Bad Gastein\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Bad Gastein (AUT) - Snowboard World Cup Parallel Slalom
+LOCATION:Bad Gastein
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T061029Z
+LAST-MODIFIED:20261020T061029Z
+DTSTAMP:20261024T212607Z
+UID:SB25609
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Mixed\Event: Parallel Team Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25609\nOrganisation: \nKur-und Tourismusverband Bad Gastein\nKaiser Franz Josefstr. 27\n5640 Bad Gastein\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Bad Gastein (AUT) - Snowboard World Cup Parallel Team Qualification
+LOCATION:Bad Gastein
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T061029Z
+LAST-MODIFIED:20261020T061029Z
+DTSTAMP:20261024T212607Z
+UID:SB25610
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Mixed\Event: Parallel Team\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25610\nOrganisation: \nKur-und Tourismusverband Bad Gastein\nKaiser Franz Josefstr. 27\n5640 Bad Gastein\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Bad Gastein (AUT) - Snowboard World Cup Parallel Team
+LOCATION:Bad Gastein
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25673
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25673\nOrganisation: \nAmateursnowboardclub Ridnauner Schneasurfer\nObere Gasse 25\n39040 Racines\n03684\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Ratschings (ITA) - Snowboard World Cup Parallel Slalom Qualification
+LOCATION:Ratschings
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25674
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25674\nOrganisation: \nAmateursnowboardclub Ridnauner Schneasurfer\nObere Gasse 25\n39040 Racines\n03684\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Ratschings (ITA) - Snowboard World Cup Parallel Slalom Qualification
+LOCATION:Ratschings
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25675
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25675\nOrganisation: \nAmateursnowboardclub Ridnauner Schneasurfer\nObere Gasse 25\n39040 Racines\n03684\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Ratschings (ITA) - Snowboard World Cup Parallel Slalom
+LOCATION:Ratschings
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25676
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25676\nOrganisation: \nAmateursnowboardclub Ridnauner Schneasurfer\nObere Gasse 25\n39040 Racines\n03684\nITA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Ratschings (ITA) - Snowboard World Cup Parallel Slalom
+LOCATION:Ratschings
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T041048Z
+LAST-MODIFIED:20261019T041048Z
+DTSTAMP:20261024T212607Z
+UID:SB26354
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=26354\nOrganisation: \nBIH
+SUMMARY:Jahorina (BIH) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Jahorina
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T041048Z
+LAST-MODIFIED:20261019T041048Z
+DTSTAMP:20261024T212607Z
+UID:SB26355
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=26355\nOrganisation: \nBIH
+SUMMARY:Jahorina (BIH) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Jahorina
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T041048Z
+LAST-MODIFIED:20261019T041048Z
+DTSTAMP:20261024T212607Z
+UID:SB26356
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=26356\nOrganisation: \nBIH
+SUMMARY:Jahorina (BIH) - Snowboard World Cup Snowboard Cross
+LOCATION:Jahorina
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T041048Z
+LAST-MODIFIED:20261019T041048Z
+DTSTAMP:20261024T212607Z
+UID:SB26357
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=26357\nOrganisation: \nBIH
+SUMMARY:Jahorina (BIH) - Snowboard World Cup Snowboard Cross
+LOCATION:Jahorina
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T041048Z
+LAST-MODIFIED:20261019T041048Z
+DTSTAMP:20261024T212607Z
+UID:SB26358
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=26358\nOrganisation: \nBIH
+SUMMARY:Jahorina (BIH) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Jahorina
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T041048Z
+LAST-MODIFIED:20261019T041048Z
+DTSTAMP:20261024T212607Z
+UID:SB26359
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=26359\nOrganisation: \nBIH
+SUMMARY:Jahorina (BIH) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Jahorina
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T041048Z
+LAST-MODIFIED:20261019T041048Z
+DTSTAMP:20261024T212607Z
+UID:SB26361
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=26361\nOrganisation: \nBIH
+SUMMARY:Jahorina (BIH) - Snowboard World Cup Snowboard Cross
+LOCATION:Jahorina
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T041048Z
+LAST-MODIFIED:20261019T041048Z
+DTSTAMP:20261024T212607Z
+UID:SB26362
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=26362\nOrganisation: \nBIH
+SUMMARY:Jahorina (BIH) - Snowboard World Cup Snowboard Cross
+LOCATION:Jahorina
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25565
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25565\nOrganisation: \nCAN
+SUMMARY:Calgary (CAN) - Snowboard World Cup Halfpipe Qualification
+LOCATION:Calgary
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25566
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25566\nOrganisation: \nCAN
+SUMMARY:Calgary (CAN) - Snowboard World Cup Halfpipe Qualification
+LOCATION:Calgary
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25567
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Women\Event: Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25567\nOrganisation: \nCAN
+SUMMARY:Calgary (CAN) - Snowboard World Cup Halfpipe
+LOCATION:Calgary
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25568
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Night Event\nCategory: World Cup\nGender: Men\Event: Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25568\nOrganisation: \nCAN
+SUMMARY:Calgary (CAN) - Snowboard World Cup Halfpipe
+LOCATION:Calgary
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260818T100811Z
+LAST-MODIFIED:20260818T100811Z
+DTSTAMP:20261024T212607Z
+UID:SB25514
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25514\nOrganisation: \nTURKISH SKI FEDERATION\nGaziosmanpasa Mah.Nenehatun Cad.No:40 Çankaya/Ankara\n06700 Ankara\nTurkiye\nTUR\nPhone: (removed)\nE-mail: (removed)\nWeb: https://tkf.org.tr/
+SUMMARY:Erzurum (TUR) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Erzurum
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260818T100811Z
+LAST-MODIFIED:20260818T100811Z
+DTSTAMP:20261024T212607Z
+UID:SB25515
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25515\nOrganisation: \nTURKISH SKI FEDERATION\nGaziosmanpasa Mah.Nenehatun Cad.No:40 Çankaya/Ankara\n06700 Ankara\nTurkiye\nTUR\nPhone: (removed)\nE-mail: (removed)\nWeb: https://tkf.org.tr/
+SUMMARY:Erzurum (TUR) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Erzurum
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260818T100811Z
+LAST-MODIFIED:20260818T100811Z
+DTSTAMP:20261024T212607Z
+UID:SB25516
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25516\nOrganisation: \nTURKISH SKI FEDERATION\nGaziosmanpasa Mah.Nenehatun Cad.No:40 Çankaya/Ankara\n06700 Ankara\nTurkiye\nTUR\nPhone: (removed)\nE-mail: (removed)\nWeb: https://tkf.org.tr/
+SUMMARY:Erzurum (TUR) - Snowboard World Cup Snowboard Cross
+LOCATION:Erzurum
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260818T100811Z
+LAST-MODIFIED:20260818T100811Z
+DTSTAMP:20261024T212607Z
+UID:SB25517
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25517\nOrganisation: \nTURKISH SKI FEDERATION\nGaziosmanpasa Mah.Nenehatun Cad.No:40 Çankaya/Ankara\n06700 Ankara\nTurkiye\nTUR\nPhone: (removed)\nE-mail: (removed)\nWeb: https://tkf.org.tr/
+SUMMARY:Erzurum (TUR) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Erzurum
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260818T100811Z
+LAST-MODIFIED:20260818T100811Z
+DTSTAMP:20261024T212607Z
+UID:SB25518
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25518\nOrganisation: \nTURKISH SKI FEDERATION\nGaziosmanpasa Mah.Nenehatun Cad.No:40 Çankaya/Ankara\n06700 Ankara\nTurkiye\nTUR\nPhone: (removed)\nE-mail: (removed)\nWeb: https://tkf.org.tr/
+SUMMARY:Erzurum (TUR) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Erzurum
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260818T100811Z
+LAST-MODIFIED:20260818T100811Z
+DTSTAMP:20261024T212607Z
+UID:SB25519
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25519\nOrganisation: \nTURKISH SKI FEDERATION\nGaziosmanpasa Mah.Nenehatun Cad.No:40 Çankaya/Ankara\n06700 Ankara\nTurkiye\nTUR\nPhone: (removed)\nE-mail: (removed)\nWeb: https://tkf.org.tr/
+SUMMARY:Erzurum (TUR) - Snowboard World Cup Snowboard Cross
+LOCATION:Erzurum
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260818T100811Z
+LAST-MODIFIED:20260818T100811Z
+DTSTAMP:20261024T212607Z
+UID:SB25520
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25520\nOrganisation: \nTURKISH SKI FEDERATION\nGaziosmanpasa Mah.Nenehatun Cad.No:40 Çankaya/Ankara\n06700 Ankara\nTurkiye\nTUR\nPhone: (removed)\nE-mail: (removed)\nWeb: https://tkf.org.tr/
+SUMMARY:Erzurum (TUR) - Snowboard World Cup Snowboard Cross
+LOCATION:Erzurum
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260818T100811Z
+LAST-MODIFIED:20260818T100811Z
+DTSTAMP:20261024T212607Z
+UID:SB25619
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25619\nOrganisation: \nTURKISH SKI FEDERATION\nGaziosmanpasa Mah.Nenehatun Cad.No:40 Çankaya/Ankara\n06700 Ankara\nTurkiye\nTUR\nPhone: (removed)\nE-mail: (removed)\nWeb: https://tkf.org.tr/
+SUMMARY:Erzurum (TUR) - Snowboard World Cup Snowboard Cross
+LOCATION:Erzurum
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050854Z
+LAST-MODIFIED:20260831T050854Z
+DTSTAMP:20261024T212607Z
+UID:SB25570
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25570\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Snowboard World Cup Slopestyle Qualification
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050854Z
+LAST-MODIFIED:20260831T050854Z
+DTSTAMP:20261024T212607Z
+UID:SB25571
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25571\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Snowboard World Cup Slopestyle Qualification
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050854Z
+LAST-MODIFIED:20260831T050854Z
+DTSTAMP:20261024T212607Z
+UID:SB25572
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25572\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Snowboard World Cup Halfpipe Qualification
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050854Z
+LAST-MODIFIED:20260831T050854Z
+DTSTAMP:20261024T212607Z
+UID:SB25573
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25573\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Snowboard World Cup Halfpipe Qualification
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050854Z
+LAST-MODIFIED:20260831T050854Z
+DTSTAMP:20261024T212607Z
+UID:SB25574
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25574\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Snowboard World Cup Slopestyle
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050854Z
+LAST-MODIFIED:20260831T050854Z
+DTSTAMP:20261024T212607Z
+UID:SB25575
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25575\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Snowboard World Cup Slopestyle
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050854Z
+LAST-MODIFIED:20260831T050854Z
+DTSTAMP:20261024T212607Z
+UID:SB25576
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25576\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Snowboard World Cup Halfpipe
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260831T050854Z
+LAST-MODIFIED:20260831T050854Z
+DTSTAMP:20261024T212607Z
+UID:SB25577
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25577\nOrganisation: \nU.S. Ski and Snowboard\n1 Victory Lane\n84060 Park City, Utah\nUSA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Aspen (USA) - Snowboard World Cup Halfpipe
+LOCATION:Aspen
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260925T050904Z
+LAST-MODIFIED:20260925T050904Z
+DTSTAMP:20261024T212607Z
+UID:SB25479
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25479\nOrganisation: \nPolski Zwiazek Narciarski\nUl. Mieszczanska 18/3\n30-313\nPOL\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Krynica (POL) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Krynica
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260925T050904Z
+LAST-MODIFIED:20260925T050904Z
+DTSTAMP:20261024T212607Z
+UID:SB25480
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25480\nOrganisation: \nPolski Zwiazek Narciarski\nUl. Mieszczanska 18/3\n30-313\nPOL\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Krynica (POL) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Krynica
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260925T050904Z
+LAST-MODIFIED:20260925T050904Z
+DTSTAMP:20261024T212607Z
+UID:SB25481
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25481\nOrganisation: \nPolski Zwiazek Narciarski\nUl. Mieszczanska 18/3\n30-313\nPOL\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Krynica (POL) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Krynica
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260925T050904Z
+LAST-MODIFIED:20260925T050904Z
+DTSTAMP:20261024T212607Z
+UID:SB25611
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25611\nOrganisation: \nPolski Zwiazek Narciarski\nUl. Mieszczanska 18/3\n30-313\nPOL\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Krynica (POL) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Krynica
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260925T050904Z
+LAST-MODIFIED:20260925T050904Z
+DTSTAMP:20261024T212607Z
+UID:SB25612
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25612\nOrganisation: \nPolski Zwiazek Narciarski\nUl. Mieszczanska 18/3\n30-313\nPOL\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Krynica (POL) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Krynica
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260925T050904Z
+LAST-MODIFIED:20260925T050904Z
+DTSTAMP:20261024T212607Z
+UID:SB25613
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25613\nOrganisation: \nPolski Zwiazek Narciarski\nUl. Mieszczanska 18/3\n30-313\nPOL\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Krynica (POL) - Snowboard World Cup Parallel Giant Slalom Qualification
+LOCATION:Krynica
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260925T050904Z
+LAST-MODIFIED:20260925T050904Z
+DTSTAMP:20261024T212607Z
+UID:SB25614
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25614\nOrganisation: \nPolski Zwiazek Narciarski\nUl. Mieszczanska 18/3\n30-313\nPOL\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Krynica (POL) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Krynica
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260925T050904Z
+LAST-MODIFIED:20260925T050904Z
+DTSTAMP:20261024T212607Z
+UID:SB25615
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Giant Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25615\nOrganisation: \nPolski Zwiazek Narciarski\nUl. Mieszczanska 18/3\n30-313\nPOL\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Krynica (POL) - Snowboard World Cup Parallel Giant Slalom
+LOCATION:Krynica
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260615T080636Z
+LAST-MODIFIED:20260615T080636Z
+DTSTAMP:20261024T212607Z
+UID:SB25482
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25482\nOrganisation: \nGER
+SUMMARY:Winterberg (GER) - Snowboard World Cup Parallel Slalom Qualification
+LOCATION:Winterberg
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260615T080636Z
+LAST-MODIFIED:20260615T080636Z
+DTSTAMP:20261024T212607Z
+UID:SB25483
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Slalom Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25483\nOrganisation: \nGER
+SUMMARY:Winterberg (GER) - Snowboard World Cup Parallel Slalom Qualification
+LOCATION:Winterberg
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260615T080636Z
+LAST-MODIFIED:20260615T080636Z
+DTSTAMP:20261024T212607Z
+UID:SB25484
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Parallel Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25484\nOrganisation: \nGER
+SUMMARY:Winterberg (GER) - Snowboard World Cup Parallel Slalom
+LOCATION:Winterberg
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25616
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Parallel Slalom\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25616\nOrganisation: \nGER
+SUMMARY:Winterberg (GER) - Snowboard World Cup Parallel Slalom
+LOCATION:Winterberg
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25617
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Mixed\Event: Parallel Team Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25617\nOrganisation: \nGER
+SUMMARY:Winterberg (GER) - Snowboard World Cup Parallel Team Qualification
+LOCATION:Winterberg
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25618
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Mixed\Event: Parallel Team\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25618\nOrganisation: \nGER
+SUMMARY:Winterberg (GER) - Snowboard World Cup Parallel Team
+LOCATION:Winterberg
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25522
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25522\nOrganisation: \nCAN
+SUMMARY:Mt. St. Anne (CAN) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Mt. St. Anne
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25523
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25523\nOrganisation: \nCAN
+SUMMARY:Mt. St. Anne (CAN) - Snowboard World Cup Snowboard Cross Qualification
+LOCATION:Mt. St. Anne
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25524
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25524\nOrganisation: \nCAN
+SUMMARY:Mt. St. Anne (CAN) - Snowboard World Cup Snowboard Cross
+LOCATION:Mt. St. Anne
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260811T030844Z
+LAST-MODIFIED:20260811T030844Z
+DTSTAMP:20261024T212607Z
+UID:SB25525
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25525\nOrganisation: \nCAN
+SUMMARY:Mt. St. Anne (CAN) - Snowboard World Cup Snowboard Cross
+LOCATION:Mt. St. Anne
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261009T031047Z
+LAST-MODIFIED:20261009T031047Z
+DTSTAMP:20261024T212607Z
+UID:SB26254
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=26254\nOrganisation: \nCAN
+SUMMARY:Mt. St. Anne (CAN) - Snowboard World Cup Snowboard Cross
+LOCATION:Mt. St. Anne
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261009T031047Z
+LAST-MODIFIED:20261009T031047Z
+DTSTAMP:20261024T212607Z
+UID:SB26255
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Snowboard Cross\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=26255\nOrganisation: \nCAN
+SUMMARY:Mt. St. Anne (CAN) - Snowboard World Cup Snowboard Cross
+LOCATION:Mt. St. Anne
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091056Z
+LAST-MODIFIED:20261012T091056Z
+DTSTAMP:20261024T212607Z
+UID:SB25578
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25578\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513\nSilvaplana\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Snowboard World Cup Halfpipe Qualification
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091056Z
+LAST-MODIFIED:20261012T091056Z
+DTSTAMP:20261024T212607Z
+UID:SB25579
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Halfpipe Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25579\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513\nSilvaplana\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Snowboard World Cup Halfpipe Qualification
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091056Z
+LAST-MODIFIED:20261012T091056Z
+DTSTAMP:20261024T212607Z
+UID:SB25580
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25580\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513\nSilvaplana\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Snowboard World Cup Slopestyle Qualification
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091056Z
+LAST-MODIFIED:20261012T091056Z
+DTSTAMP:20261024T212607Z
+UID:SB25581
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slopestyle Qualification\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25581\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513\nSilvaplana\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Snowboard World Cup Slopestyle Qualification
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-SB-QUA
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091056Z
+LAST-MODIFIED:20261012T091056Z
+DTSTAMP:20261024T212607Z
+UID:SB25582
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25582\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513\nSilvaplana\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Snowboard World Cup Halfpipe
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091056Z
+LAST-MODIFIED:20261012T091056Z
+DTSTAMP:20261024T212607Z
+UID:SB25583
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Halfpipe\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25583\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513\nSilvaplana\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Snowboard World Cup Halfpipe
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091056Z
+LAST-MODIFIED:20261012T091056Z
+DTSTAMP:20261024T212607Z
+UID:SB25584
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25584\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513\nSilvaplana\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Snowboard World Cup Slopestyle
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261012T091056Z
+LAST-MODIFIED:20261012T091056Z
+DTSTAMP:20261024T212607Z
+UID:SB25585
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slopestyle\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=SB&raceid=25585\nOrganisation: \nWorld Cup Corvatsch\nVia dal Corvatsch\n7513\nSilvaplana\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.corvatschpark.ch/freeski-snowboard-world-cup?_gl=1*1n8muah*_gcl_au*MTU4MDc4MzA4MS4xNzkwNTg3NjA5Li0uLS4xNzkwNTg3NjM5LjIwNzQ4MDI3Ni4xNzkwNTg3NjM5LjE3OTA1ODc2Mzk.
+SUMMARY:Silvaplana (SUI) - Snowboard World Cup Slopestyle
+LOCATION:Silvaplana
+CATEGORIES:FIS-calendar-SB-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+
+END:VCALENDAR

@@ -1,0 +1,1292 @@
+BEGIN:VCALENDAR
+PRODID:-//FIS//Calendar//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Zurich
+TZURL:http://tzurl.org/zoneinfo/Europe/Zurich
+X-LIC-LOCATION:Europe/Zurich
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+BEGIN:STANDARD
+TZOFFSETFROM:+003408
+TZOFFSETTO:+002946
+TZNAME:BMT
+DTSTART:18530716T000000
+RDATE:18530716T000000
+END:STANDARD
+BEGIN:STANDARD
+TZOFFSETFROM:+002946
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:18940601T000000
+RDATE:18940601T000000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19410505T010000
+RDATE:19410505T010000
+RDATE:19420504T010000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19411006T020000
+RDATE:19411006T020000
+RDATE:19421005T020000
+RDATE:19810927T030000
+RDATE:19820926T030000
+RDATE:19830925T030000
+RDATE:19840930T030000
+RDATE:19850929T030000
+RDATE:19860928T030000
+RDATE:19870927T030000
+RDATE:19880925T030000
+RDATE:19890924T030000
+RDATE:19900930T030000
+RDATE:19910929T030000
+RDATE:19920927T030000
+RDATE:19930926T030000
+RDATE:19940925T030000
+RDATE:19950924T030000
+END:STANDARD
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19810101T000000
+RDATE:19810101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20261024T071048Z
+LAST-MODIFIED:20261024T071048Z
+DTSTAMP:20261024T212127Z
+UID:AL131578
+DTSTART:20261025T090000Z
+DTEND:20261025T130000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Giant Slalom\nRun 1 loc: 10:00\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131578\nOrganisation: \nOrganisations Komitee Bergbahnen Sölden | Ötztal Tourismus\nDorfstraße 115\n6450 Sölden\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.soelden.com/de/veranstaltungen-freizeittipps/events/audi-fis-skiweltcup-opening
+SUMMARY:Soelden (AUT) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Soelden
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261024T071047Z
+LAST-MODIFIED:20261024T071047Z
+DTSTAMP:20261024T212127Z
+UID:AL131577
+DTSTART:20261024T083000Z
+DTEND:20261024T123000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Giant Slalom\nRun 1 loc: 10:30\nRun 2 loc: 13:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131577\nOrganisation: \nOrganisations Komitee Bergbahnen Sölden | Ötztal Tourismus\nDorfstraße 115\n6450 Sölden\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.soelden.com/de/veranstaltungen-freizeittipps/events/audi-fis-skiweltcup-opening
+SUMMARY:Soelden (AUT) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Soelden
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111044Z
+LAST-MODIFIED:20261018T111044Z
+DTSTAMP:20261024T212127Z
+UID:AL131580
+DTSTART:20261115T090000Z
+DTEND:20261115T130000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slalom\nRun 1 loc: 11:00\nRun 2 loc: 14:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131580\nOrganisation: \nSki Sport Finland ry\nValimotie 10\n00380 Helsinki\nFinland\nFIN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.worldcuplevi.com
+SUMMARY:Levi (FIN) - Alpine Skiing World Cup Slalom
+LOCATION:Levi
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111043Z
+LAST-MODIFIED:20261018T111043Z
+DTSTAMP:20261024T212127Z
+UID:AL131579
+DTSTART:20261114T090000Z
+DTEND:20261114T130000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slalom\nRun 1 loc: 11:00\nRun 2 loc: 14:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131579\nOrganisation: \nSki Sport Finland ry\nValimotie 10\n00380 Helsinki\nFinland\nFIN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.worldcuplevi.com
+SUMMARY:Levi (FIN) - Alpine Skiing World Cup Slalom
+LOCATION:Levi
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111045Z
+LAST-MODIFIED:20261018T111045Z
+DTSTAMP:20261024T212127Z
+UID:AL131582
+DTSTART:20261122T093000Z
+DTEND:20261122T133000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slalom\nRun 1 loc: 10:30\nRun 2 loc: 13:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131582\nOrganisation: \nHochgurgler Lift-Gesellschaft m.b.H. & Co KG\nTimmelsjochstraße 8\n6456 Hochgurgl\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.gurgl.com/de/events-freizeittipps/events/audi-fis-skiweltcup
+SUMMARY:Gurgl (AUT) - Alpine Skiing World Cup Slalom
+LOCATION:Gurgl
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111045Z
+LAST-MODIFIED:20261018T111045Z
+DTSTAMP:20261024T212127Z
+UID:AL131581
+DTSTART:20261121T093000Z
+DTEND:20261121T133000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slalom\nRun 1 loc: 10:30\nRun 2 loc: 13:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131581\nOrganisation: \nHochgurgler Lift-Gesellschaft m.b.H. & Co KG\nTimmelsjochstraße 8\n6456 Hochgurgl\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.gurgl.com/de/events-freizeittipps/events/audi-fis-skiweltcup
+SUMMARY:Gurgl (AUT) - Alpine Skiing World Cup Slalom
+LOCATION:Gurgl
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111046Z
+LAST-MODIFIED:20261018T111046Z
+DTSTAMP:20261024T212127Z
+UID:AL131583
+DTSTART:20261128T143000Z
+DTEND:20261128T183000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Giant Slalom\nRun 1 loc: 09:30\nRun 2 loc: 12:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131583\nOrganisation: \nKillington Resort\n4763 Killington Rd\nKillington, VT 05751\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://killington.com/the-killington-cup
+SUMMARY:Killington (USA) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Killington
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111047Z
+LAST-MODIFIED:20261018T111047Z
+DTSTAMP:20261024T212127Z
+UID:AL131584
+DTSTART:20261129T153000Z
+DTEND:20261129T193000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slalom\nRun 1 loc: 10:30\nRun 2 loc: 13:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131584\nOrganisation: \nKillington Resort\n4763 Killington Rd\nKillington, VT 05751\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://killington.com/the-killington-cup
+SUMMARY:Killington (USA) - Alpine Skiing World Cup Slalom
+LOCATION:Killington
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111047Z
+LAST-MODIFIED:20261018T111047Z
+DTSTAMP:20261024T212127Z
+UID:AL131697
+DTSTART:20261128T184500Z
+DTEND:20261128T224500Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Super G\nRun 1 loc: 11:45\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131697\nOrganisation: \nCopper Mountain\n209 Ten Mile Circle\n80443 Copper Mtn, CO\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.coppercolorado.com/copper-cup/event-experience/
+SUMMARY:Copper Mountain, CO (USA) - Alpine Skiing World Cup Super G
+LOCATION:Copper Mountain, CO
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111048Z
+LAST-MODIFIED:20261018T111048Z
+DTSTAMP:20261024T212127Z
+UID:AL131698
+DTSTART:20261129T170000Z
+DTEND:20261129T210000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Giant Slalom\nRun 1 loc: 10:00\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131698\nOrganisation: \nCopper Mountain\n209 Ten Mile Circle\n80443 Copper Mtn, CO\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.coppercolorado.com/copper-cup/event-experience/
+SUMMARY:Copper Mountain, CO (USA) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Copper Mountain, CO
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111051Z
+LAST-MODIFIED:20261018T111051Z
+DTSTAMP:20261024T212127Z
+UID:AL131705
+DTSTART:20261206T170000Z
+DTEND:20261206T210000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Giant Slalom\nRun 1 loc: 10:00\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131705\nOrganisation: \nVail Valley Foundation\nPO Box 6650\n81620\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.bcworldcup.com
+SUMMARY:Beaver Creek (USA) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Beaver Creek
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111050Z
+LAST-MODIFIED:20261018T111050Z
+DTSTAMP:20261024T212127Z
+UID:AL131704
+DTSTART:20261205T173000Z
+DTEND:20261205T213000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Super G\nRun 1 loc: 10:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131704\nOrganisation: \nVail Valley Foundation\nPO Box 6650\n81620\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.bcworldcup.com
+SUMMARY:Beaver Creek (USA) - Alpine Skiing World Cup Super G
+LOCATION:Beaver Creek
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111049Z
+LAST-MODIFIED:20261018T111049Z
+DTSTAMP:20261024T212127Z
+UID:AL131703
+DTSTART:20261204T180000Z
+DTEND:20261204T220000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Downhill\nRun 1 loc: 11:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131703\nOrganisation: \nVail Valley Foundation\nPO Box 6650\n81620\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.bcworldcup.com
+SUMMARY:Beaver Creek (USA) - Alpine Skiing World Cup Downhill
+LOCATION:Beaver Creek
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111049Z
+LAST-MODIFIED:20261018T111049Z
+DTSTAMP:20261024T212127Z
+UID:AL131702
+DTSTART:20261203T180000Z
+DTEND:20261203T220000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Downhill\nRun 1 loc: 11:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131702\nOrganisation: \nVail Valley Foundation\nPO Box 6650\n81620\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.bcworldcup.com
+SUMMARY:Beaver Creek (USA) - Alpine Skiing World Cup Downhill
+LOCATION:Beaver Creek
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111050Z
+LAST-MODIFIED:20261018T111050Z
+DTSTAMP:20261024T212127Z
+UID:AL131597
+DTSTART:20261205T160000Z
+DTEND:20261205T200000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Giant Slalom\nRun 1 loc: 11:00\nRun 2 loc: 14:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131597\nOrganisation: \nStation Mont Tremblant\n1000 Chemin des Voyageurs\nMont-Tremblant, QC  J8E 1T1\nCAN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://coupedumonde.tremblant.ca/en/
+SUMMARY:Tremblant (CAN) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Tremblant
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111052Z
+LAST-MODIFIED:20261018T111052Z
+DTSTAMP:20261024T212127Z
+UID:AL131598
+DTSTART:20261206T153000Z
+DTEND:20261206T193000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Giant Slalom\nRun 1 loc: 10:30\nRun 2 loc: 13:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131598\nOrganisation: \nStation Mont Tremblant\n1000 Chemin des Voyageurs\nMont-Tremblant, QC  J8E 1T1\nCAN\nPhone: (removed)\nE-mail: (removed)\nWeb: https://coupedumonde.tremblant.ca/en/
+SUMMARY:Tremblant (CAN) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Tremblant
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111052Z
+LAST-MODIFIED:20261018T111052Z
+DTSTAMP:20261024T212127Z
+UID:AL131601
+DTSTART:20261211T180000Z
+DTEND:20261211T220000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Downhill\nRun 1 loc: 11:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131601\nOrganisation: \nVail Valley Foundation\nPO Box 6650\n81620\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.bcworldcup.com
+SUMMARY:Beaver Creek (USA) - Alpine Skiing World Cup Downhill
+LOCATION:Beaver Creek
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111053Z
+LAST-MODIFIED:20261018T111053Z
+DTSTAMP:20261024T212127Z
+UID:AL131602
+DTSTART:20261212T170000Z
+DTEND:20261212T210000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Downhill\nRun 1 loc: 10:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131602\nOrganisation: \nVail Valley Foundation\nPO Box 6650\n81620\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.bcworldcup.com
+SUMMARY:Beaver Creek (USA) - Alpine Skiing World Cup Downhill
+LOCATION:Beaver Creek
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111054Z
+LAST-MODIFIED:20261018T111054Z
+DTSTAMP:20261024T212127Z
+UID:AL131603
+DTSTART:20261213T180000Z
+DTEND:20261213T220000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Super G\nRun 1 loc: 11:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131603\nOrganisation: \nVail Valley Foundation\nPO Box 6650\n81620\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.bcworldcup.com
+SUMMARY:Beaver Creek (USA) - Alpine Skiing World Cup Super G
+LOCATION:Beaver Creek
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111053Z
+LAST-MODIFIED:20261018T111053Z
+DTSTAMP:20261024T212127Z
+UID:AL131706
+DTSTART:20261212T090000Z
+DTEND:20261212T130000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Giant Slalom\nRun 1 loc: 10:00\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131706\nOrganisation: \nClub des Sports Val d Isere\n391 rue de la Face\n73150 Val D Isere\nFRA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.worldcup-valdisere.com/en/
+SUMMARY:Val d'Isere (FRA) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Val d'Isere
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111053Z
+LAST-MODIFIED:20261018T111053Z
+DTSTAMP:20261024T212127Z
+UID:AL131707
+DTSTART:20261213T090000Z
+DTEND:20261213T130000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slalom\nRun 1 loc: 10:00\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131707\nOrganisation: \nClub des Sports Val d Isere\n391 rue de la Face\n73150 Val D Isere\nFRA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.worldcup-valdisere.com/en/
+SUMMARY:Val d'Isere (FRA) - Alpine Skiing World Cup Slalom
+LOCATION:Val d'Isere
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111055Z
+LAST-MODIFIED:20261018T111055Z
+DTSTAMP:20261024T212127Z
+UID:AL131711
+DTSTART:20261218T110000Z
+DTEND:20261218T150000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Super G\nRun 1 loc: 12:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131711\nOrganisation: \nSaslong Classic Club Gardena - Groeden A.S.D\nSt. Dursan, 106\n39047 Santa Cristina Valgardena\n02827\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.saslong.org
+SUMMARY:Val Gardena-Groeden Südtirol (ITA) - Alpine Skiing World Cup Super G
+LOCATION:Val Gardena-Groeden Südtirol
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111056Z
+LAST-MODIFIED:20261018T111056Z
+DTSTAMP:20261024T212127Z
+UID:AL131712
+DTSTART:20261219T110000Z
+DTEND:20261219T150000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Downhill\nRun 1 loc: 12:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131712\nOrganisation: \nSaslong Classic Club Gardena - Groeden A.S.D\nSt. Dursan, 106\n39047 Santa Cristina Valgardena\n02827\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.saslong.org
+SUMMARY:Val Gardena-Groeden Südtirol (ITA) - Alpine Skiing World Cup Downhill
+LOCATION:Val Gardena-Groeden Südtirol
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111055Z
+LAST-MODIFIED:20261018T111055Z
+DTSTAMP:20261024T212127Z
+UID:AL131604
+DTSTART:20261218T093000Z
+DTEND:20261218T133000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Super G\nRun 1 loc: 10:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131604\nOrganisation: \nASESE Alpine Sports Events St. Moritz Engadin\nVia San Gian 30\n7500 St. Moritz\nSUI\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.skiweltcup-stmoritz.ch/en
+SUMMARY:St. Moritz (SUI) - Alpine Skiing World Cup Super G
+LOCATION:St. Moritz
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111056Z
+LAST-MODIFIED:20261018T111056Z
+DTSTAMP:20261024T212127Z
+UID:AL131605
+DTSTART:20261219T093000Z
+DTEND:20261219T133000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Super G\nRun 1 loc: 10:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131605\nOrganisation: \nASESE Alpine Sports Events St. Moritz Engadin\nVia San Gian 30\n7500 St. Moritz\nSUI\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.skiweltcup-stmoritz.ch/en
+SUMMARY:St. Moritz (SUI) - Alpine Skiing World Cup Super G
+LOCATION:St. Moritz
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111058Z
+LAST-MODIFIED:20261018T111058Z
+DTSTAMP:20261024T212127Z
+UID:AL131606
+DTSTART:20261220T083000Z
+DTEND:20261220T123000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Giant Slalom\nRun 1 loc: 09:30\nRun 2 loc: 12:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131606\nOrganisation: \nASESE Alpine Sports Events St. Moritz Engadin\nVia San Gian 30\n7500 St. Moritz\nSUI\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.skiweltcup-stmoritz.ch/en
+SUMMARY:St. Moritz (SUI) - Alpine Skiing World Cup Giant Slalom
+LOCATION:St. Moritz
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111057Z
+LAST-MODIFIED:20261018T111057Z
+DTSTAMP:20261024T212127Z
+UID:AL131713
+DTSTART:20261220T093000Z
+DTEND:20261220T133000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Giant Slalom\nRun 1 loc: 10:30\nRun 2 loc: 13:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131713\nOrganisation: \nAlpine Ski World Cup Alta Badia\nStr. Planmurin 5\n39030 La Villa, Badia\n00097\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.skiworldcup.it/de/ski-world-cup-alta-badia.php
+SUMMARY:Alta Badia (ITA) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Alta Badia
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111059Z
+LAST-MODIFIED:20261018T111059Z
+DTSTAMP:20261024T212127Z
+UID:AL131714
+DTSTART:20261221T164500Z
+DTEND:20261221T204500Z
+DESCRIPTION:Night event\nCategory: World Cup\nGender: Men\Event: Slalom\nRun 1 loc: 17:45\nRun 2 loc: 21:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131714\nOrganisation: \nAlpine Ski World Cup Alta Badia\nStr. Planmurin 5\n39030 La Villa, Badia\n00097\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.skiworldcup.it/de/ski-world-cup-alta-badia.php
+SUMMARY:Alta Badia (ITA) - Alpine Skiing World Cup Slalom
+LOCATION:Alta Badia
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T111059Z
+LAST-MODIFIED:20261018T111059Z
+DTSTAMP:20261024T212127Z
+UID:AL131607
+DTSTART:20261222T164500Z
+DTEND:20261222T204500Z
+DESCRIPTION:Night event\nCategory: World Cup\nGender: Women\Event: Slalom\nRun 1 loc: 17:45\nRun 2 loc: 20:45\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131607\nOrganisation: \nClub des Sports Courchevel\nBENAGLIA Julie\n83 rue Park City\n73120 Courchevel\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Courchevel (FRA) - Alpine Skiing World Cup Slalom
+LOCATION:Courchevel
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121000Z
+LAST-MODIFIED:20261018T121000Z
+DTSTAMP:20261024T212127Z
+UID:AL131715
+DTSTART:20261223T164500Z
+DTEND:20261223T204500Z
+DESCRIPTION:Night event\nCategory: World Cup\nGender: Men\Event: Slalom\nRun 1 loc: 17:45\nRun 2 loc: 21:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131715\nOrganisation: \nCOMITATO 3TRE\nVia Pradalago, 4\n38086 Madonna di Campiglio, Pinzolo\n00329\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.3trecampiglio.it/en
+SUMMARY:Madonna di Campiglio (ITA) - Alpine Skiing World Cup Slalom
+LOCATION:Madonna di Campiglio
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121001Z
+LAST-MODIFIED:20261018T121001Z
+DTSTAMP:20261024T212127Z
+UID:AL131839
+DTSTART:20261229T103000Z
+DTEND:20261229T143000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Super G\nRun 1 loc: 11:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131839\nOrganisation: \nFONDAZIONE BORMIO\nVia Buon Consiglio, 25\n23032 Bormio\n00118\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.fondazionebormio.com
+SUMMARY:Bormio (ITA) - Alpine Skiing World Cup Super G
+LOCATION:Bormio
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121000Z
+LAST-MODIFIED:20261018T121000Z
+DTSTAMP:20261024T212127Z
+UID:AL131838
+DTSTART:20261228T103000Z
+DTEND:20261228T143000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Downhill\nRun 1 loc: 11:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131838\nOrganisation: \nFONDAZIONE BORMIO\nVia Buon Consiglio, 25\n23032 Bormio\n00118\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.fondazionebormio.com
+SUMMARY:Bormio (ITA) - Alpine Skiing World Cup Downhill
+LOCATION:Bormio
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121001Z
+LAST-MODIFIED:20261018T121001Z
+DTSTAMP:20261024T212127Z
+UID:AL131608
+DTSTART:20261228T090000Z
+DTEND:20261228T130000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Giant Slalom\nRun 1 loc: 10:00\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131608\nOrganisation: \nASKÖ Raiffeisen Gosau\nGosauseestraße 623\n4824 Gosau\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.dachstein.at/de/skiweltcup
+SUMMARY:Dachstein West / Gosau (AUT) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Dachstein West / Gosau
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121002Z
+LAST-MODIFIED:20261018T121002Z
+DTSTAMP:20261024T212127Z
+UID:AL131609
+DTSTART:20261229T090000Z
+DTEND:20261229T130000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slalom\nRun 1 loc: 10:00\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131609\nOrganisation: \nASKÖ Raiffeisen Gosau\nGosauseestraße 623\n4824 Gosau\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.dachstein.at/de/skiweltcup
+SUMMARY:Dachstein West / Gosau (AUT) - Alpine Skiing World Cup Slalom
+LOCATION:Dachstein West / Gosau
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121003Z
+LAST-MODIFIED:20261018T121003Z
+DTSTAMP:20261024T212127Z
+UID:AL131716
+DTSTART:20270102T090000Z
+DTEND:20270102T130000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Giant Slalom\nRun 1 loc: 10:00\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131716\nOrganisation: \nZavod SLOSKI Organizing Committee World Cup Kranjska Gora\nPodutiška cesta 146\n1000 Ljubljana\nSLOVENIA\nSLO\nPhone: (removed)\nE-mail: (removed)\nWeb: https://pokal-vitranc.com/
+SUMMARY:Kranjska Gora (SLO) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Kranjska Gora
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121003Z
+LAST-MODIFIED:20261018T121003Z
+DTSTAMP:20261024T212127Z
+UID:AL131717
+DTSTART:20270103T090000Z
+DTEND:20270103T130000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slalom\nRun 1 loc: 10:00\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131717\nOrganisation: \nZavod SLOSKI Organizing Committee World Cup Kranjska Gora\nPodutiška cesta 146\n1000 Ljubljana\nSLOVENIA\nSLO\nPhone: (removed)\nE-mail: (removed)\nWeb: https://pokal-vitranc.com/
+SUMMARY:Kranjska Gora (SLO) - Alpine Skiing World Cup Slalom
+LOCATION:Kranjska Gora
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121004Z
+LAST-MODIFIED:20261018T121004Z
+DTSTAMP:20261024T212127Z
+UID:AL131654
+DTSTART:20270104T164500Z
+DTEND:20270104T204500Z
+DESCRIPTION:Night event\nCategory: World Cup\nGender: Women\Event: Giant Slalom\nRun 1 loc: 17:45\nRun 2 loc: 20:45\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131654\nOrganisation: \nASVG\nHermann-Maier-Platz 1\n5542 Flachau\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Flachau (AUT) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Flachau
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121004Z
+LAST-MODIFIED:20261018T121004Z
+DTSTAMP:20261024T212127Z
+UID:AL131655
+DTSTART:20270105T170000Z
+DTEND:20270105T210000Z
+DESCRIPTION:Night event\nCategory: World Cup\nGender: Women\Event: Slalom\nRun 1 loc: 18:00\nRun 2 loc: 21:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131655\nOrganisation: \nASVG\nHermann-Maier-Platz 1\n5542 Flachau\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Flachau (AUT) - Alpine Skiing World Cup Slalom
+LOCATION:Flachau
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121005Z
+LAST-MODIFIED:20261018T121005Z
+DTSTAMP:20261024T212127Z
+UID:AL131658
+DTSTART:20270109T103000Z
+DTEND:20270109T143000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Downhill\nRun 1 loc: 11:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131658\nOrganisation: \nVal di Fassa Grandi Eventi\nStreda Roma 36\n38032 Canazei\n01184\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://skiworldcup.fassa.com/it
+SUMMARY:Val di Fassa (ITA) - Alpine Skiing World Cup Downhill
+LOCATION:Val di Fassa
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121006Z
+LAST-MODIFIED:20261018T121006Z
+DTSTAMP:20261024T212127Z
+UID:AL131659
+DTSTART:20270110T103000Z
+DTEND:20270110T143000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Super G\nRun 1 loc: 11:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131659\nOrganisation: \nVal di Fassa Grandi Eventi\nStreda Roma 36\n38032 Canazei\n01184\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://skiworldcup.fassa.com/it
+SUMMARY:Val di Fassa (ITA) - Alpine Skiing World Cup Super G
+LOCATION:Val di Fassa
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121005Z
+LAST-MODIFIED:20261018T121005Z
+DTSTAMP:20261024T212127Z
+UID:AL131718
+DTSTART:20270109T093000Z
+DTEND:20270109T133000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Giant Slalom\nRun 1 loc: 10:30\nRun 2 loc: 13:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131718\nOrganisation: \nSki-Weltcup Adelboden AG\nDorfstrasse 40\n3715 Adelboden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.weltcup-adelboden.ch
+SUMMARY:Adelboden (SUI) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Adelboden
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121005Z
+LAST-MODIFIED:20261018T121005Z
+DTSTAMP:20261024T212127Z
+UID:AL131719
+DTSTART:20270110T093000Z
+DTEND:20270110T133000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slalom\nRun 1 loc: 10:30\nRun 2 loc: 13:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131719\nOrganisation: \nSki-Weltcup Adelboden AG\nDorfstrasse 40\n3715 Adelboden\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.weltcup-adelboden.ch
+SUMMARY:Adelboden (SUI) - Alpine Skiing World Cup Slalom
+LOCATION:Adelboden
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121008Z
+LAST-MODIFIED:20261018T121008Z
+DTSTAMP:20261024T212127Z
+UID:AL131723
+DTSTART:20270115T113000Z
+DTEND:20270115T153000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Super G\nRun 1 loc: 12:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131723\nOrganisation: \nVerein Int. Lauberhornrennen\nPostfach 386\n3823 Wengen\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.lauberhorn.ch
+SUMMARY:Wengen (SUI) - Alpine Skiing World Cup Super G
+LOCATION:Wengen
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121010Z
+LAST-MODIFIED:20261018T121010Z
+DTSTAMP:20261024T212127Z
+UID:AL131725
+DTSTART:20270117T090000Z
+DTEND:20270117T130000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slalom\nRun 1 loc: 10:00\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131725\nOrganisation: \nVerein Int. Lauberhornrennen\nPostfach 386\n3823 Wengen\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.lauberhorn.ch
+SUMMARY:Wengen (SUI) - Alpine Skiing World Cup Slalom
+LOCATION:Wengen
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121009Z
+LAST-MODIFIED:20261018T121009Z
+DTSTAMP:20261024T212127Z
+UID:AL131724
+DTSTART:20270116T113000Z
+DTEND:20270116T153000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Downhill\nRun 1 loc: 12:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131724\nOrganisation: \nVerein Int. Lauberhornrennen\nPostfach 386\n3823 Wengen\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.lauberhorn.ch
+SUMMARY:Wengen (SUI) - Alpine Skiing World Cup Downhill
+LOCATION:Wengen
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121009Z
+LAST-MODIFIED:20261018T121009Z
+DTSTAMP:20261024T212127Z
+UID:AL131664
+DTSTART:20270115T100000Z
+DTEND:20270115T140000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Downhill\nRun 1 loc: 11:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131664\nOrganisation: \nFondazione Cortina\nVia Marangoi,1\n32043 Cortina d'Ampezzo\n00018\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cortinaskiworldcup.com/
+SUMMARY:Cortina d'Ampezzo (ITA) - Alpine Skiing World Cup Downhill
+LOCATION:Cortina d'Ampezzo
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121010Z
+LAST-MODIFIED:20261018T121010Z
+DTSTAMP:20261024T212127Z
+UID:AL131665
+DTSTART:20270116T100000Z
+DTEND:20270116T140000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Downhill\nRun 1 loc: 11:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131665\nOrganisation: \nFondazione Cortina\nVia Marangoi,1\n32043 Cortina d'Ampezzo\n00018\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cortinaskiworldcup.com/
+SUMMARY:Cortina d'Ampezzo (ITA) - Alpine Skiing World Cup Downhill
+LOCATION:Cortina d'Ampezzo
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121011Z
+LAST-MODIFIED:20261018T121011Z
+DTSTAMP:20261024T212127Z
+UID:AL131666
+DTSTART:20270117T101500Z
+DTEND:20270117T141500Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Super G\nRun 1 loc: 11:15\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131666\nOrganisation: \nFondazione Cortina\nVia Marangoi,1\n32043 Cortina d'Ampezzo\n00018\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.cortinaskiworldcup.com/
+SUMMARY:Cortina d'Ampezzo (ITA) - Alpine Skiing World Cup Super G
+LOCATION:Cortina d'Ampezzo
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121011Z
+LAST-MODIFIED:20261018T121011Z
+DTSTAMP:20261024T212127Z
+UID:AL131667
+DTSTART:20270119T093000Z
+DTEND:20270119T133000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Giant Slalom\nRun 1 loc: 10:30\nRun 2 loc: 13:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131667\nOrganisation: \nO.C. Al Plan Events\nStr. Plan de Corones, 38\n39030 Marebbe\n00044\nITA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.skiworldcup-kronplatz.com
+SUMMARY:Kronplatz (ITA) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Kronplatz
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121012Z
+LAST-MODIFIED:20261018T121012Z
+DTSTAMP:20261024T212127Z
+UID:AL131729
+DTSTART:20270122T103000Z
+DTEND:20270122T143000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Super G\nRun 1 loc: 11:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131729\nOrganisation: \nKitzbueheler Ski Club (K.S.C.)\nHinterstadt 4\n6370 Kitzbühel\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Kitzbuehel (AUT) - Alpine Skiing World Cup Super G
+LOCATION:Kitzbuehel
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121012Z
+LAST-MODIFIED:20261018T121012Z
+DTSTAMP:20261024T212127Z
+UID:AL131730
+DTSTART:20270123T103000Z
+DTEND:20270123T143000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Downhill\nRun 1 loc: 11:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131730\nOrganisation: \nKitzbueheler Ski Club (K.S.C.)\nHinterstadt 4\n6370 Kitzbühel\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Kitzbuehel (AUT) - Alpine Skiing World Cup Downhill
+LOCATION:Kitzbuehel
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121013Z
+LAST-MODIFIED:20261018T121013Z
+DTSTAMP:20261024T212127Z
+UID:AL131731
+DTSTART:20270124T093000Z
+DTEND:20270124T133000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slalom\nRun 1 loc: 10:30\nRun 2 loc: 13:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131731\nOrganisation: \nKitzbueheler Ski Club (K.S.C.)\nHinterstadt 4\n6370 Kitzbühel\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Kitzbuehel (AUT) - Alpine Skiing World Cup Slalom
+LOCATION:Kitzbuehel
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T101037Z
+LAST-MODIFIED:20261019T101037Z
+DTSTAMP:20261024T212127Z
+UID:AL131866
+DTSTART:20270124T083000Z
+DTEND:20270124T123000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slalom\nRun 1 loc: 09:30\nRun 2 loc: 12:15\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131866\nOrganisation: \nSki Association of Slovakia\nGalvaniho 16617/17C\n821 04 Bratislava\nBratislava\nSVK\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.worldcupjasna.sk/
+SUMMARY:Jasna (SVK) - Alpine Skiing World Cup Slalom
+LOCATION:Jasna
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T101037Z
+LAST-MODIFIED:20261019T101037Z
+DTSTAMP:20261024T212127Z
+UID:AL131668
+DTSTART:20270123T090000Z
+DTEND:20270123T130000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Giant Slalom\nRun 1 loc: 10:00\nRun 2 loc: 13:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131668\nOrganisation: \nSki Association of Slovakia\nGalvaniho 16617/17C\n821 04 Bratislava\nBratislava\nSVK\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.worldcupjasna.sk/
+SUMMARY:Jasna (SVK) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Jasna
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121014Z
+LAST-MODIFIED:20261018T121014Z
+DTSTAMP:20261024T212127Z
+UID:AL131732
+DTSTART:20270126T164500Z
+DTEND:20270126T204500Z
+DESCRIPTION:Night event\nCategory: World Cup\nGender: Men\Event: Giant Slalom\nRun 1 loc: 17:45\nRun 2 loc: 20:45\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131732\nOrganisation: \nSki Austria\nSalzburgerstr. 315\n8970 Schladming\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.thenightrace.at
+SUMMARY:Schladming (AUT) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Schladming
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121015Z
+LAST-MODIFIED:20261018T121015Z
+DTSTAMP:20261024T212127Z
+UID:AL131733
+DTSTART:20270127T164500Z
+DTEND:20270127T204500Z
+DESCRIPTION:Night event\nCategory: World Cup\nGender: Men\Event: Slalom\nRun 1 loc: 17:45\nRun 2 loc: 20:45\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131733\nOrganisation: \nSki Austria\nSalzburgerstr. 315\n8970 Schladming\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)\nWeb: http://www.thenightrace.at
+SUMMARY:Schladming (AUT) - Alpine Skiing World Cup Slalom
+LOCATION:Schladming
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121016Z
+LAST-MODIFIED:20261018T121016Z
+DTSTAMP:20261024T212127Z
+UID:AL131670
+DTSTART:20270129T090000Z
+DTEND:20270129T130000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Giant Slalom\nRun 1 loc: 10:00\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131670\nOrganisation: \nZavod SLOSKI Organizing Committee World Cup Kranjska Gora\nPodutiška cesta 146\n1000 Ljubljana\nSLOVENIA\nSLO\nPhone: (removed)\nE-mail: (removed)\nWeb: https://kranjskagora-worldcup.com/
+SUMMARY:Kranjska Gora (SLO) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Kranjska Gora
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121017Z
+LAST-MODIFIED:20261018T121017Z
+DTSTAMP:20261024T212127Z
+UID:AL131671
+DTSTART:20270130T093000Z
+DTEND:20270130T133000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slalom\nRun 1 loc: 10:30\nRun 2 loc: 13:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131671\nOrganisation: \nZavod SLOSKI Organizing Committee World Cup Kranjska Gora\nPodutiška cesta 146\n1000 Ljubljana\nSLOVENIA\nSLO\nPhone: (removed)\nE-mail: (removed)\nWeb: https://kranjskagora-worldcup.com/
+SUMMARY:Kranjska Gora (SLO) - Alpine Skiing World Cup Slalom
+LOCATION:Kranjska Gora
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121016Z
+LAST-MODIFIED:20261018T121016Z
+DTSTAMP:20261024T212127Z
+UID:AL131734
+DTSTART:20270130T083000Z
+DTEND:20270130T123000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slalom\nRun 1 loc: 09:30\nRun 2 loc: 12:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131734\nOrganisation: \nCS Chamonix\n99 Avenue de la Plage\n74400 Chamonix Mont Blanc\nFRA\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Chamonix (FRA) - Alpine Skiing World Cup Slalom
+LOCATION:Chamonix
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T121008Z
+LAST-MODIFIED:20261019T121008Z
+DTSTAMP:20261024T212127Z
+UID:AL131737
+DTSTART:20270220T093000Z
+DTEND:20270220T133000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Downhill\nRun 1 loc: 10:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131737\nOrganisation: \nOK FIS Skiweltcup Garmisch-Partenkirchen\nFürstenstrasse 9a\n82467 Garmisch-Partenkirchen, Garmisch-Partenkirchen\nGER\nPhone: (removed)\nE-mail: (removed)\nWeb: www.skiweltcup-garmisch.com
+SUMMARY:Garmisch-Partenkirchen (GER) - Alpine Skiing World Cup Downhill
+LOCATION:Garmisch-Partenkirchen
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261019T121008Z
+LAST-MODIFIED:20261019T121008Z
+DTSTAMP:20261024T212127Z
+UID:AL131738
+DTSTART:20270221T093000Z
+DTEND:20270221T133000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Super G\nRun 1 loc: 10:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131738\nOrganisation: \nOK FIS Skiweltcup Garmisch-Partenkirchen\nFürstenstrasse 9a\n82467 Garmisch-Partenkirchen, Garmisch-Partenkirchen\nGER\nPhone: (removed)\nE-mail: (removed)\nWeb: www.skiweltcup-garmisch.com
+SUMMARY:Garmisch-Partenkirchen (GER) - Alpine Skiing World Cup Super G
+LOCATION:Garmisch-Partenkirchen
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121018Z
+LAST-MODIFIED:20261018T121018Z
+DTSTAMP:20261024T212127Z
+UID:AL131672
+DTSTART:20270220T110000Z
+DTEND:20270220T150000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Super G\nRun 1 loc: 12:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131672\nOrganisation: \nVerein Weltcup Lenzerheide\nc/o Lenzerheide Marketing und Support AG, Voa Principala 80\n7078 Lenzerheide\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.weltcup-lenzerheide.ch
+SUMMARY:Lenzerheide (SUI) - Alpine Skiing World Cup Super G
+LOCATION:Lenzerheide
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121018Z
+LAST-MODIFIED:20261018T121018Z
+DTSTAMP:20261024T212127Z
+UID:AL131673
+DTSTART:20270221T110000Z
+DTEND:20270221T150000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Super G\nRun 1 loc: 12:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131673\nOrganisation: \nVerein Weltcup Lenzerheide\nc/o Lenzerheide Marketing und Support AG, Voa Principala 80\n7078 Lenzerheide\nSUI\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.weltcup-lenzerheide.ch
+SUMMARY:Lenzerheide (SUI) - Alpine Skiing World Cup Super G
+LOCATION:Lenzerheide
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261021T121002Z
+LAST-MODIFIED:20261021T121002Z
+DTSTAMP:20261024T212127Z
+UID:AL131676
+DTSTART:20270227T091500Z
+DTEND:20270227T131500Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Downhill\nRun 1 loc: 10:15\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131676\nOrganisation: \nOK FIS Skiweltcup Garmisch-Partenkirchen\nFürstenstrasse 9a\n82467\nGarmisch-Partenkirchen, Garmisch-Partenkirchen\nGER\nPhone: (removed)\nE-mail: (removed)\nWeb: www.skiweltcup-garmisch.com
+SUMMARY:Garmisch-Partenkirchen (GER) - Alpine Skiing World Cup Downhill
+LOCATION:Garmisch-Partenkirchen
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261021T121002Z
+LAST-MODIFIED:20261021T121002Z
+DTSTAMP:20261024T212127Z
+UID:AL131677
+DTSTART:20270228T091500Z
+DTEND:20270228T131500Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Downhill\nRun 1 loc: 10:15\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131677\nOrganisation: \nOK FIS Skiweltcup Garmisch-Partenkirchen\nFürstenstrasse 9a\n82467\nGarmisch-Partenkirchen, Garmisch-Partenkirchen\nGER\nPhone: (removed)\nE-mail: (removed)\nWeb: www.skiweltcup-garmisch.com
+SUMMARY:Garmisch-Partenkirchen (GER) - Alpine Skiing World Cup Downhill
+LOCATION:Garmisch-Partenkirchen
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T091031Z
+LAST-MODIFIED:20261020T091031Z
+DTSTAMP:20261024T212127Z
+UID:AL131741
+DTSTART:20270227T103000Z
+DTEND:20270227T143000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Downhill\nRun 1 loc: 11:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131741\nOrganisation: \nASVG\nGlemmtaler Ladesstraße 550\n5753 Saalbach\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Saalbach (AUT) - Alpine Skiing World Cup Downhill
+LOCATION:Saalbach
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261020T091031Z
+LAST-MODIFIED:20261020T091031Z
+DTSTAMP:20261024T212127Z
+UID:AL131742
+DTSTART:20270228T103000Z
+DTEND:20270228T143000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Super G\nRun 1 loc: 11:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131742\nOrganisation: \nASVG\nGlemmtaler Ladesstraße 550\n5753 Saalbach\nAustria\nAUT\nPhone: (removed)\nE-mail: (removed)
+SUMMARY:Saalbach (AUT) - Alpine Skiing World Cup Super G
+LOCATION:Saalbach
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261022T101056Z
+LAST-MODIFIED:20261022T101056Z
+DTSTAMP:20261024T212127Z
+UID:AL131746
+DTSTART:20270306T100000Z
+DTEND:20270306T140000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Downhill\nRun 1 loc: 11:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131746\nOrganisation: \nHafjell-Kvitfjell Alpin AS\nMæhlumsvegen 15\n2634 Fåvang\nNorway\nNOR\nPhone: (removed)\nE-mail: (removed)\nWeb: http://Worldcupkvitfjell.no
+SUMMARY:Kvitfjell (NOR) - Alpine Skiing World Cup Downhill
+LOCATION:Kvitfjell
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261022T101056Z
+LAST-MODIFIED:20261022T101056Z
+DTSTAMP:20261024T212127Z
+UID:AL131747
+DTSTART:20270307T100000Z
+DTEND:20270307T140000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Super G\nRun 1 loc: 11:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131747\nOrganisation: \nHafjell-Kvitfjell Alpin AS\nMæhlumsvegen 15\n2634 Fåvang\nNorway\nNOR\nPhone: (removed)\nE-mail: (removed)\nWeb: http://Worldcupkvitfjell.no
+SUMMARY:Kvitfjell (NOR) - Alpine Skiing World Cup Super G
+LOCATION:Kvitfjell
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121022Z
+LAST-MODIFIED:20261018T121022Z
+DTSTAMP:20261024T212127Z
+UID:AL131678
+DTSTART:20270306T083000Z
+DTEND:20270306T123000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Giant Slalom\nRun 1 loc: 09:30\nRun 2 loc: 12:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131678\nOrganisation: \nAND
+SUMMARY:Soldeu (AND) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Soldeu
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121023Z
+LAST-MODIFIED:20261018T121023Z
+DTSTAMP:20261024T212127Z
+UID:AL131679
+DTSTART:20270307T083000Z
+DTEND:20270307T123000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slalom\nRun 1 loc: 09:30\nRun 2 loc: 12:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131679\nOrganisation: \nAND
+SUMMARY:Soldeu (AND) - Alpine Skiing World Cup Slalom
+LOCATION:Soldeu
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T121024Z
+LAST-MODIFIED:20261018T121024Z
+DTSTAMP:20261024T212127Z
+UID:AL131748
+DTSTART:20270313T083000Z
+DTEND:20270313T123000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Giant Slalom\nRun 1 loc: 09:30\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131748\nOrganisation: \nSvenska Skidforbundet Events AB\nc/o Svenska Skidforbundet Box 26\n837 52 Are\nSweden\nSWE\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.worldcupare.com/
+SUMMARY:Are (SWE) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Are
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261018T011000Z
+LAST-MODIFIED:20261018T011000Z
+DTSTAMP:20261024T212127Z
+UID:AL131749
+DTSTART:20270314T083000Z
+DTEND:20270314T123000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slalom\nRun 1 loc: 09:30\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131749\nOrganisation: \nSvenska Skidforbundet Events AB\nc/o Svenska Skidforbundet Box 26\n837 52 Are\nSweden\nSWE\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.worldcupare.com/
+SUMMARY:Are (SWE) - Alpine Skiing World Cup Slalom
+LOCATION:Are
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261022T061054Z
+LAST-MODIFIED:20261022T061054Z
+DTSTAMP:20261024T212127Z
+UID:AL131689
+DTSTART:20270320T183000Z
+DTEND:20270320T223000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Downhill\nRun 1 loc: 12:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131689\nOrganisation: \nSun Valley Company\nPO Box 10\nSun Valley, ID 83353\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.sunvalley.com/events/audi-fis-world-cup/
+SUMMARY:Sun Valley (USA) - Alpine Skiing World Cup Downhill
+LOCATION:Sun Valley
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261022T061054Z
+LAST-MODIFIED:20261022T061054Z
+DTSTAMP:20261024T212127Z
+UID:AL131690
+DTSTART:20270320T170000Z
+DTEND:20270320T210000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Downhill\nRun 1 loc: 11:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131690\nOrganisation: \nSun Valley Company\nPO Box 10\nSun Valley, ID 83353\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.sunvalley.com/events/audi-fis-world-cup/
+SUMMARY:Sun Valley (USA) - Alpine Skiing World Cup Downhill
+LOCATION:Sun Valley
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261022T061054Z
+LAST-MODIFIED:20261022T061054Z
+DTSTAMP:20261024T212127Z
+UID:AL131691
+DTSTART:20270321T170000Z
+DTEND:20270321T210000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Super G\nRun 1 loc: 11:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131691\nOrganisation: \nSun Valley Company\nPO Box 10\nSun Valley, ID 83353\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.sunvalley.com/events/audi-fis-world-cup/
+SUMMARY:Sun Valley (USA) - Alpine Skiing World Cup Super G
+LOCATION:Sun Valley
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261022T061054Z
+LAST-MODIFIED:20261022T061054Z
+DTSTAMP:20261024T212127Z
+UID:AL131692
+DTSTART:20270321T183000Z
+DTEND:20270321T223000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Super G\nRun 1 loc: 12:30\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131692\nOrganisation: \nSun Valley Company\nPO Box 10\nSun Valley, ID 83353\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.sunvalley.com/events/audi-fis-world-cup/
+SUMMARY:Sun Valley (USA) - Alpine Skiing World Cup Super G
+LOCATION:Sun Valley
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261022T061055Z
+LAST-MODIFIED:20261022T061055Z
+DTSTAMP:20261024T212127Z
+UID:AL131693
+DTSTART:20270323T153000Z
+DTEND:20270323T193000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Giant Slalom\nRun 1 loc: 09:30\nRun 2 loc: 12:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131693\nOrganisation: \nSun Valley Company\nPO Box 10\nSun Valley, ID 83353\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.sunvalley.com/events/audi-fis-world-cup/
+SUMMARY:Sun Valley (USA) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Sun Valley
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261022T061055Z
+LAST-MODIFIED:20261022T061055Z
+DTSTAMP:20261024T212127Z
+UID:AL131694
+DTSTART:20270324T153000Z
+DTEND:20270324T193000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Giant Slalom\nRun 1 loc: 09:30\nRun 2 loc: 12:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131694\nOrganisation: \nSun Valley Company\nPO Box 10\nSun Valley, ID 83353\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.sunvalley.com/events/audi-fis-world-cup/
+SUMMARY:Sun Valley (USA) - Alpine Skiing World Cup Giant Slalom
+LOCATION:Sun Valley
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261022T061055Z
+LAST-MODIFIED:20261022T061055Z
+DTSTAMP:20261024T212127Z
+UID:AL131695
+DTSTART:20270325T150000Z
+DTEND:20270325T190000Z
+DESCRIPTION:Category: World Cup\nGender: Women\Event: Slalom\nRun 1 loc: 09:00\nRun 2 loc: 12:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131695\nOrganisation: \nSun Valley Company\nPO Box 10\nSun Valley, ID 83353\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.sunvalley.com/events/audi-fis-world-cup/
+SUMMARY:Sun Valley (USA) - Alpine Skiing World Cup Slalom
+LOCATION:Sun Valley
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20261022T061055Z
+LAST-MODIFIED:20261022T061055Z
+DTSTAMP:20261024T212127Z
+UID:AL131696
+DTSTART:20270325T160000Z
+DTEND:20270325T200000Z
+DESCRIPTION:Category: World Cup\nGender: Men\Event: Slalom\nRun 1 loc: 10:00\nRun 2 loc: 13:00\nResult/Startlist:  https://www.fis-ski.com/DB/general/results.html?seasoncode=2027&sectorcode=AL&raceid=131696\nOrganisation: \nSun Valley Company\nPO Box 10\nSun Valley, ID 83353\nUSA\nUSA\nPhone: (removed)\nE-mail: (removed)\nWeb: https://www.sunvalley.com/events/audi-fis-world-cup/
+SUMMARY:Sun Valley (USA) - Alpine Skiing World Cup Slalom
+LOCATION:Sun Valley
+CATEGORIES:FIS-calendar-AL-WC
+TRANSP:TRANSPARENT
+STATUS:FREE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+
+END:VCALENDAR
