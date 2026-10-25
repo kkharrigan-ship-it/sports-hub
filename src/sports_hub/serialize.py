@@ -68,6 +68,7 @@ def sport_to_json(
 def state_to_json(state: State) -> dict[str, Any]:
     return {
         "refreshed_on": state.refreshed_on.isoformat(),
+        "notified_on": state.notified_on.isoformat() if state.notified_on else None,
         "sports": {
             sport_id: {"fetched_on": lg.fetched_on.isoformat(), "events": [event_to_json(e) for e in lg.events]}
             for sport_id, lg in state.sports.items()
@@ -79,6 +80,7 @@ def state_from_json(d: dict[str, Any]) -> State:
     try:
         return State(
             refreshed_on=date.fromisoformat(d["refreshed_on"]),
+            notified_on=date.fromisoformat(d["notified_on"]) if d.get("notified_on") else None,
             sports={
                 sport_id: LastGood(
                     fetched_on=date.fromisoformat(lg["fetched_on"]),

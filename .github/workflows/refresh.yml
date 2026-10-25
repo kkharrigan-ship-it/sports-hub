@@ -52,11 +52,12 @@ jobs:
           SPORTS_HUB_MAIL_USER: ${{ secrets.SPORTS_HUB_MAIL_USER }}
           SPORTS_HUB_MAIL_APP_PASSWORD: ${{ secrets.SPORTS_HUB_MAIL_APP_PASSWORD }}
           SPORTS_HUB_ALERT_TO: ${{ secrets.SPORTS_HUB_ALERT_TO }}
+          SPORTS_HUB_NOTIFY_TO: ${{ secrets.SPORTS_HUB_NOTIFY_TO }}
         run: |
           owner=$(echo "$GITHUB_REPOSITORY_OWNER" | tr '[:upper:]' '[:lower:]')
           export SPORTS_HUB_URL="https://${owner}.github.io/${GITHUB_REPOSITORY#*/}/"
           set +e
-          uv run sports-hub refresh --out dist --state state/last_good.json --send-alerts
+          uv run sports-hub refresh --out dist --state state/last_good.json --send-alerts --send-notification
           code=$?
           set -e
           echo "code=$code" >> "$GITHUB_OUTPUT"

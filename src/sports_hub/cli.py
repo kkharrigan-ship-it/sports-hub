@@ -6,6 +6,7 @@ in the real ones.
 """
 
 import argparse
+import dataclasses
 import json
 import os
 import sys
@@ -18,8 +19,9 @@ import httpx
 
 from sports_hub.config import load_sports
 from sports_hub.errors import ConfigError, StateError
-from sports_hub.mail import GmailSender, MailError, MailSender, MailSettings, Message
+from sports_hub.mail import ENV_NOTIFY_TO, GmailSender, MailError, MailSender, MailSettings, Message, recipients
 from sports_hub.model import State
+from sports_hub.notification import is_notification_day, notification_message
 from sports_hub.alert_mail import alert_message, not_updated_message
 from sports_hub.refresh import DateWentBackwards, refresh
 from sports_hub.run_outcome import BUILT, BUILT_ALERT_UNSENT, STOPPED_ALERTED, STOPPED_NOT_ALERTED
@@ -47,12 +49,15 @@ def run(
         "--state", type=Path, default=Path("state/last_good.json"), help="last-good state file, read and updated"
     )
     cmd.add_argument("--send-alerts", action="store_true", help="email Katie about Alerts or a stopped Refresh")
+    cmd.add_argument(
+        "--send-notification", action="store_true", help="on Mondays, email the week's highlights to SPORTS_HUB_NOTIFY_TO"
+    )
     args = parser.parse_args(argv)
 
     # Alerts are only sent when asked to. If they're asked for but the mail
     # settings are missing, the Hub is still built and the run reports it.
     settings: MailSettings | None = None
-    if args.send_alerts:
+    if args.send_alerts or args.send_notification:
         missing = MailSettings.missing(env)
         if missing:
             print(f"Can't send alert emails: set {', '.join(missing)} (see the README).", file=sys.stderr)
@@ -72,19 +77,32 @@ def run(
         return STOPPED_ALERTED if sent else STOPPED_NOT_ALERTED
 
     write_hub(args.out, result)
-    _write_json(args.state, state_to_json(result.state))
     print(f"Wrote the Hub to {args.out} for {today.isoformat()}")
     for alert in result.alerts:
         print(f"{alert.level.upper()}: {alert.sport_id}: {alert.message}", file=sys.stderr)
 
-    if not args.send_alerts:
-        return BUILT
-    if not (settings and sender):
-        return BUILT_ALERT_UNSENT
-    message = alert_message(result.alerts, sports, today, settings)
-    if message and not _send(sender, message):
-        return BUILT_ALERT_UNSENT
-    return BUILT
+    all_sent = True
+    if args.send_alerts:
+        if settings is None or sender is None:
+            all_sent = False
+        else:
+            message = alert_message(result.alerts, sports, today, settings)
+            all_sent = message is None or _send(sender, message)
+
+    # The Monday Notification, at most once per Monday even if the run is repeated.
+    notified_on = previous.notified_on if previous else None
+    if args.send_notification and is_notification_day(today) and notified_on != today:
+        to = recipients(env.get(ENV_NOTIFY_TO))
+        if not to:
+            print(f"Can't send the Monday Notification: set {ENV_NOTIFY_TO} (see the README).", file=sys.stderr)
+            all_sent = False
+        elif settings and sender and _send(sender, notification_message(result.data, today, to, settings.hub_url)):
+            notified_on = today
+        else:
+            all_sent = False
+
+    _write_json(args.state, state_to_json(dataclasses.replace(result.state, notified_on=notified_on)))
+    return BUILT if all_sent else BUILT_ALERT_UNSENT
 
 
 def _send(sender: MailSender, message: Message) -> bool:
@@ -92,7 +110,7 @@ def _send(sender: MailSender, message: Message) -> bool:
         sender.send(message)
         return True
     except MailError as exc:
-        print(f"Refresh couldn't send the alert email: {exc}", file=sys.stderr)
+        print(f"Refresh couldn't send the email \"{message.subject}\": {exc}", file=sys.stderr)
         return False
 
 

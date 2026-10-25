@@ -92,3 +92,4 @@ class State:
 
     refreshed_on: date
     sports: dict[str, LastGood]
+    notified_on: date | None = None  # last Monday the Notification went out, so a re-run doesn't repeat it

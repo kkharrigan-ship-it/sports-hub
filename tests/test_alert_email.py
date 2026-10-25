@@ -102,7 +102,7 @@ def test_when_gmail_refuses_the_hub_is_still_built(tmp_path: Path, client: httpx
 
     assert refresh_cli(tmp_path, client, FakeSender(refuse=True)) == BUILT_ALERT_UNSENT
     assert (tmp_path / "hub" / "data.json").exists()
-    assert "couldn't send the alert email" in capsys.readouterr().err
+    assert "couldn't send the email \"Sports Hub: 3 problems" in capsys.readouterr().err
 
 
 def test_a_stopped_refresh_whose_email_fails_says_so_in_its_code(tmp_path: Path, client: httpx.Client) -> None:

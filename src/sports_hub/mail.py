@@ -22,6 +22,7 @@ ENV_USER = "SPORTS_HUB_MAIL_USER"
 ENV_APP_PASSWORD = "SPORTS_HUB_MAIL_APP_PASSWORD"
 ENV_ALERT_TO = "SPORTS_HUB_ALERT_TO"
 ENV_HUB_URL = "SPORTS_HUB_URL"
+ENV_NOTIFY_TO = "SPORTS_HUB_NOTIFY_TO"  # Monday Notification recipients, comma-separated
 REQUIRED = (ENV_USER, ENV_APP_PASSWORD, ENV_ALERT_TO)
 
 
@@ -59,9 +60,14 @@ class MailSettings:
         return cls(
             user=env[ENV_USER],
             app_password=env[ENV_APP_PASSWORD],
-            alert_to=tuple(a.strip() for a in env[ENV_ALERT_TO].split(",") if a.strip()),
+            alert_to=recipients(env[ENV_ALERT_TO]),
             hub_url=env.get(ENV_HUB_URL) or None,
         )
+
+
+def recipients(value: str | None) -> tuple[str, ...]:
+    """A comma-separated address list from a setting, tidied."""
+    return tuple(a.strip() for a in (value or "").split(",") if a.strip())
 
 
 class GmailSender:

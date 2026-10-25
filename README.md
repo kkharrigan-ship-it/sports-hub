@@ -10,7 +10,7 @@ A shared schedule of 19 sports. It refreshes itself twice a week and is publishe
 
 GitHub runs the **Refresh** workflow (`.github/workflows/refresh.yml`) every **Monday and Thursday at 11:00 UTC**: 6am in Memphis in summer, 5am in winter. The workflow has four jobs, each with only the permissions it needs:
 
-1. **build:** installs the project, runs the tests (a failing test stops everything), then fetches every Sport and builds the Hub: the page, `data.json` and one calendar feed per Sport
+1. **build:** installs the project, runs the tests (a failing test stops everything), then fetches every Sport and builds the Hub: the page, `data.json` and one calendar feed per Sport. On Mondays it also emails the week's highlights (the Notification), at most once per Monday
 2. **publish:** puts the Hub on GitHub Pages
 3. **save:** commits the last-good state (`state/last_good.json`) back into the repo
 4. **finish:** emails Katie about anything she hasn't already heard, and marks the run red if something went wrong
@@ -38,6 +38,7 @@ Secrets live only in the repo's **Settings → Secrets and variables → Actions
 | `SPORTS_HUB_MAIL_USER` | The Gmail address the Hub sends from |
 | `SPORTS_HUB_MAIL_APP_PASSWORD` | A Gmail **app password** for that account (needs Google 2-Step Verification) |
 | `SPORTS_HUB_ALERT_TO` | Who gets failure alerts (comma-separated) |
+| `SPORTS_HUB_NOTIFY_TO` | Who gets the Monday Notification (comma-separated; sent as Bcc, so nobody sees the others' addresses) |
 
 The guided setup walks through creating the repo, turning on Pages and adding these secrets. Run it from the project folder:
 
