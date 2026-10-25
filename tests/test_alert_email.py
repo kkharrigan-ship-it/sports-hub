@@ -13,7 +13,7 @@ import pytest
 
 from conftest import FakeInternet, FakeSender
 from sports_hub.cli import run
-from sports_hub.run_outcome import BUILT, BUILT_ALERT_UNSENT, STOPPED_ALERTED, STOPPED_NOT_ALERTED
+from sports_hub.run_outcome import BUILT, BUILT_EMAIL_UNSENT, STOPPED_ALERTED, STOPPED_NOT_ALERTED
 
 TODAY = date(2026, 10, 24)
 SECRET = "abcd efgh ijkl mnop"  # a made-up app password; it must never be printed or sent
@@ -89,7 +89,7 @@ def test_missing_mail_settings_still_build_the_hub_and_say_so(tmp_path: Path, cl
 
     code = refresh_cli(tmp_path, client, sender, env={"SPORTS_HUB_MAIL_USER": "x@example.com"})
 
-    assert code == BUILT_ALERT_UNSENT
+    assert code == BUILT_EMAIL_UNSENT
     assert (tmp_path / "hub" / "index.html").exists()
     err = capsys.readouterr().err
     assert "SPORTS_HUB_MAIL_APP_PASSWORD" in err and "SPORTS_HUB_ALERT_TO" in err
@@ -100,7 +100,7 @@ def test_when_gmail_refuses_the_hub_is_still_built(tmp_path: Path, client: httpx
                                                    capsys: pytest.CaptureFixture[str]) -> None:
     internet.break_host("www.fis-ski.com")
 
-    assert refresh_cli(tmp_path, client, FakeSender(refuse=True)) == BUILT_ALERT_UNSENT
+    assert refresh_cli(tmp_path, client, FakeSender(refuse=True)) == BUILT_EMAIL_UNSENT
     assert (tmp_path / "hub" / "data.json").exists()
     assert "couldn't send the email \"Sports Hub: 3 problems" in capsys.readouterr().err
 

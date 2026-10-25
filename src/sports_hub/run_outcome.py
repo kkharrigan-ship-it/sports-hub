@@ -20,9 +20,9 @@ from sports_hub.mail import GmailSender, MailError, MailSender, MailSettings, Me
 BUILT = 0                  # the Hub was built; any Alerts were emailed
 STOPPED_ALERTED = 1        # stopped before building; Katie was emailed why
 STOPPED_NOT_ALERTED = 2    # stopped before building; the email couldn't be sent (or isn't set up)
-BUILT_ALERT_UNSENT = 3     # the Hub was built, but its Alert email couldn't be sent (or isn't set up)
+BUILT_EMAIL_UNSENT = 3     # the Hub was built, but an Alert email or the Notification couldn't be sent (or isn't set up)
 
-BUILT_CODES = (BUILT, BUILT_ALERT_UNSENT)
+BUILT_CODES = (BUILT, BUILT_EMAIL_UNSENT)
 
 
 def finish(env: Mapping[str, str], sender: MailSender | None) -> int:
@@ -49,7 +49,8 @@ def finish(env: Mapping[str, str], sender: MailSender | None) -> int:
         text = (f"Today's Refresh worked, but {' and '.join(later_failed)} failed, "
                 "so the live Hub may still show the previous version.")
     else:
-        # Nothing new to tell Katie: either all went well or she's already been emailed.
+        # Nothing new to tell Katie: all went well, she's already been emailed,
+        # or email itself is what's broken (the run still shows red).
         ok = code == BUILT and not later_failed
         return 0 if ok else 1
 

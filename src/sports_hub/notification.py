@@ -86,8 +86,9 @@ def notification_message(data: dict[str, Any], today: date, to: tuple[str, ...],
 
     reminder = _reminder_this_week(data, today, week_end)
     if reminder:
-        lines += [f"📺 Heads-up: {reminder['name']} starts {_day_text(date.fromisoformat(reminder['date']))}. "
-                  "Time to switch ESPN+ on for this month's Grand Slam.", ""]
+        starts = date.fromisoformat(reminder["date"])
+        when = "is on now" if starts <= today else f"starts {_day_text(starts)}"
+        lines += [f"📺 Heads-up: the {reminder['name']} Grand Slam {when}. Time to switch ESPN+ on if you'd like to watch.", ""]
 
     lines += ["Everything else, plus calendar links:" + (f" {hub_url}" if hub_url else " the Sports Hub page."), "",
               "— Your Sports Hub 🏅"]

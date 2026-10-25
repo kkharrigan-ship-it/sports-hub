@@ -24,7 +24,7 @@ from sports_hub.model import State
 from sports_hub.notification import is_notification_day, notification_message
 from sports_hub.alert_mail import alert_message, not_updated_message
 from sports_hub.refresh import DateWentBackwards, refresh
-from sports_hub.run_outcome import BUILT, BUILT_ALERT_UNSENT, STOPPED_ALERTED, STOPPED_NOT_ALERTED
+from sports_hub.run_outcome import BUILT, BUILT_EMAIL_UNSENT, STOPPED_ALERTED, STOPPED_NOT_ALERTED
 from sports_hub.serialize import state_from_json, state_to_json
 from sports_hub.site import write_hub
 
@@ -60,7 +60,7 @@ def run(
     if args.send_alerts or args.send_notification:
         missing = MailSettings.missing(env)
         if missing:
-            print(f"Can't send alert emails: set {', '.join(missing)} (see the README).", file=sys.stderr)
+            print(f"Can't send emails: set {', '.join(missing)} (see the README).", file=sys.stderr)
         else:
             settings = MailSettings.from_env(env)
             sender = sender or GmailSender(settings)
@@ -102,7 +102,7 @@ def run(
             all_sent = False
 
     _write_json(args.state, state_to_json(dataclasses.replace(result.state, notified_on=notified_on)))
-    return BUILT if all_sent else BUILT_ALERT_UNSENT
+    return BUILT if all_sent else BUILT_EMAIL_UNSENT
 
 
 def _send(sender: MailSender, message: Message) -> bool:

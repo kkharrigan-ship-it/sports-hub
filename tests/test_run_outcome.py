@@ -1,7 +1,7 @@
 """The workflow's last email about a run (ticket 26), tested with the fake mail sender (Seam 2)."""
 
 from conftest import FakeSender
-from sports_hub.run_outcome import BUILT, BUILT_ALERT_UNSENT, STOPPED_ALERTED, STOPPED_NOT_ALERTED, finish
+from sports_hub.run_outcome import BUILT, BUILT_EMAIL_UNSENT, STOPPED_ALERTED, STOPPED_NOT_ALERTED, finish
 
 MAIL = {
     "SPORTS_HUB_MAIL_USER": "hub.sender@example.com",
@@ -55,7 +55,7 @@ def test_publishing_failing_after_a_good_refresh_says_exactly_that() -> None:
 
 
 def test_an_unsent_alert_fails_the_run_without_another_email() -> None:
-    code, sender = outcome(BUILT_ALERT_UNSENT)
+    code, sender = outcome(BUILT_EMAIL_UNSENT)
 
     assert (code, sender.sent) == (1, [])
 

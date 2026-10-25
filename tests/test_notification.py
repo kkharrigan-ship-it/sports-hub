@@ -10,7 +10,7 @@ import pytest
 from conftest import FakeInternet, FakeSender
 from sports_hub.cli import run
 from sports_hub.mail import Message
-from sports_hub.run_outcome import BUILT, BUILT_ALERT_UNSENT
+from sports_hub.run_outcome import BUILT, BUILT_EMAIL_UNSENT
 
 MONDAY = date(2026, 10, 26)
 ENV = {
@@ -129,7 +129,7 @@ def test_missing_recipients_still_build_the_hub_and_say_so(tmp_path: Path, clien
     env = {k: v for k, v in ENV.items() if k != "SPORTS_HUB_NOTIFY_TO"}
     sender = FakeSender()
 
-    assert refresh_cli(tmp_path, client, sender, env=env) == BUILT_ALERT_UNSENT
+    assert refresh_cli(tmp_path, client, sender, env=env) == BUILT_EMAIL_UNSENT
     assert "SPORTS_HUB_NOTIFY_TO" in capsys.readouterr().err
     assert (tmp_path / "hub" / "index.html").exists()
 

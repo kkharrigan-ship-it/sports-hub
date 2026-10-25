@@ -43,6 +43,13 @@ jobs:
       - name: Test
         run: uv run pytest -q
 
+      # Use the newest saved state, not the copy from when this run was triggered,
+      # so a re-run or a queued run knows the Monday Notification already went out.
+      - name: Get the latest last-good state
+        run: |
+          git fetch --depth=1 origin main
+          git checkout FETCH_HEAD -- state/last_good.json 2>/dev/null || echo "No saved state on main yet."
+
       # The Refresh's exit code says what happened (see src/sports_hub/run_outcome.py).
       # It's recorded rather than failing this job, so publishing still happens
       # when the Hub was built but an Alert email couldn't be sent.
