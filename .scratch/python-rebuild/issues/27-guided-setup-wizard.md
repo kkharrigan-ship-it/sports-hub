@@ -17,7 +17,7 @@
 - [x] Steps that only Katie can do in a browser (Google account settings) open the right page and wait for her to confirm, with a short description of what to click.
 - [x] Every step that changes something outside her Mac (creating the repo, setting secrets, starting a run) says what it's about to do and asks before doing it.
 - [x] At the end it prints the live Hub link and the Actions page link.
-- [ ] It is tried end to end with Katie in a session where I'm there to help.
+- [x] It is tried end to end with Katie in a session where I'm there to help (2026-10-25: all seven stages done; the repo, Pages and secrets are set up; the first run started).
 
 ## Comments
 
