@@ -28,4 +28,4 @@
 - Run 40214138052 on a throwaway `break-test` branch used a Season-file entry with its date removed.
 - The tests caught it, which is earlier than the Refresh's own config check, so a bad hand edit can't reach the Hub.
 - Publish and save were skipped; the finish job logged "Failure email sent."; the live Hub kept its last good version.
-- The branch has been deleted. Katie to confirm the email arrived.
+- The branch has been deleted. Katie confirmed the email arrived (2026-10-25).
