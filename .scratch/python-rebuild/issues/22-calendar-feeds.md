@@ -15,4 +15,4 @@ A personal "my favourites" feed needs shared storage and comes in a later milest
 - [x] Timed Events carry their UTC start and a default length; all-day and multi-day Events are all-day entries spanning their dates.
 - [x] Each entry's description includes the session, location and the Sport's top Watch option.
 - [x] Feed contents are tested through the Refresh entry point (Seam 1): a known Event's entry, an all-day multi-day Event, and a stable id across two Refreshes.
-- [ ] The per-Event button and Watchlist export produce files that open in Apple Calendar and Google Calendar (checked by hand once). **Pending: Katie to try one of each.**
+- [x] The per-Event button and Watchlist export produce files that open in Apple Calendar and Google Calendar (checked by hand once). Katie checked on the live Hub on 2026-10-25.
