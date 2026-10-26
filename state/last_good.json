@@ -1,9 +1,9 @@
 {
-  "refreshed_on": "2026-10-25",
-  "notified_on": null,
+  "refreshed_on": "2026-10-26",
+  "notified_on": "2026-10-26",
   "sports": {
     "f1": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "40fb5583d6075d28d82c@sports-hub",
@@ -1503,7 +1503,7 @@
       ]
     },
     "alpine": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "0e50e9fb9f1eeaa984c4@sports-hub",
@@ -2561,7 +2561,7 @@
       ]
     },
     "snowboard": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "50fb98f3d5c5631feb65@sports-hub",
@@ -3619,7 +3619,7 @@
       ]
     },
     "freestyle": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "3fcdfb3d571a4674db25@sports-hub",
@@ -4937,7 +4937,7 @@
       ]
     },
     "biathlon": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "d50b8c116de3aa88dd77@sports-hub",
@@ -5176,7 +5176,7 @@
       ]
     },
     "wec": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "a46cff9cfa07cd0a0a6e@sports-hub",
@@ -5311,7 +5311,7 @@
       ]
     },
     "sailgp": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "f88e8cbdde06ce9e132e@sports-hub",
@@ -5417,7 +5417,7 @@
       ]
     },
     "curling-ca": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "01d42fdce52ee7e39193@sports-hub",
@@ -5575,7 +5575,7 @@
       ]
     },
     "curling-intl": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "229d89cff60e6fb2f2aa@sports-hub",
@@ -5723,7 +5723,7 @@
       ]
     },
     "pwhl": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "2766fd2da7645e72d5c9@sports-hub",
@@ -8068,7 +8068,7 @@
       ]
     },
     "swimming": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "b7250334792ddd74b9b7@sports-hub",
@@ -8177,7 +8177,7 @@
       ]
     },
     "diving": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "2581d58c1e6c352a7614@sports-hub",
@@ -8234,7 +8234,7 @@
       ]
     },
     "motogp": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "ee0fe0208cb0270c90ee@sports-hub",
@@ -9370,7 +9370,7 @@
       ]
     },
     "ireland-rugby/season": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "d419a8db26e2e7963985@sports-hub",
@@ -9414,7 +9414,7 @@
       ]
     },
     "ireland-rugby/six_nations": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "7ce8c30d6571ff43532c@sports-hub",
@@ -9484,7 +9484,7 @@
       ]
     },
     "speed-skating": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "4f5b22e5458f3923c03f@sports-hub",
@@ -9593,7 +9593,7 @@
       ]
     },
     "short-track": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "f956c00db6efc8f660c8@sports-hub",
@@ -9715,7 +9715,7 @@
       ]
     },
     "gymnastics": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "b553c1c00438d2b28ec9@sports-hub",
@@ -9891,7 +9891,7 @@
       ]
     },
     "world-skate": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "8281b2d5b95e36200f1e@sports-hub",
@@ -9922,7 +9922,7 @@
       ]
     },
     "diamond-league": {
-      "fetched_on": "2026-10-25",
+      "fetched_on": "2026-10-26",
       "events": [
         {
           "uid": "a7cb44d807823fb67de0@sports-hub",
