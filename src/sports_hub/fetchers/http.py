@@ -4,7 +4,8 @@ import httpx
 
 from sports_hub.errors import SourceError
 
-USER_AGENT = "sports-hub/0.1 (personal hobby project; weekly schedule refresh)"
+# Identifies us honestly, with a contact link, as sites like Wikipedia ask automated visitors to.
+USER_AGENT = "sports-hub/0.1 (personal hobby project; twice-weekly schedule refresh; +https://github.com/kkharrigan-ship-it/sports-hub)"
 
 
 def get(client: httpx.Client, url: str, params: dict[str, str] | None = None) -> httpx.Response:
