@@ -10,6 +10,7 @@ import dataclasses
 import json
 import os
 import sys
+import time
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Mapping
@@ -26,6 +27,7 @@ from sports_hub.alert_mail import alert_message, not_updated_message
 from sports_hub.refresh import DateWentBackwards, refresh
 from sports_hub.run_outcome import BUILT, BUILT_EMAIL_UNSENT, STOPPED_ALERTED, STOPPED_NOT_ALERTED
 from sports_hub.serialize import state_from_json, state_to_json
+from sports_hub.season_check import check, review_report
 from sports_hub.site import write_hub
 
 # "Today" is the date in Memphis, where Katie is, taken from the real clock.
@@ -52,7 +54,15 @@ def run(
     cmd.add_argument(
         "--send-notification", action="store_true", help="on Mondays, email the week's highlights to SPORTS_HUB_NOTIFY_TO"
     )
+    check_cmd = sub.add_parser("check-season", help="check the pages the Season file cites for changes")
+    check_cmd.add_argument("--fingerprints", type=Path, default=Path("state/fingerprints.json"))
+    check_cmd.add_argument("--report", type=Path, default=Path("season-review.md"), help="review written here if needed")
+    check_cmd.add_argument("--season-file", type=Path, help="Season file to check (default: the current one)")
+    check_cmd.add_argument("--delay", type=float, default=3.0, help="seconds between requests (be polite)")
+    check_cmd.add_argument("--github-output", type=Path, help="append changed/claude/review results for the workflow")
     args = parser.parse_args(argv)
+    if args.command == "check-season":
+        return _check_season(args, today, client)
 
     # Alerts are only sent when asked to. If they're asked for but the mail
     # settings are missing, the Hub is still built and the run reports it.
@@ -103,6 +113,27 @@ def run(
 
     _write_json(args.state, state_to_json(dataclasses.replace(result.state, notified_on=notified_on)))
     return BUILT if all_sent else BUILT_EMAIL_UNSENT
+
+
+def _check_season(args: argparse.Namespace, today: date, client: httpx.Client) -> int:
+    try:
+        sports = load_sports(season_path=args.season_file)
+    except ConfigError as exc:
+        print(f"Season check stopped: {exc}", file=sys.stderr)
+        return 1
+    previous = json.loads(args.fingerprints.read_text(encoding="utf-8"))["pages"] if args.fingerprints.exists() else {}
+    result = check(client, sports, previous, pause=lambda: time.sleep(args.delay))
+    _write_json(args.fingerprints, {"checked_on": today.isoformat(), "pages": result.fingerprints})
+
+    review = result.needs_claude(today)
+    if review:
+        args.report.write_text(review_report(result, today), encoding="utf-8")
+    print(f"Season check: {len(result.changed)} changed, {len(result.unreachable)} couldn't check, review needed: {review}")
+    if args.github_output:
+        with args.github_output.open("a", encoding="utf-8") as out:
+            out.write(f"changed={len(result.changed)}\nunreachable={len(result.unreachable)}\n")
+            out.write(f"claude={str(review).lower()}\nreview={str(review).lower()}\n")
+    return 0
 
 
 def _send(sender: MailSender, message: Message) -> bool:

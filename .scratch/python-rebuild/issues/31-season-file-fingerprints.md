@@ -6,10 +6,14 @@
 
 **Status:** ready-for-agent
 
-- [ ] The check runs weekly on its own schedule (separate from the Refresh) and can be run by hand.
-- [ ] It asks each distinct source page once, politely (descriptive User-Agent, a few seconds apart).
-- [ ] Fingerprints are stored with the last-good state and committed back only when they change.
-- [ ] A page's first fingerprint never opens an issue. A change opens at most one issue per run, and adds to an open review issue rather than opening duplicates.
-- [ ] The issue says, in plain words, what changed and what Katie should check, and is labelled so it's easy to find.
-- [ ] Fingerprinting ignores noise that changes on every visit (tested with two saved copies of a page that differ only in a timestamp).
-- [ ] Tests use saved pages through the fake internet. A deliberately changed page produces one review item; an unchanged page produces none.
+- [x] The check runs weekly on its own schedule (separate from the Refresh) and can be run by hand.
+- [x] It asks each distinct source page once, politely (descriptive User-Agent, a few seconds apart).
+- [x] Fingerprints are stored with the last-good state and committed back only when they change.
+- [x] A page's first fingerprint never opens an issue. A change opens at most one issue per run, and adds to an open review issue rather than opening duplicates.
+- [x] The issue says, in plain words, what changed and what Katie should check, and is labelled so it's easy to find.
+- [x] Fingerprinting ignores noise that changes on every visit (tested with two saved copies of a page that differ only in a timestamp).
+- [x] Tests use saved pages through the fake internet. A deliberately changed page produces one review item; an unchanged page produces none.
+
+## Comments
+
+**2026-10-28:** Built and tested through the CLI with the fake internet (8 tests). Fingerprints are kept in `state/fingerprints.json` beside the last-good state. A Review issue is opened, or added to, when a page changed or an unreachable site has an entry on now or within 8 weeks.

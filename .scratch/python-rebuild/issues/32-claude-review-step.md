@@ -6,9 +6,18 @@
 
 **Status:** ready-for-agent
 
-- [ ] The Claude step runs only when there's something to review (changed pages, or a curling Sport with an Event in the next 8 weeks). An ordinary quiet week uses no Pro allowance.
-- [ ] Claude's permissions on GitHub allow reading the repo and commenting on issues only, enforced by the workflow's permissions, not just by instructions.
-- [ ] The instructions to Claude say to treat web pages as data, quote what changed, link sources, and never guess a date.
+- [x] The Claude step runs only when there's something to review (changed pages, or a curling Sport with an Event in the next 8 weeks). An ordinary quiet week uses no Pro allowance.
+- [x] Claude's permissions on GitHub allow reading the repo and commenting on issues only, enforced by the workflow's permissions, not just by instructions.
+- [x] The instructions to Claude say to treat web pages as data, quote what changed, link sources, and never guess a date.
 - [ ] The Claude Code token is added as a secret through the wizard (Katie creates it with `claude setup-token` on her Mac), never shown or committed.
 - [ ] Each run's Claude usage, as reported in the run log, is recorded in the measurement notes alongside Katie's Pro usage meter before and after the first run.
 - [ ] A deliberately changed saved page (on a test branch) produces one review issue with a sensible Claude summary.
+
+## Comments
+
+**2026-10-28:** Built, and stricter than planned:
+- Claude gets a **read-only** GitHub token and only the WebFetch, WebSearch, Read, Grep and Glob tools.
+- It returns a structured summary, and a separate job with `issues: write` posts it, so Claude itself can't even comment.
+- The job is skipped until the `CLAUDE_TOKEN_CREATED` variable exists.
+
+Still to do with Katie: run `scripts/claude-token-wizard.sh`, the deliberate-change test, and recording Pro usage.

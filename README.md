@@ -29,6 +29,21 @@ GitHub runs the **Refresh** workflow (`.github/workflows/refresh.yml`) every **M
 
 As a backstop, GitHub also emails the repo owner whenever a scheduled run fails.
 
+### The weekly Season-file check
+
+A second workflow, **Season-file check** (`.github/workflows/season-check.yml`), runs every **Wednesday at 07:00 UTC**:
+
+1. It visits each page the Season file cites, and compares a fingerprint of the page's text with last week's.
+2. If a page changed, or a site that blocks automated visitors has an event coming up, it opens one GitHub issue labelled **season-review**, or adds to the open one. The issue lists the pages and the Season-file entries that cite them.
+3. If the Claude token is set up, Claude compares those entries with their sources and posts a summary on the issue. Claude has a read-only token and web-reading tools only, so it can't change anything.
+4. Nothing in the Season file changes automatically. Fix any date that moved, then close the issue.
+
+To give the check its Claude login (once, and again roughly yearly):
+
+```bash
+bash scripts/claude-token-wizard.sh
+```
+
 ## Secrets
 
 Secrets live only in the repo's **Settings → Secrets and variables → Actions**. Their values are never written to files, logs or emails.
@@ -39,6 +54,9 @@ Secrets live only in the repo's **Settings → Secrets and variables → Actions
 | `SPORTS_HUB_MAIL_APP_PASSWORD` | A Gmail **app password** for that account (needs Google 2-Step Verification) |
 | `SPORTS_HUB_ALERT_TO` | Who gets failure alerts (comma-separated) |
 | `SPORTS_HUB_NOTIFY_TO` | Who gets the Monday Notification (comma-separated; sent as Bcc, so nobody sees the others' addresses) |
+| `CLAUDE_CODE_OAUTH_TOKEN` | Claude Pro login token for the weekly Season-file check (from `claude setup-token`) |
+
+Plus one repo **variable** (not secret): `CLAUDE_TOKEN_CREATED`, the date the token was made. A reminder email goes out about a month before its expected one-year expiry.
 
 The guided setup walks through creating the repo, turning on Pages and adding these secrets. Run it from the project folder:
 

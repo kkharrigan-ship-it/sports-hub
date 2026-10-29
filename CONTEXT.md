@@ -23,6 +23,8 @@ This project rebuilds the Cowork scheduled skill (`../../Scheduled/sports-hub-re
 - **Reminder** — a banner the Hub shows ahead of something Katie needs to act on; so far only the ESPN+ reminder from 7 days before each Grand Slam of Curling.
 - **Between seasons** — the Hub's heading for off-season Sports (with their "Returns" label and note) and in-season Sports whose listed Events have all passed until the next Refresh. Unavailable Sports are listed separately.
 - **Category** — ice, snow, motor, track (shown as "track & other"), aqua (shown as "aquatics") or rugby.
+- **Season-file check** — the weekly job that fingerprints every page the Season file cites and raises a Review issue when one changed, or when a site that refuses automated visitors has an entry coming up.
+- **Review issue** — the open GitHub issue labelled `season-review` that collects the check's findings and Claude's summary. Katie closes it once she's checked; the Season file is never edited automatically.
 - **Status** — each Sport is `in-season` (has Events in the window), `off-season` (nothing upcoming; shows its "Returns" label) or `unavailable` (source failed with no last-good state).
 
 ## Priorities (agreed 2026-10-24)
