@@ -31,3 +31,5 @@
 - The branch has been deleted. Katie confirmed the email arrived (2026-10-25).
 
 **2026-10-25:** Katie completed the calendar checks on the live Hub (Subscribe, plus "+ cal" in Apple and Google Calendar).
+
+**2026-10-26:** The first scheduled run (Monday) succeeded. GitHub started it about 6 hours late (17:11 UTC) because scheduled runs are best-effort. The second scheduled run is Thursday 2026-10-29.
