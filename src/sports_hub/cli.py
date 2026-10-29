@@ -123,7 +123,8 @@ def _check_season(args: argparse.Namespace, today: date, client: httpx.Client) -
         return 1
     previous = json.loads(args.fingerprints.read_text(encoding="utf-8"))["pages"] if args.fingerprints.exists() else {}
     result = check(client, sports, previous, pause=lambda: time.sleep(args.delay))
-    _write_json(args.fingerprints, {"checked_on": today.isoformat(), "pages": result.fingerprints})
+    # No run date in the file: it only changes (and gets committed) when a page does.
+    _write_json(args.fingerprints, {"pages": result.fingerprints})
 
     review = result.needs_claude(today)
     if review:

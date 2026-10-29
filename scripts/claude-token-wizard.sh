@@ -232,8 +232,11 @@ else
   if [[ -n "$token" ]] && confirm "Save it to $REPO as CLAUDE_CODE_OAUTH_TOKEN?"; then
     GH_REPO="$REPO"; export GH_REPO
     set_secret CLAUDE_CODE_OAUTH_TOKEN "$token"
-    gh variable set CLAUDE_TOKEN_CREATED --repo "$REPO" --body "$(date +%F)" >/dev/null \
-      && printf '  %s✓ noted%s today as the token date (for the renewal reminder)\n' "$GREEN" "$RESET"
+    # Only date the token if it really was saved: the date also switches the Claude step on.
+    if [[ " ${WRITTEN_SECRET[*]-} " == *" CLAUDE_CODE_OAUTH_TOKEN "* ]]; then
+      set_var CLAUDE_TOKEN_CREATED "$(date +%F)"
+      note "(That's today's date, for the renewal reminder.)"
+    fi
   else
     SKIPPED+=("save the token: gh secret set CLAUDE_CODE_OAUTH_TOKEN --repo $REPO")
   fi

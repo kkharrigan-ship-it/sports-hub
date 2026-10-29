@@ -34,9 +34,10 @@ As a backstop, GitHub also emails the repo owner whenever a scheduled run fails.
 A second workflow, **Season-file check** (`.github/workflows/season-check.yml`), runs every **Wednesday at 07:00 UTC**:
 
 1. It visits each page the Season file cites, and compares a fingerprint of the page's text with last week's.
-2. If a page changed, or a site that blocks automated visitors has an event coming up, it opens one GitHub issue labelled **season-review**, or adds to the open one. The issue lists the pages and the Season-file entries that cite them.
-3. If the Claude token is set up, Claude compares those entries with their sources and posts a summary on the issue. Claude has a read-only token and web-reading tools only, so it can't change anything.
+2. If a page changed, it opens one GitHub issue labelled **season-review**, or adds to the open one, listing the page and the upcoming Season-file entries that cite it. Sites that block automated visitors can't be fingerprinted, so each of their events gets two looks instead: the week it comes within 8 weeks, and the week it's two weeks away. A quiet week opens nothing and uses no Claude allowance.
+3. If the Claude token is set up, Claude compares those entries with their sources and posts a summary on the issue. It can only read web pages, the review and the Season file (no git credentials are left on disk), so it can't change or leak anything.
 4. Nothing in the Season file changes automatically. Fix any date that moved, then close the issue.
+5. If any step fails, Katie gets one email saying which. Fingerprints are only saved once the issue is open, so a change is never lost.
 
 To give the check its Claude login (once, and again roughly yearly):
 

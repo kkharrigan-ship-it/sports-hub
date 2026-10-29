@@ -6,16 +6,19 @@ fingerprinted. A changed fingerprint means a date may have moved, so the check
 produces a review for Katie listing the page and the Season-file entries that
 cite it. It never edits the Season file.
 
-Sites that refuse automated visitors are listed as "couldn't check"; if any
-of their entries is within the Hub's 8-week window, the review also asks for
-a Claude check (ticket 32), which can read other sources about them.
+Sites that refuse automated visitors are listed as "couldn't check". Their
+entries can't be fingerprinted, so instead each one gets two looks from the
+Claude check (ticket 32), which can read other sources about it: the week it
+enters the Hub's 8-week window, and the week it's two weeks away. That keeps a
+site that always blocks us from raising a review (and using Pro allowance)
+every single week.
 """
 
 import hashlib
 import re
 from collections.abc import Callable
 from dataclasses import dataclass, field
-from datetime import date
+from datetime import date, timedelta
 from html.parser import HTMLParser
 
 import httpx
@@ -24,11 +27,13 @@ from sports_hub.fetchers.http import USER_AGENT
 from sports_hub.model import Sport
 from sports_hub.window import horizon
 
+# Start times stay in: a moved start time is a change worth seeing.
 NOISE = [
     re.compile(r"\d{4}-\d\d-\d\dT\d\d:\d\d(:\d\d(\.\d+)?)?(Z|[+-]\d\d:?\d\d)?"),  # ISO timestamps
-    re.compile(r"\b\d{1,2}:\d\d(:\d\d)?\b"),                                       # clock times
+    re.compile(r"\b\d+\s+(second|minute|hour|day|week|month|year)s?\s+ago\b", re.I),     # "3 days ago"
     re.compile(r"\b[A-Za-z0-9_-]{24,}\b"),                                         # build ids, nonces, hashes
 ]
+WEEK = timedelta(days=7)
 SKIP_TAGS = {"script", "style", "noscript", "template", "svg"}
 
 
@@ -53,11 +58,23 @@ class CheckResult:
     fingerprints: dict[str, str]
 
     def needs_claude(self, today: date) -> bool:
-        """Changed pages, or unreachable ones with an entry on now or inside the Hub's window."""
-        soon = horizon(today)
-        return bool(self.changed) or any(
-            c.last_day >= today and c.day <= soon for page, _ in self.unreachable for c in page.citations
+        """A changed page with an entry still to come, or an unreachable page's entry that's due a look."""
+        return any(_ahead(page, today) for page in self.changed) or any(
+            _due(c, today) for page, _ in self.unreachable for c in page.citations
         )
+
+
+def _ahead(page: Page, today: date) -> list[Citation]:
+    return [c for c in page.citations if c.last_day >= today]
+
+
+def _in_window(page: Page, today: date) -> list[Citation]:
+    return [c for c in _ahead(page, today) if c.day <= horizon(today)]
+
+
+def _due(c: Citation, today: date) -> bool:
+    """The week an entry enters the 8-week window, or the week it's two weeks away (weekly runs)."""
+    return horizon(today) - WEEK < c.day <= horizon(today) or today + WEEK < c.day <= today + 2 * WEEK
 
 
 def cited_pages(sports: list[Sport]) -> list[Page]:
@@ -102,23 +119,29 @@ def page_fingerprint(html: str) -> str:
 
 def review_report(result: CheckResult, today: date) -> str:
     lines = [f"# Season-file review: {_day(today)}", ""]
-    if result.changed:
+    changed = [(page, citations) for page in result.changed if (citations := _ahead(page, today))]
+    if changed:
         lines += ["## Pages that changed", "",
                   "These pages are cited in `config/seasons/` and their text changed since last week. "
                   "Check whether any of these dates moved:", ""]
-        for page in result.changed:
-            lines += [f"- {page.url}", *[f"  - {c.sport}: {c.event} ({_day(c.day, year=True)})" for c in page.citations]]
+        for page, citations in changed:
+            lines += [f"- {page.url}", *_entries(citations)]
         lines.append("")
-    if result.unreachable:
-        lines += ["## Couldn't check", "", "These sites refused the check or didn't answer:", ""]
-        for page, reason in result.unreachable:
-            lines += [f"- {page.url} ({reason})",
-                      *[f"  - {c.sport}: {c.event} ({_day(c.day, year=True)})" for c in page.citations]]
+    blocked = [(page, reason, citations) for page, reason in result.unreachable if (citations := _in_window(page, today))]
+    if blocked:
+        lines += ["## Couldn't check", "",
+                  "These sites refused the check or didn't answer. Their entries in the next 8 weeks:", ""]
+        for page, reason, citations in blocked:
+            lines += [f"- {page.url} ({reason})", *_entries(citations)]
         lines.append("")
     lines += ["## What to do", "",
               "Open each page, compare it with the entries listed, and fix `config/seasons/2026-27.yaml` if a date moved. "
               "Close this issue once you've checked. Nothing is changed automatically.", ""]
     return "\n".join(lines)
+
+
+def _entries(citations: list[Citation]) -> list[str]:
+    return [f"  - {c.sport}: {c.event} ({_day(c.day, year=True)})" for c in citations]
 
 
 def _day(d: date, year: bool = False) -> str:

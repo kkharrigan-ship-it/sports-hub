@@ -33,6 +33,26 @@ def test_a_failed_claude_step_explains_how_to_renew_the_token() -> None:
     assert "claude setup-token" in message.text
     assert "CLAUDE_CODE_OAUTH_TOKEN" in message.text
     assert "fingerprint check still ran" in message.text
+    assert "most likely" in message.text  # it can't know it was the token
+
+
+def test_any_failed_later_step_is_reported_in_one_email() -> None:
+    code, sender = outcome(date(2026, 11, 4), ISSUE_RESULT="failure", SAVE_RESULT="skipped")
+
+    assert code == 1
+    (message,) = sender.sent
+    assert message.subject == "Sports Hub: part of the weekly Season-file check failed"
+    assert "- opening or updating the review issue" in message.text
+    assert "next week's check flags it again" in message.text
+    assert "claude setup-token" not in message.text
+
+
+def test_a_failed_post_is_reported_with_the_token_steps_when_claude_also_failed() -> None:
+    _, sender = outcome(date(2026, 11, 4), claude="failure", POST_RESULT="failure")
+
+    (message,) = sender.sent
+    assert "- posting Claude's summary on the review issue" in message.text
+    assert "claude setup-token" in message.text
 
 
 def test_the_renewal_reminder_comes_once_eleven_months_on() -> None:
@@ -43,6 +63,11 @@ def test_the_renewal_reminder_comes_once_eleven_months_on() -> None:
     reminders = [messages for messages in sent if messages]
     assert len(reminders) == 1
     assert reminders[0][0].subject == "Sports Hub: renew the Claude token by Oct 28, 2027"
+
+
+def test_a_manual_run_in_the_reminder_week_does_not_send_it_again() -> None:
+    assert outcome(date(2027, 9, 29), GITHUB_EVENT_NAME="workflow_dispatch")[1].sent == []
+    assert len(outcome(date(2027, 9, 29), GITHUB_EVENT_NAME="schedule")[1].sent) == 1
 
 
 def test_no_token_date_means_no_reminder() -> None:

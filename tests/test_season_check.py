@@ -5,7 +5,7 @@ served by the fake internet, and checks the review the check would raise.
 """
 
 import json
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 import httpx
@@ -25,6 +25,7 @@ sports:
   curling-intl:
     events:
       - { name: European Curling Championships, date: 2026-10-27, end_date: 2026-11-01, location: "Ostrava", source: "https://curling.example/events" }
+      - { name: Pan Continental Championships, date: 2026-12-20, location: "Calgary", source: "https://curling.example/events" }
 """
 PAGE = "<html><head><script>var build='{stamp}';</script></head><body><h1>Calendar</h1><p>{body}</p><footer>Updated {stamp}</footer></body></html>"
 
@@ -88,6 +89,35 @@ def test_only_a_timestamp_changing_is_not_a_change(tmp_path: Path, client: httpx
     assert check(tmp_path, client, season, today=date(2026, 11, 4))["changed"] == "0"
 
 
+def test_a_moved_start_time_is_a_change(tmp_path: Path, client: httpx.Client, internet: FakeInternet,
+                                        season: Path) -> None:
+    serve_all(internet, monza="Monza 8 November, start 12:00")
+    check(tmp_path, client, season)
+    serve_all(internet, monza="Monza 8 November, start 13:00")
+
+    assert check(tmp_path, client, season, today=date(2026, 11, 4))["changed"] == "1"
+
+
+def test_relative_dates_are_not_a_change(tmp_path: Path, client: httpx.Client, internet: FakeInternet,
+                                         season: Path) -> None:
+    serve_all(internet, monza="Monza 8 November. Posted 3 days ago")
+    check(tmp_path, client, season)
+    serve_all(internet, monza="Monza 8 November. Posted 10 days ago")
+
+    assert check(tmp_path, client, season, today=date(2026, 11, 4))["changed"] == "0"
+
+
+def test_the_fingerprints_file_only_changes_when_a_page_does(tmp_path: Path, client: httpx.Client,
+                                                             internet: FakeInternet, season: Path) -> None:
+    serve_all(internet)
+    check(tmp_path, client, season)
+    before = (tmp_path / "fingerprints.json").read_bytes()
+
+    check(tmp_path, client, season, today=date(2026, 11, 4))
+
+    assert (tmp_path / "fingerprints.json").read_bytes() == before
+
+
 def test_a_changed_page_is_reported_with_the_entries_that_cite_it(tmp_path: Path, client: httpx.Client,
                                                                   internet: FakeInternet, season: Path) -> None:
     serve_all(internet)
@@ -114,8 +144,21 @@ def test_sites_that_refuse_us_are_listed_as_couldnt_check(tmp_path: Path, client
     report = (tmp_path / "review.md").read_text()
     assert "## Couldn't check" in report
     assert "https://curling.example/events (HTTP 403)" in report
-    # The Euros are on now, inside 8 weeks, so Claude should look at them.
+    # The Pan Continentals have just come inside the 8-week window, so Claude should look at them.
+    assert "Pan Continental Championships (Sun, Dec 20, 2026)" in report
     assert outputs["claude"] == "true"
+
+
+def test_a_blocked_entry_gets_two_looks_not_one_a_week(tmp_path: Path, client: httpx.Client,
+                                                       internet: FakeInternet, season: Path) -> None:
+    serve_all(internet)
+    weeks = [date(2026, 10, 21) + timedelta(days=7 * n) for n in range(9)]  # Oct 21 .. Dec 16
+
+    asked = [day for day in weeks if check(tmp_path, client, season, today=day)["claude"] == "true"]
+
+    # Oct 28: the Pan Continentals enter the window. Nov 4: the Euros are past, nothing due.
+    # Dec 9: the Pan Continentals are 8-14 days away, the last look before they start.
+    assert asked == [date(2026, 10, 28), date(2026, 12, 9)]
 
 
 def test_unreachable_sources_with_nothing_soon_do_not_need_claude(tmp_path: Path, client: httpx.Client,
@@ -125,6 +168,29 @@ def test_unreachable_sources_with_nothing_soon_do_not_need_claude(tmp_path: Path
     outputs = check(tmp_path, client, season, today=date(2026, 12, 15))
 
     assert outputs["claude"] == "false"
+    assert outputs["review"] == "false"
+
+
+def test_only_entries_in_the_window_are_listed_as_couldnt_check(tmp_path: Path, client: httpx.Client,
+                                                                internet: FakeInternet, season: Path) -> None:
+    serve_all(internet)
+    internet.break_host("www.wec.example")
+
+    check(tmp_path, client, season)
+
+    report = (tmp_path / "review.md").read_text()
+    assert "www.wec.example" not in report  # its entries are in March and April
+    assert "European Curling Championships" in report
+
+
+def test_a_page_whose_entries_have_all_passed_raises_nothing(tmp_path: Path, client: httpx.Client,
+                                                             internet: FakeInternet, season: Path) -> None:
+    serve_all(internet)
+    check(tmp_path, client, season, today=date(2026, 11, 10))
+    serve_all(internet, monza="Monza 8 November: race report")
+
+    outputs = check(tmp_path, client, season, today=date(2026, 11, 17))
+
     assert outputs["review"] == "false"
 
 

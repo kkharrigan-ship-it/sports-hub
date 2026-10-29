@@ -1,13 +1,15 @@
 # The weekly Season-file check: Wednesdays at 07:00 UTC, or by hand.
 #
 #   check   - fingerprint every page the Season file cites (read-only)
-#   save    - commit the new fingerprints
 #   issue   - open (or add to) one "season-review" issue when something needs a look
-#   claude  - Claude compares the flagged entries with their sources. It has a
-#             read-only token and web-reading tools only, so it can't change
-#             anything; it just returns a summary
+#   save    - commit the new fingerprints, only once the issue is safely open, so
+#             a change can't be "seen" and then lost if the issue step failed
+#   claude  - Claude compares the flagged entries with their sources. It reads
+#             web pages, so it's walled in: no saved git credentials, and it can
+#             only read the review and the Season file. It can't change anything;
+#             it just returns a summary
 #   post    - posts Claude's summary on the review issue
-#   finish  - emails Katie if a step failed (e.g. the Claude token expired),
+#   finish  - emails Katie if any step failed (e.g. the Claude token expired),
 #             or once, about a month before the token's expected expiry
 name: Season-file check
 
@@ -58,7 +60,9 @@ jobs:
           retention-days: 7
 
   save:
-    needs: check
+    needs: [check, issue]
+    # !cancelled(): otherwise a skipped issue job (a quiet week) would skip this too.
+    if: "!cancelled() && needs.check.result == 'success' && (needs.issue.result == 'success' || needs.issue.result == 'skipped')"
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -70,6 +74,7 @@ jobs:
           path: checked
       - name: Commit the fingerprints if they changed
         run: |
+          # The file holds no run date, so it only differs when a page changed.
           mkdir -p state
           cp checked/state/fingerprints.json state/fingerprints.json
           if git ls-files --error-unmatch state/fingerprints.json >/dev/null 2>&1 && git diff --quiet -- state/fingerprints.json; then
@@ -121,7 +126,12 @@ jobs:
     outputs:
       review: ${{ steps.claude.outputs.structured_output }}
     steps:
+      # Claude reads untrusted web pages, so leave nothing on disk worth stealing:
+      # no git credentials, and Read is limited to the two paths below.
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          sparse-checkout: config/seasons
       - uses: actions/download-artifact@v8
         with:
           name: season-check
@@ -154,7 +164,8 @@ jobs:
             one bullet per entry that differs (what the file says, what the source
             says, link), then a line listing the entries that still match.
           claude_args: |
-            --allowedTools WebFetch,WebSearch,Read,Grep,Glob
+            --allowedTools WebFetch,WebSearch,Read(./checked/season-review.md),Read(./config/seasons/**)
+            --disallowedTools Bash,Edit,Write,NotebookEdit,Grep,Glob
             --max-turns 30
             --json-schema '{"type":"object","properties":{"summary":{"type":"string"},"differences_found":{"type":"boolean"}},"required":["summary","differences_found"]}'
 
@@ -172,7 +183,8 @@ jobs:
     steps:
       - name: Post Claude's summary on the review issue
         run: |
-          python3 -c 'import json, os; r = json.loads(os.environ["REVIEW_JSON"]); print("### Claude compared the flagged entries with their sources\n"); print(r["summary"])' > summary.md
+          # Fails (and so emails Katie) if Claude returned no summary.
+          python3 -c 'import json, os, sys; s = json.loads(os.environ["REVIEW_JSON"] or "{}").get("summary", "").strip(); s or sys.exit("Claude returned no summary."); print("### Claude compared the flagged entries with their sources\n"); print(s)' > summary.md
           gh issue comment "$ISSUE" --body-file summary.md
 
   finish:
@@ -186,7 +198,10 @@ jobs:
       - name: Email Katie if needed
         env:
           CHECK_RESULT: ${{ needs.check.result }}
+          ISSUE_RESULT: ${{ needs.issue.result }}
+          SAVE_RESULT: ${{ needs.save.result }}
           CLAUDE_RESULT: ${{ needs.claude.result }}
+          POST_RESULT: ${{ needs.post.result }}
           CLAUDE_TOKEN_CREATED: ${{ vars.CLAUDE_TOKEN_CREATED }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           SPORTS_HUB_MAIL_USER: ${{ secrets.SPORTS_HUB_MAIL_USER }}
