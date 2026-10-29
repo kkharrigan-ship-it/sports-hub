@@ -8,7 +8,7 @@ A shared schedule of 19 sports. It refreshes itself twice a week and is publishe
 
 ## How it runs
 
-GitHub runs the **Refresh** workflow (`.github/workflows/refresh.yml`) every **Monday and Thursday at 11:00 UTC**: 6am in Memphis in summer, 5am in winter. The workflow has four jobs, each with only the permissions it needs:
+GitHub runs the **Refresh** workflow (`.github/workflows/refresh.yml`) every **Monday and Thursday at 07:00 UTC**: 2am in Memphis in summer, 1am in winter. It's early on purpose: GitHub can start scheduled runs hours late, and this still gets the Monday email out before breakfast. The workflow has four jobs, each with only the permissions it needs:
 
 1. **build:** installs the project, runs the tests (a failing test stops everything), then fetches every Sport and builds the Hub: the page, `data.json` and one calendar feed per Sport. On Mondays it also emails the week's highlights (the Notification), at most once per Monday
 2. **publish:** puts the Hub on GitHub Pages

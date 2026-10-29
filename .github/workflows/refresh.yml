@@ -1,5 +1,8 @@
-# The Sports Hub Refresh: Mondays and Thursdays at 11:00 UTC
-# (6am in Memphis in summer, 5am in winter), or by hand from the Actions tab.
+# The Sports Hub Refresh: Mondays and Thursdays at 07:00 UTC
+# (2am in Memphis in summer, 1am in winter), or by hand from the Actions tab.
+# Early on purpose: GitHub can start scheduled runs hours late, and this still
+# lands the Monday email before breakfast. Never earlier than 06:00 UTC, or it
+# would still be Sunday in Memphis and the Monday email wouldn't send.
 #
 # Four jobs, each with only the permissions it needs:
 #   build     - install, test and Refresh (read-only; no secrets except mail)
@@ -10,7 +13,7 @@ name: Refresh
 
 on:
   schedule:
-    - cron: "0 11 * * 1,4"
+    - cron: "0 7 * * 1,4"
   workflow_dispatch:
 
 # Never run two Refreshes at once; a second one waits for the first.
