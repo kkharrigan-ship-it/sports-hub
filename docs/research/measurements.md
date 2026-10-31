@@ -13,6 +13,15 @@ Every number here is **measured** unless it's marked as an estimate.
 
 Scheduled runs: Mondays and Thursdays at 11:00 UTC until 2026-10-28, then 07:00 UTC, moved earlier to absorb GitHub's delays.
 
+## Season-file check: Claude step
+
+The "API equivalent" column is what Claude Code's run log reports. It isn't a charge: these runs use Katie's Pro allowance, and the Pro meter wasn't read before or after them, so their share of the allowance is **not yet known**.
+
+| Date | Run | Trigger | Result | Claude turns | API equivalent |
+|---|---|---|---|---|---|
+| 2026-10-30 | [41114948567](https://github.com/kkharrigan-ship-it/sports-hub/actions/runs/41114948567) | manual | ✅ all 6 jobs; found the Canadian Seniors entry a day out | 16 | $0.24 |
+| 2026-10-30 | [41163092931](https://github.com/kkharrigan-ship-it/sports-hub/actions/runs/41163092931) | manual, test branch | ✅ all 6 jobs; caught the planted Scotties date | 13 | $0.21 |
+
 ## Cowork version (baseline)
 
 Not measured yet. See ticket 34.
