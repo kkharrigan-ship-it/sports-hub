@@ -8,3 +8,13 @@ dist/
 .env
 .venv.nosync/
 season-review.md
+
+# Never commit credentials (the repo is public).
+*.rtf
+*.rtfd
+*[Tt]oken*.txt
+*[Tt]oken*.md
+*.pem
+*.key
+.env
+.env.*
