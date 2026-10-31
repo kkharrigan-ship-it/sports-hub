@@ -23,7 +23,7 @@ SPORT_EMOJI = {
     "pwhl": "🏒", "curling-ca": "🥌", "curling-intl": "🥌", "speed-skating": "⛸️", "short-track": "⛸️",
     "swimming": "🏊", "diving": "🏊", "gymnastics": "🤸", "alpine": "⛷️", "freestyle": "⛷️", "snowboard": "🏂",
     "biathlon": "🎿", "f1": "🏎️", "motogp": "🏍️", "sailgp": "⛵", "wec": "🏁", "diamond-league": "🏃",
-    "world-skate": "🛹", "ireland-rugby": "🏉",
+    "world-skate": "🛹", "ireland-rugby": "🏉", "all-blacks": "🏉",
 }
 
 
@@ -79,7 +79,7 @@ def notification_message(data: dict[str, Any], today: date, to: tuple[str, ...],
     else:
         nxt = min(later)[1] if later else None
         lines += [
-            "Nothing on this week across all 19 sports. A good week for a walk! 🌿",
+            "Nothing on this week across all 20 sports. A good week for a walk! 🌿",
             f"Next up: {nxt}." if nxt else "The next dates haven't been announced yet.",
             "",
         ]

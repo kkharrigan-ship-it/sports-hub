@@ -1,6 +1,6 @@
 # Sports Hub
 
-A shared schedule of 19 sports. It refreshes itself twice a week and is published as a web page with calendar feeds.
+A shared schedule of 20 sports. It refreshes itself twice a week and is published as a web page with calendar feeds.
 
 - **What it is and why:** [CONTEXT.md](CONTEXT.md) (vocabulary and decisions) and [.scratch/python-rebuild/design-brief.md](.scratch/python-rebuild/design-brief.md).
 - **Where watch options come from:** [docs/research/watch-guide-2026-27.md](docs/research/watch-guide-2026-27.md).

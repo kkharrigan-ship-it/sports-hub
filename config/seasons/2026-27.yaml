@@ -133,6 +133,18 @@ sports:
       - { name: Ireland v Fiji, session: Nations Championship, date: 2026-11-14, time: "20:10", tz: Europe/Dublin, location: "Aviva Stadium, Dublin", source: "https://www.irishrugby.ie/2026/05/15/fifty-days-to-go-to-start-of-nations-championship/" }
       - { name: Ireland v South Africa, session: Nations Championship, date: 2026-11-21, time: "16:40", tz: Europe/Dublin, location: "Aviva Stadium, Dublin", source: "https://www.irishrugby.ie/2026/05/15/fifty-days-to-go-to-start-of-nations-championship/" }
 
+  # Researched 2026-10-31. Nations Championship northern tour, all 14:10 UK.
+  # Finals Weekend (27-29 Nov, London) is left out until NZ's opponent and day
+  # are set. 2027 mid-year Tests aren't dated yet; the World Cup opener is.
+  all-blacks:
+    returns: Returns 2027
+    offseason_note: The All Blacks open the Rugby World Cup against Chile in Perth on 2 October 2027.
+    events:
+      - { name: Scotland v New Zealand, session: Nations Championship, date: 2026-11-07, time: "14:10", tz: Europe/London, location: "Scottish Gas Murrayfield, Edinburgh", source: "https://www.allblacks.com/news/all-blacks/all-blacks-name-squad-for-nations-championship-northern-tour" }
+      - { name: Wales v New Zealand, session: Nations Championship, date: 2026-11-14, time: "14:10", tz: Europe/London, location: "Principality Stadium, Cardiff", source: "https://www.allblacks.com/news/all-blacks/all-blacks-name-squad-for-nations-championship-northern-tour" }
+      - { name: England v New Zealand, session: Nations Championship, date: 2026-11-21, time: "14:10", tz: Europe/London, location: "Allianz Stadium, London", source: "https://www.allblacks.com/news/all-blacks/all-blacks-name-squad-for-nations-championship-northern-tour" }
+      - { name: New Zealand v Chile, session: Rugby World Cup, date: 2027-10-02, time: "13:15", tz: Australia/Perth, location: "Perth Stadium, Perth", source: "https://www.allblacks.com/news/all-blacks-rugby-world-cup-2027-campaign-to-kick-off-against-chile" }
+
   # Researched 2026-10-24 from the FIG events database. Artistic World Cups,
   # World Challenge Cups and all World Championships; other disciplines' World
   # Cups are left out. Doha is listed as "approved" (the 2026 leg was cancelled).

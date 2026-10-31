@@ -1,6 +1,6 @@
 # Sports Hub — Context
 
-A weekly-refreshed schedule of 19 niche and international sports, shared between Katie and Jason.
+A weekly-refreshed schedule of 20 niche and international sports, shared between Katie and Jason.
 This project rebuilds the Cowork scheduled skill (`../../Scheduled/sports-hub-refresh/SKILL.md`) in Python.
 
 ## Glossary
@@ -9,7 +9,7 @@ This project rebuilds the Cowork scheduled skill (`../../Scheduled/sports-hub-re
 - **Refresh** — one scheduled run that fetches schedules, rebuilds the Hub, and sends the Notification.
 - **Notification** — the message telling Jason (and Katie) the Hub has been refreshed, with a link. Replaces the standalone Digest email.
 - **Digest** — the old plain-text "What's on this week" email to Jason. Deprecated term; stopped arriving after June 2026.
-- **Sport** — one of the 19 tracked competitions, keyed by a stable id (e.g. `f1`, `curling-ca`).
+- **Sport** — one of the 20 tracked competitions, keyed by a stable id (e.g. `f1`, `curling-ca`).
 - **Event** — one dated session/competition for a Sport: name, date (and end date if multi-day), UTC start time or all-day, location, optional session and tags, and for Season-file entries the source link where its date was checked.
 - **Session** — the part of an Event (e.g. Qualifying, Race), or for one-off matches the competition it belongs to (e.g. Six Nations).
 - **Watch option** — a way to view an Event, typed `have` / `free` / `vpn` / `consider`.

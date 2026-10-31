@@ -1,4 +1,4 @@
-"""Milestone 2 completeness (ticket 15): the Hub has exactly the 19 agreed Sports, fully configured."""
+"""Milestone 2 completeness (ticket 15): the Hub has exactly the 20 agreed Sports (19 at ticket 15, plus the All Blacks), fully configured."""
 
 import re
 from datetime import date
@@ -13,6 +13,7 @@ AGREED = {
     "pwhl", "curling-ca", "curling-intl", "speed-skating", "short-track", "swimming", "diving",
     "gymnastics", "alpine", "snowboard", "freestyle", "biathlon", "f1", "motogp", "sailgp", "wec",
     "diamond-league", "world-skate", "ireland-rugby",
+    "all-blacks",
 }
 WATCH_GUIDE = Path(__file__).parents[1] / "docs" / "research" / "watch-guide-2026-27.md"
 
@@ -25,10 +26,10 @@ def recheck_list() -> set[str]:
     return {sport_id for line in bullets for sport_id in re.findall(r"[a-z]+(?:-[a-z]+)*", line.split("(")[0]) if sport_id != "and"}
 
 
-def test_config_has_exactly_the_19_agreed_sports() -> None:
+def test_config_has_exactly_the_20_agreed_sports() -> None:
     ids = [s.id for s in load_sports()]
 
-    assert len(ids) == len(set(ids)) == 19
+    assert len(ids) == len(set(ids)) == 20
     assert set(ids) == AGREED
 
 
