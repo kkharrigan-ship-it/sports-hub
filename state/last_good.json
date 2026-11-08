@@ -1,9 +1,9 @@
 {
-  "refreshed_on": "2026-11-05",
+  "refreshed_on": "2026-11-07",
   "notified_on": "2026-11-02",
   "sports": {
     "f1": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "40fb5583d6075d28d82c@sports-hub",
@@ -1503,7 +1503,7 @@
       ]
     },
     "alpine": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "0e50e9fb9f1eeaa984c4@sports-hub",
@@ -2587,7 +2587,7 @@
       ]
     },
     "snowboard": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "50fb98f3d5c5631feb65@sports-hub",
@@ -3645,7 +3645,7 @@
       ]
     },
     "freestyle": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "3fcdfb3d571a4674db25@sports-hub",
@@ -5202,7 +5202,7 @@
       ]
     },
     "wec": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "a46cff9cfa07cd0a0a6e@sports-hub",
@@ -5337,7 +5337,7 @@
       ]
     },
     "sailgp": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "f88e8cbdde06ce9e132e@sports-hub",
@@ -5443,7 +5443,7 @@
       ]
     },
     "curling-ca": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "01d42fdce52ee7e39193@sports-hub",
@@ -5601,7 +5601,7 @@
       ]
     },
     "curling-intl": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "229d89cff60e6fb2f2aa@sports-hub",
@@ -5749,7 +5749,7 @@
       ]
     },
     "pwhl": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "2766fd2da7645e72d5c9@sports-hub",
@@ -8094,7 +8094,7 @@
       ]
     },
     "swimming": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "b464ab27c775c2017f49@sports-hub",
@@ -8190,7 +8190,7 @@
       ]
     },
     "diving": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "2581d58c1e6c352a7614@sports-hub",
@@ -8247,7 +8247,7 @@
       ]
     },
     "motogp": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "ee0fe0208cb0270c90ee@sports-hub",
@@ -9383,7 +9383,7 @@
       ]
     },
     "ireland-rugby/season": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "d419a8db26e2e7963985@sports-hub",
@@ -9427,7 +9427,7 @@
       ]
     },
     "ireland-rugby/six_nations": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "7ce8c30d6571ff43532c@sports-hub",
@@ -9496,8 +9496,65 @@
         }
       ]
     },
+    "all-blacks": {
+      "fetched_on": "2026-11-07",
+      "events": [
+        {
+          "uid": "57b151141c281a4021ae@sports-hub",
+          "name": "Scotland v New Zealand",
+          "session": "Nations Championship",
+          "date": "2026-11-07",
+          "start": "2026-11-07T14:10:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Scottish Gas Murrayfield, Edinburgh",
+          "tags": [],
+          "source": "https://www.allblacks.com/news/all-blacks/all-blacks-name-squad-for-nations-championship-northern-tour",
+          "stale_since": null
+        },
+        {
+          "uid": "fc561fa1c95fe74b180e@sports-hub",
+          "name": "Wales v New Zealand",
+          "session": "Nations Championship",
+          "date": "2026-11-14",
+          "start": "2026-11-14T14:10:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Principality Stadium, Cardiff",
+          "tags": [],
+          "source": "https://www.allblacks.com/news/all-blacks/all-blacks-name-squad-for-nations-championship-northern-tour",
+          "stale_since": null
+        },
+        {
+          "uid": "3557945e7ca61f864bdf@sports-hub",
+          "name": "England v New Zealand",
+          "session": "Nations Championship",
+          "date": "2026-11-21",
+          "start": "2026-11-21T14:10:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Allianz Stadium, London",
+          "tags": [],
+          "source": "https://www.allblacks.com/news/all-blacks/all-blacks-name-squad-for-nations-championship-northern-tour",
+          "stale_since": null
+        },
+        {
+          "uid": "4ffc540fba35da787ffc@sports-hub",
+          "name": "New Zealand v Chile",
+          "session": "Rugby World Cup",
+          "date": "2027-10-02",
+          "start": "2027-10-02T05:15:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Perth Stadium, Perth",
+          "tags": [],
+          "source": "https://www.allblacks.com/news/all-blacks-rugby-world-cup-2027-campaign-to-kick-off-against-chile",
+          "stale_since": null
+        }
+      ]
+    },
     "speed-skating": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "4f5b22e5458f3923c03f@sports-hub",
@@ -9606,7 +9663,7 @@
       ]
     },
     "short-track": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "f956c00db6efc8f660c8@sports-hub",
@@ -9728,7 +9785,7 @@
       ]
     },
     "gymnastics": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "b553c1c00438d2b28ec9@sports-hub",
@@ -9904,7 +9961,7 @@
       ]
     },
     "world-skate": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "8281b2d5b95e36200f1e@sports-hub",
@@ -9935,7 +9992,7 @@
       ]
     },
     "diamond-league": {
-      "fetched_on": "2026-11-05",
+      "fetched_on": "2026-11-07",
       "events": [
         {
           "uid": "a7cb44d807823fb67de0@sports-hub",
