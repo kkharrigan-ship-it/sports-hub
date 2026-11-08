@@ -64,3 +64,21 @@ def test_missing_mail_settings_never_crash_the_last_step() -> None:
     code = finish({"REFRESH_CODE": "", "RUN_URL": "x"}, FakeSender())
 
     assert code == 1
+
+
+def test_a_rerun_of_older_code_is_stopped_and_explained() -> None:
+    sender = FakeSender()
+    env = {**MAIL, "CODE_OUTDATED": "true", "REFRESH_CODE": "", "PUBLISH_RESULT": "skipped", "SAVE_RESULT": "skipped"}
+
+    assert finish(env, sender) == 1
+    (message,) = sender.sent
+    assert message.subject == "Sports Hub: re-run stopped (older code)"
+    assert "Run workflow" in message.text
+    assert "installing or testing" not in message.text  # not the generic failure email
+
+
+def test_current_code_is_not_mistaken_for_a_rerun() -> None:
+    sender = FakeSender()
+    env = {**MAIL, "CODE_OUTDATED": "false", "REFRESH_CODE": "0", "PUBLISH_RESULT": "success", "SAVE_RESULT": "success"}
+
+    assert (finish(env, sender), sender.sent) == (0, [])
