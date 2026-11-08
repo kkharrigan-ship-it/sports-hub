@@ -31,6 +31,8 @@ US viewer in Memphis with Apple TV, Peacock and ExpressVPN. This is the source f
 | World Skate | World Skate YouTube; Olympics.com | — | — | ✅ |
 | Ireland November tests | RugbyPass TV (free with registration) | Virgin Media Player (Irish exclusive) | — | ✅ |
 | Ireland 2027 Six Nations | Peacock (owned; had 2026), some on NBC | RTÉ Player, Virgin Media Player | — | ⚠️ |
+| All Blacks November tests (added 2026-10-31) | RugbyPass TV (free with registration) | — | — | ✅ |
+| All Blacks at the 2027 Rugby World Cup | CBS over the air (select matches) | — | Paramount+ ~$8–13/mo (every match; CBS holds US rights through 2029) | ✅ |
 
 Not recommended: BBC iPlayer (requires a UK TV licence).
 
@@ -64,6 +66,8 @@ MotoGP's broadcast deal is confirmed. Only its free channel is uncertain, which 
 - SailGP/CBS: https://www.sportsvideo.org/?p=296264
 - MotoGP/FOX: https://awfulannouncing.com/fox/motogp-media-rights-deal-2026.html
 - Diamond League/Flo: https://letsrun.com/news/2024/04/how-and-why-the-diamond-league-is-heading-to-flotrack-in-2025
+- Rugby World Cup 2027/CBS: https://www.sportsvideo.org/2025/05/27/world-rugby-announces-rights-agreement-with-cbs-sports-making-paramount-the-home-of-world-rugby-in-the-us-through-to-2029/
+- All Blacks on RugbyPass TV: https://www.florugby.com/articles/16318122-all-blacks-rugby-2026-nations-championship-northern-tour-schedule
 - Nations Championship: https://www.rugbyworld.com/news/nations-championship-live-stream-how-to-watch-from-anywhere-184314
 - Biathlon 2025-26: https://www.tomsguide.com/entertainment/sports/how-to-watch-biathlon-world-cup-2025-26-free
 - ISU short track: https://isu-skating.com/short-track/news/where-to-watch-isu-cnsg-short-track-world-championships-broadcast-partners

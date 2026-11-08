@@ -163,3 +163,14 @@ def test_nothing_announced_is_off_season_with_its_label(client: httpx.Client) ->
 
     assert world_skate["status"] == "off-season"
     assert world_skate["returns"] == "Returns 2027 (dates TBA)"
+
+
+def test_all_blacks_show_the_northern_tour_then_the_world_cup_opener(client: httpx.Client) -> None:
+    events = entry(client, "all-blacks", today=date(2026, 10, 31))["events"]
+
+    assert [(e["name"], e["start"]) for e in events] == [
+        ("Scotland v New Zealand", "2026-11-07T14:10:00Z"),
+        ("Wales v New Zealand", "2026-11-14T14:10:00Z"),
+        ("England v New Zealand", "2026-11-21T14:10:00Z"),
+        ("New Zealand v Chile", "2027-10-02T05:15:00Z"),
+    ]

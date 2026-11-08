@@ -146,6 +146,15 @@ sports:
       - { label: RTÉ Player, type: vpn }
       - { label: Virgin Media Player, type: vpn }
 
+  - id: all-blacks
+    name: All Blacks
+    category: rugby
+    source: season
+    watch:
+      - { label: RugbyPass TV, type: free, note: November tests; free with registration }
+      - { label: CBS, type: free, note: over the air; select 2027 World Cup matches }
+      - { label: Paramount+, type: consider, price: "~$8-13/mo", note: every 2027 World Cup match }
+
   - id: speed-skating
     name: Speed Skating
     category: ice
