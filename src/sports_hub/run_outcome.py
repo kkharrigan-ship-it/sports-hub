@@ -30,8 +30,18 @@ def finish(env: Mapping[str, str], sender: MailSender | None) -> int:
 
     Expects BUILD_RESULT, PUBLISH_RESULT and SAVE_RESULT (GitHub job results:
     success, failure, cancelled or skipped), REFRESH_CODE (the Refresh's exit
-    code, empty if it never ran) and RUN_URL.
+    code, empty if it never ran), CODE_OUTDATED ("true" when the run's code
+    wasn't main's latest, so it stopped before refreshing) and RUN_URL.
     """
+    if env.get("CODE_OUTDATED") == "true":
+        _send(sender, env, "Sports Hub: re-run stopped (older code)",
+              "This run was started from older code than the latest on main, which usually means "
+              "Re-run was clicked on an earlier run. It stopped before refreshing so the live Hub "
+              "wasn't rolled back to that older version. Nothing changed: the Hub still shows the "
+              "last good version.\n\nTo refresh now, go to Actions, then Refresh, then Run workflow."
+              f"\n\nWhat happened (GitHub's log): {env.get('RUN_URL', '')}\n")
+        return 1
+
     code = _int(env.get("REFRESH_CODE"))
     run_url = env.get("RUN_URL", "")
     later_failed = [name for name, key in (("publishing", "PUBLISH_RESULT"), ("saving the state", "SAVE_RESULT"))

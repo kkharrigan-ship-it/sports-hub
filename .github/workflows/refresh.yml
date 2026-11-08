@@ -24,7 +24,31 @@ concurrency:
 permissions: {}
 
 jobs:
+  # A re-run of an older run uses that run's code. Publishing it would quietly
+  # roll the live Hub back, so stop if this run's code differs from main's
+  # (saved state doesn't count: the bot commits that after every run).
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      outdated: ${{ steps.compare.outputs.outdated }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Is this run's code the same as main's?
+        id: compare
+        run: |
+          git fetch --depth=1 origin main
+          if git diff --quiet "$GITHUB_SHA" FETCH_HEAD -- . ':(exclude)state'; then
+            echo "outdated=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "outdated=true" >> "$GITHUB_OUTPUT"
+            echo "::error::This run's code ($GITHUB_SHA) isn't main's latest. Usually that means Re-run on an older run. Stopping so the live Hub isn't rolled back; use Run workflow instead."
+          fi
+
   build:
+    needs: check
+    if: needs.check.outputs.outdated == 'false'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -126,7 +150,7 @@ jobs:
           git push
 
   finish:
-    needs: [build, publish, save]
+    needs: [check, build, publish, save]
     if: always()
     runs-on: ubuntu-latest
     permissions:
@@ -136,6 +160,7 @@ jobs:
       # System Python, no installs: this has to work even if installing the project failed.
       - name: Email Katie if needed, and set the run's result
         env:
+          CODE_OUTDATED: ${{ needs.check.outputs.outdated }}
           REFRESH_CODE: ${{ needs.build.outputs.code }}
           PUBLISH_RESULT: ${{ needs.publish.result }}
           SAVE_RESULT: ${{ needs.save.result }}
