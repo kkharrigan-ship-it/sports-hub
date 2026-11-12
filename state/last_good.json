@@ -1,9 +1,9 @@
 {
-  "refreshed_on": "2026-11-09",
+  "refreshed_on": "2026-11-12",
   "notified_on": "2026-11-09",
   "sports": {
     "f1": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "40fb5583d6075d28d82c@sports-hub",
@@ -1503,7 +1503,7 @@
       ]
     },
     "alpine": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "0e50e9fb9f1eeaa984c4@sports-hub",
@@ -2587,7 +2587,7 @@
       ]
     },
     "snowboard": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "50fb98f3d5c5631feb65@sports-hub",
@@ -3645,7 +3645,7 @@
       ]
     },
     "freestyle": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "3fcdfb3d571a4674db25@sports-hub",
@@ -5202,7 +5202,7 @@
       ]
     },
     "wec": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "a46cff9cfa07cd0a0a6e@sports-hub",
@@ -5337,7 +5337,7 @@
       ]
     },
     "sailgp": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "f88e8cbdde06ce9e132e@sports-hub",
@@ -5443,7 +5443,7 @@
       ]
     },
     "curling-ca": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "01d42fdce52ee7e39193@sports-hub",
@@ -5601,7 +5601,7 @@
       ]
     },
     "curling-intl": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "229d89cff60e6fb2f2aa@sports-hub",
@@ -5749,7 +5749,7 @@
       ]
     },
     "pwhl": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "2766fd2da7645e72d5c9@sports-hub",
@@ -5765,8 +5765,8 @@
           "stale_since": null
         },
         {
-          "uid": "75dfe6eff7282a42e34a@sports-hub",
-          "name": "PWHL Hamilton at Montréal Victoire",
+          "uid": "dfd7d8e9a39101fcc294@sports-hub",
+          "name": "Hamilton Havoc at Montréal Victoire",
           "session": null,
           "date": "2026-12-06",
           "start": "2026-12-06T00:00:00Z",
@@ -5778,8 +5778,8 @@
           "stale_since": null
         },
         {
-          "uid": "2366a0362ac5744df413@sports-hub",
-          "name": "Minnesota Frost at PWHL San Jose",
+          "uid": "800ed0a37f379e9c83bb@sports-hub",
+          "name": "Minnesota Frost at San Jose Sea Lions",
           "session": null,
           "date": "2026-12-06",
           "start": "2026-12-06T00:00:00Z",
@@ -5817,8 +5817,8 @@
           "stale_since": null
         },
         {
-          "uid": "116da31cece9d217b87b@sports-hub",
-          "name": "PWHL Detroit at PWHL Las Vegas",
+          "uid": "2598b1d9d8a77fc4eb19@sports-hub",
+          "name": "Detroit Clutch at Vegas Vanguards",
           "session": null,
           "date": "2026-12-07",
           "start": "2026-12-07T01:00:00Z",
@@ -5830,8 +5830,8 @@
           "stale_since": null
         },
         {
-          "uid": "9494acce525b08c22f24@sports-hub",
-          "name": "PWHL Hamilton at Toronto Sceptres",
+          "uid": "68343216e5456c6eeefc@sports-hub",
+          "name": "Hamilton Havoc at Toronto Sceptres",
           "session": null,
           "date": "2026-12-09",
           "start": "2026-12-09T00:00:00Z",
@@ -5856,8 +5856,8 @@
           "stale_since": null
         },
         {
-          "uid": "edaba7c1036b060b1096@sports-hub",
-          "name": "Seattle Torrent at PWHL San Jose",
+          "uid": "774333a71a406bbe8664@sports-hub",
+          "name": "Seattle Torrent at San Jose Sea Lions",
           "session": null,
           "date": "2026-12-10",
           "start": "2026-12-10T03:00:00Z",
@@ -5869,8 +5869,8 @@
           "stale_since": null
         },
         {
-          "uid": "bfbd146d24bf31a3d432@sports-hub",
-          "name": "Minnesota Frost at PWHL Las Vegas",
+          "uid": "1901b9c5a72c2c388874@sports-hub",
+          "name": "Minnesota Frost at Vegas Vanguards",
           "session": null,
           "date": "2026-12-11",
           "start": "2026-12-11T03:00:00Z",
@@ -5882,8 +5882,8 @@
           "stale_since": null
         },
         {
-          "uid": "a16edad645a6d612a73f@sports-hub",
-          "name": "New York Sirens at PWHL Detroit",
+          "uid": "dbc8929ba1ad24f520aa@sports-hub",
+          "name": "New York Sirens at Detroit Clutch",
           "session": null,
           "date": "2026-12-12",
           "start": "2026-12-12T17:00:00Z",
@@ -5895,8 +5895,8 @@
           "stale_since": null
         },
         {
-          "uid": "6fcb46359251345e26bb@sports-hub",
-          "name": "PWHL San Jose at Montréal Victoire",
+          "uid": "c72b25133fe17b0c76ac@sports-hub",
+          "name": "San Jose Sea Lions at Montréal Victoire",
           "session": null,
           "date": "2026-12-12",
           "start": "2026-12-12T19:00:00Z",
@@ -5921,8 +5921,8 @@
           "stale_since": null
         },
         {
-          "uid": "1c9a78b23a0cf57f8bbc@sports-hub",
-          "name": "PWHL Las Vegas at Vancouver Goldeneyes",
+          "uid": "8b94d501fd85f90391d9@sports-hub",
+          "name": "Vegas Vanguards at Vancouver Goldeneyes",
           "session": null,
           "date": "2026-12-13",
           "start": "2026-12-13T02:00:00Z",
@@ -5934,8 +5934,8 @@
           "stale_since": null
         },
         {
-          "uid": "e40c3465e69bb075b6d4@sports-hub",
-          "name": "Ottawa Charge at PWHL Hamilton",
+          "uid": "fb318f082619f2801efe@sports-hub",
+          "name": "Ottawa Charge at Hamilton Havoc",
           "session": null,
           "date": "2026-12-13",
           "start": "2026-12-13T19:00:00Z",
@@ -5960,8 +5960,8 @@
           "stale_since": null
         },
         {
-          "uid": "80453136587952c88efb@sports-hub",
-          "name": "PWHL San Jose at Ottawa Charge",
+          "uid": "dfaebc78327564e1b6c1@sports-hub",
+          "name": "San Jose Sea Lions at Ottawa Charge",
           "session": null,
           "date": "2026-12-16",
           "start": "2026-12-16T00:00:00Z",
@@ -5986,8 +5986,8 @@
           "stale_since": null
         },
         {
-          "uid": "96eaed3d63af8a337e84@sports-hub",
-          "name": "PWHL San Jose at PWHL Hamilton",
+          "uid": "1fca955ff8f898632194@sports-hub",
+          "name": "San Jose Sea Lions at Hamilton Havoc",
           "session": null,
           "date": "2026-12-18",
           "start": "2026-12-18T00:00:00Z",
@@ -6012,8 +6012,8 @@
           "stale_since": null
         },
         {
-          "uid": "eaadc0c7cb2ab0df1965@sports-hub",
-          "name": "Vancouver Goldeneyes at PWHL Detroit",
+          "uid": "5530a2ac3a40baca1a55@sports-hub",
+          "name": "Vancouver Goldeneyes at Detroit Clutch",
           "session": null,
           "date": "2026-12-19",
           "start": "2026-12-19T19:00:00Z",
@@ -6051,8 +6051,8 @@
           "stale_since": null
         },
         {
-          "uid": "d6ec38153694b0082f05@sports-hub",
-          "name": "PWHL San Jose at Toronto Sceptres",
+          "uid": "6830e0ed43e16defb4b1@sports-hub",
+          "name": "San Jose Sea Lions at Toronto Sceptres",
           "session": null,
           "date": "2026-12-20",
           "start": "2026-12-20T21:00:00Z",
@@ -6064,8 +6064,8 @@
           "stale_since": null
         },
         {
-          "uid": "3b50cbf28a9d0a639c53@sports-hub",
-          "name": "PWHL Las Vegas at Seattle Torrent",
+          "uid": "6d470d9a3f47454376bf@sports-hub",
+          "name": "Vegas Vanguards at Seattle Torrent",
           "session": null,
           "date": "2026-12-21",
           "start": "2026-12-21T00:00:00Z",
@@ -6103,8 +6103,8 @@
           "stale_since": null
         },
         {
-          "uid": "ebee7098e9db2a2c9b9b@sports-hub",
-          "name": "PWHL Detroit at Ottawa Charge",
+          "uid": "511079cfc2e20c031275@sports-hub",
+          "name": "Detroit Clutch at Ottawa Charge",
           "session": null,
           "date": "2026-12-24",
           "start": "2026-12-24T00:00:00Z",
@@ -6142,8 +6142,8 @@
           "stale_since": null
         },
         {
-          "uid": "3de09d63821f5901e23b@sports-hub",
-          "name": "Toronto Sceptres at PWHL Hamilton",
+          "uid": "7e31a56f4cf16c33f2bf@sports-hub",
+          "name": "Toronto Sceptres at Hamilton Havoc",
           "session": null,
           "date": "2026-12-27",
           "start": "2026-12-27T00:00:00Z",
@@ -6155,8 +6155,8 @@
           "stale_since": null
         },
         {
-          "uid": "63d2472d923d6f497ba6@sports-hub",
-          "name": "Boston Fleet at PWHL Las Vegas",
+          "uid": "4ddff1c98c128580ab14@sports-hub",
+          "name": "Boston Fleet at Vegas Vanguards",
           "session": null,
           "date": "2026-12-27",
           "start": "2026-12-27T00:00:00Z",
@@ -6168,8 +6168,8 @@
           "stale_since": null
         },
         {
-          "uid": "8d01594d342588827163@sports-hub",
-          "name": "New York Sirens at PWHL San Jose",
+          "uid": "29fd97babe547203043d@sports-hub",
+          "name": "New York Sirens at San Jose Sea Lions",
           "session": null,
           "date": "2026-12-27",
           "start": "2026-12-27T21:00:00Z",
@@ -6194,8 +6194,8 @@
           "stale_since": null
         },
         {
-          "uid": "70acce001fc8e4a929a5@sports-hub",
-          "name": "Toronto Sceptres at PWHL Detroit",
+          "uid": "f293d2417debb8b6ff7d@sports-hub",
+          "name": "Toronto Sceptres at Detroit Clutch",
           "session": null,
           "date": "2026-12-29",
           "start": "2026-12-29T00:00:00Z",
@@ -6207,8 +6207,8 @@
           "stale_since": null
         },
         {
-          "uid": "bd8514348a78d72ec50d@sports-hub",
-          "name": "PWHL Hamilton at Montréal Victoire",
+          "uid": "49714a3affcce884be99@sports-hub",
+          "name": "Hamilton Havoc at Montréal Victoire",
           "session": null,
           "date": "2026-12-30",
           "start": "2026-12-30T00:00:00Z",
@@ -6220,8 +6220,8 @@
           "stale_since": null
         },
         {
-          "uid": "58d3ad423fa949bb197a@sports-hub",
-          "name": "New York Sirens at PWHL Las Vegas",
+          "uid": "56ed4da7905f7d6b5c0a@sports-hub",
+          "name": "New York Sirens at Vegas Vanguards",
           "session": null,
           "date": "2026-12-30",
           "start": "2026-12-30T03:00:00Z",
@@ -6233,8 +6233,8 @@
           "stale_since": null
         },
         {
-          "uid": "798a3eb08ef4109dde54@sports-hub",
-          "name": "Boston Fleet at PWHL San Jose",
+          "uid": "ab4811848b378479cede@sports-hub",
+          "name": "Boston Fleet at San Jose Sea Lions",
           "session": null,
           "date": "2026-12-31",
           "start": "2026-12-31T03:00:00Z",
@@ -6259,8 +6259,8 @@
           "stale_since": null
         },
         {
-          "uid": "f5f8472da0c420dd91d8@sports-hub",
-          "name": "PWHL Hamilton at Minnesota Frost",
+          "uid": "1ea6c748e3b43eead864@sports-hub",
+          "name": "Hamilton Havoc at Minnesota Frost",
           "session": null,
           "date": "2027-01-01",
           "start": "2027-01-01T01:00:00Z",
@@ -6298,8 +6298,8 @@
           "stale_since": null
         },
         {
-          "uid": "ed7a45f1efe4c26b2934@sports-hub",
-          "name": "PWHL San Jose at Minnesota Frost",
+          "uid": "717ca00b748780fd79e0@sports-hub",
+          "name": "San Jose Sea Lions at Minnesota Frost",
           "session": null,
           "date": "2027-01-03",
           "start": "2027-01-03T19:00:00Z",
@@ -6311,8 +6311,8 @@
           "stale_since": null
         },
         {
-          "uid": "dacb115f808d2662540f@sports-hub",
-          "name": "PWHL Las Vegas at PWHL Hamilton",
+          "uid": "589e8cf92cbf7a591c18@sports-hub",
+          "name": "Vegas Vanguards at Hamilton Havoc",
           "session": null,
           "date": "2027-01-03",
           "start": "2027-01-03T20:00:00Z",
@@ -6337,8 +6337,8 @@
           "stale_since": null
         },
         {
-          "uid": "95fc9a2ed43fe3fa095c@sports-hub",
-          "name": "PWHL Detroit at PWHL Hamilton",
+          "uid": "78c965697bd9127d37b2@sports-hub",
+          "name": "Detroit Clutch at Hamilton Havoc",
           "session": null,
           "date": "2027-01-06",
           "start": "2027-01-06T00:00:00Z",
@@ -6363,8 +6363,8 @@
           "stale_since": null
         },
         {
-          "uid": "d0c170a785279106ff31@sports-hub",
-          "name": "PWHL Las Vegas at Montréal Victoire",
+          "uid": "689bc7e35faf76094489@sports-hub",
+          "name": "Vegas Vanguards at Montréal Victoire",
           "session": null,
           "date": "2027-01-07",
           "start": "2027-01-07T00:00:00Z",
@@ -6415,8 +6415,8 @@
           "stale_since": null
         },
         {
-          "uid": "7f7d8a40af9ecf090aed@sports-hub",
-          "name": "PWHL Detroit at Minnesota Frost",
+          "uid": "8622109a3af04d50df05@sports-hub",
+          "name": "Detroit Clutch at Minnesota Frost",
           "session": null,
           "date": "2027-01-10",
           "start": "2027-01-10T00:00:00Z",
@@ -6428,8 +6428,8 @@
           "stale_since": null
         },
         {
-          "uid": "e12b2d5b19114d6d80dd@sports-hub",
-          "name": "PWHL Hamilton at New York Sirens",
+          "uid": "67a09bc4d85f9747d47b@sports-hub",
+          "name": "Hamilton Havoc at New York Sirens",
           "session": null,
           "date": "2027-01-10",
           "start": "2027-01-10T19:00:00Z",
@@ -6441,8 +6441,8 @@
           "stale_since": null
         },
         {
-          "uid": "26c6c17d2fe55101b094@sports-hub",
-          "name": "Ottawa Charge at PWHL Las Vegas",
+          "uid": "3e54c83bdc43df6478c2@sports-hub",
+          "name": "Ottawa Charge at Vegas Vanguards",
           "session": null,
           "date": "2027-01-10",
           "start": "2027-01-10T22:00:00Z",
@@ -6493,8 +6493,8 @@
           "stale_since": null
         },
         {
-          "uid": "33678e69a56b8a9d5fdd@sports-hub",
-          "name": "PWHL Las Vegas at PWHL San Jose",
+          "uid": "8fdff6a2c83d8c8517de@sports-hub",
+          "name": "Vegas Vanguards at San Jose Sea Lions",
           "session": null,
           "date": "2027-01-14",
           "start": "2027-01-14T03:00:00Z",
@@ -6506,8 +6506,8 @@
           "stale_since": null
         },
         {
-          "uid": "a793ecb3dc748f7dd6e0@sports-hub",
-          "name": "PWHL Hamilton at Seattle Torrent",
+          "uid": "e4ff45b0978ee8b2b4d3@sports-hub",
+          "name": "Hamilton Havoc at Seattle Torrent",
           "session": null,
           "date": "2027-01-15",
           "start": "2027-01-15T03:00:00Z",
@@ -6532,8 +6532,8 @@
           "stale_since": null
         },
         {
-          "uid": "0ff9c827f3996f8fbfb9@sports-hub",
-          "name": "PWHL Hamilton at Vancouver Goldeneyes",
+          "uid": "e4b3b8f83075658d98c6@sports-hub",
+          "name": "Hamilton Havoc at Vancouver Goldeneyes",
           "session": null,
           "date": "2027-01-16",
           "start": "2027-01-16T20:00:00Z",
@@ -6545,8 +6545,8 @@
           "stale_since": null
         },
         {
-          "uid": "b5bf1854c97c9802f71b@sports-hub",
-          "name": "Seattle Torrent at PWHL Las Vegas",
+          "uid": "83da766aa594bf21a3f7@sports-hub",
+          "name": "Seattle Torrent at Vegas Vanguards",
           "session": null,
           "date": "2027-01-16",
           "start": "2027-01-16T20:00:00Z",
@@ -6558,8 +6558,8 @@
           "stale_since": null
         },
         {
-          "uid": "a30a8c37bbe204d44c88@sports-hub",
-          "name": "Montréal Victoire at PWHL San Jose",
+          "uid": "65c1ccbb1a80eb8e5792@sports-hub",
+          "name": "Montréal Victoire at San Jose Sea Lions",
           "session": null,
           "date": "2027-01-17",
           "start": "2027-01-17T00:00:00Z",
@@ -6584,8 +6584,8 @@
           "stale_since": null
         },
         {
-          "uid": "eed112a7e8fbb24af9e5@sports-hub",
-          "name": "PWHL Detroit at Toronto Sceptres",
+          "uid": "baf9ab4ad5c521ee0745@sports-hub",
+          "name": "Detroit Clutch at Toronto Sceptres",
           "session": null,
           "date": "2027-01-17",
           "start": "2027-01-17T20:30:00Z",
@@ -6610,8 +6610,8 @@
           "stale_since": null
         },
         {
-          "uid": "d3455ae08afb741c3387@sports-hub",
-          "name": "PWHL Hamilton at PWHL San Jose",
+          "uid": "37391fb562d4b3e77e81@sports-hub",
+          "name": "Hamilton Havoc at San Jose Sea Lions",
           "session": null,
           "date": "2027-01-20",
           "start": "2027-01-20T03:00:00Z",
@@ -6623,8 +6623,8 @@
           "stale_since": null
         },
         {
-          "uid": "f9caf591649bfaff8233@sports-hub",
-          "name": "Montréal Victoire at PWHL Detroit",
+          "uid": "141425cf0ba8c840ebcf@sports-hub",
+          "name": "Montréal Victoire at Detroit Clutch",
           "session": null,
           "date": "2027-01-21",
           "start": "2027-01-21T00:00:00Z",
@@ -6636,8 +6636,8 @@
           "stale_since": null
         },
         {
-          "uid": "a2227b6a2e4dc255bf4f@sports-hub",
-          "name": "PWHL Hamilton at PWHL Las Vegas",
+          "uid": "b1bcb5a51fcb7e9e5dd4@sports-hub",
+          "name": "Hamilton Havoc at Vegas Vanguards",
           "session": null,
           "date": "2027-01-22",
           "start": "2027-01-22T03:00:00Z",
@@ -6649,8 +6649,8 @@
           "stale_since": null
         },
         {
-          "uid": "ced858d59aff12bbc7ac@sports-hub",
-          "name": "Toronto Sceptres at PWHL San Jose",
+          "uid": "0d6c2941727b94056253@sports-hub",
+          "name": "Toronto Sceptres at San Jose Sea Lions",
           "session": null,
           "date": "2027-01-23",
           "start": "2027-01-23T03:00:00Z",
@@ -6675,8 +6675,8 @@
           "stale_since": null
         },
         {
-          "uid": "bc3d5eb9fb08c849083f@sports-hub",
-          "name": "PWHL Detroit at New York Sirens",
+          "uid": "daf7cb3bb508d8fe7e81@sports-hub",
+          "name": "Detroit Clutch at New York Sirens",
           "session": null,
           "date": "2027-01-24",
           "start": "2027-01-24T00:00:00Z",
@@ -6701,8 +6701,8 @@
           "stale_since": null
         },
         {
-          "uid": "b8654405951ff876514e@sports-hub",
-          "name": "Seattle Torrent at PWHL San Jose",
+          "uid": "b1a389cd843bd25e3029@sports-hub",
+          "name": "Seattle Torrent at San Jose Sea Lions",
           "session": null,
           "date": "2027-01-24",
           "start": "2027-01-24T19:00:00Z",
@@ -6714,8 +6714,8 @@
           "stale_since": null
         },
         {
-          "uid": "e528b9c6f8031ab4ec89@sports-hub",
-          "name": "Toronto Sceptres at PWHL Las Vegas",
+          "uid": "4d9cc42647ae8d3fd622@sports-hub",
+          "name": "Toronto Sceptres at Vegas Vanguards",
           "session": null,
           "date": "2027-01-24",
           "start": "2027-01-24T21:00:00Z",
@@ -6727,8 +6727,8 @@
           "stale_since": null
         },
         {
-          "uid": "58d3a71fd371bf5f14db@sports-hub",
-          "name": "Boston Fleet at PWHL Hamilton",
+          "uid": "600630ad2613ba6792e0@sports-hub",
+          "name": "Boston Fleet at Hamilton Havoc",
           "session": null,
           "date": "2027-01-27",
           "start": "2027-01-27T00:00:00Z",
@@ -6753,8 +6753,8 @@
           "stale_since": null
         },
         {
-          "uid": "0b1b70eb91cd85364db6@sports-hub",
-          "name": "PWHL San Jose at PWHL Las Vegas",
+          "uid": "0079b42bcb06fe908300@sports-hub",
+          "name": "San Jose Sea Lions at Vegas Vanguards",
           "session": null,
           "date": "2027-01-28",
           "start": "2027-01-28T03:00:00Z",
@@ -6766,8 +6766,8 @@
           "stale_since": null
         },
         {
-          "uid": "1d2058f9d6588207f0b5@sports-hub",
-          "name": "Seattle Torrent at PWHL Hamilton",
+          "uid": "d14c3101b53e4abab327@sports-hub",
+          "name": "Seattle Torrent at Hamilton Havoc",
           "session": null,
           "date": "2027-01-29",
           "start": "2027-01-29T00:00:00Z",
@@ -6805,8 +6805,8 @@
           "stale_since": null
         },
         {
-          "uid": "80e744c4cb550a2bb95c@sports-hub",
-          "name": "Toronto Sceptres at PWHL Hamilton",
+          "uid": "60e24a8480fdbfb6f101@sports-hub",
+          "name": "Toronto Sceptres at Hamilton Havoc",
           "session": null,
           "date": "2027-01-30",
           "start": "2027-01-30T19:00:00Z",
@@ -6818,8 +6818,8 @@
           "stale_since": null
         },
         {
-          "uid": "a6c980b88ff82094fc6d@sports-hub",
-          "name": "PWHL San Jose at PWHL Detroit",
+          "uid": "3e9e41df3b799feb1e3c@sports-hub",
+          "name": "San Jose Sea Lions at Detroit Clutch",
           "session": null,
           "date": "2027-01-31",
           "start": "2027-01-31T00:00:00Z",
@@ -6857,8 +6857,8 @@
           "stale_since": null
         },
         {
-          "uid": "94b74ae304f3c4884f82@sports-hub",
-          "name": "PWHL Las Vegas at Minnesota Frost",
+          "uid": "4930d2cf9a4b8345b564@sports-hub",
+          "name": "Vegas Vanguards at Minnesota Frost",
           "session": null,
           "date": "2027-02-03",
           "start": "2027-02-03T00:00:00Z",
@@ -6870,8 +6870,8 @@
           "stale_since": null
         },
         {
-          "uid": "11b0e3806c89f7bee39c@sports-hub",
-          "name": "PWHL Hamilton at Ottawa Charge",
+          "uid": "7076dc97a68db9528a6a@sports-hub",
+          "name": "Hamilton Havoc at Ottawa Charge",
           "session": null,
           "date": "2027-02-03",
           "start": "2027-02-03T23:30:00Z",
@@ -6883,8 +6883,8 @@
           "stale_since": null
         },
         {
-          "uid": "de33560a366ff159dbec@sports-hub",
-          "name": "PWHL Las Vegas at New York Sirens",
+          "uid": "aa38eca3a5ad60b740a3@sports-hub",
+          "name": "Vegas Vanguards at New York Sirens",
           "session": null,
           "date": "2027-02-05",
           "start": "2027-02-05T00:00:00Z",
@@ -6896,8 +6896,8 @@
           "stale_since": null
         },
         {
-          "uid": "ce65387398fb0744b3b8@sports-hub",
-          "name": "Minnesota Frost at PWHL Detroit",
+          "uid": "0f7a33f40bb75ccaa9e2@sports-hub",
+          "name": "Minnesota Frost at Detroit Clutch",
           "session": null,
           "date": "2027-02-05",
           "start": "2027-02-05T00:00:00Z",
@@ -6922,8 +6922,8 @@
           "stale_since": null
         },
         {
-          "uid": "e3b1aba62ebaaf38a14d@sports-hub",
-          "name": "PWHL San Jose at Minnesota Frost",
+          "uid": "371ce6fc07bd2939d870@sports-hub",
+          "name": "San Jose Sea Lions at Minnesota Frost",
           "session": null,
           "date": "2027-02-06",
           "start": "2027-02-06T17:30:00Z",
@@ -6948,8 +6948,8 @@
           "stale_since": null
         },
         {
-          "uid": "913a46fb7274b855dae5@sports-hub",
-          "name": "PWHL Detroit at Boston Fleet",
+          "uid": "bf255fb6e37e24b1c6ab@sports-hub",
+          "name": "Detroit Clutch at Boston Fleet",
           "session": null,
           "date": "2027-02-07",
           "start": "2027-02-07T00:00:00Z",
@@ -6974,8 +6974,8 @@
           "stale_since": null
         },
         {
-          "uid": "e28206ccd62deb5e0c93@sports-hub",
-          "name": "PWHL Las Vegas at Vancouver Goldeneyes",
+          "uid": "4dd013cc15e6764b262f@sports-hub",
+          "name": "Vegas Vanguards at Vancouver Goldeneyes",
           "session": null,
           "date": "2027-02-07",
           "start": "2027-02-07T23:00:00Z",
@@ -6987,8 +6987,8 @@
           "stale_since": null
         },
         {
-          "uid": "d8c9cfd165df2c8a2988@sports-hub",
-          "name": "PWHL San Jose at New York Sirens",
+          "uid": "9a57fe957e0e822f4145@sports-hub",
+          "name": "San Jose Sea Lions at New York Sirens",
           "session": null,
           "date": "2027-02-10",
           "start": "2027-02-10T00:00:00Z",
@@ -7013,8 +7013,8 @@
           "stale_since": null
         },
         {
-          "uid": "9b8b6f3ff420b721cefe@sports-hub",
-          "name": "Boston Fleet at PWHL Hamilton",
+          "uid": "2eee48239a581a747405@sports-hub",
+          "name": "Boston Fleet at Hamilton Havoc",
           "session": null,
           "date": "2027-02-11",
           "start": "2027-02-11T00:00:00Z",
@@ -7039,8 +7039,8 @@
           "stale_since": null
         },
         {
-          "uid": "19463e620f7e96efa734@sports-hub",
-          "name": "Seattle Torrent at PWHL Las Vegas",
+          "uid": "a2521d2bd1d88f006e7f@sports-hub",
+          "name": "Seattle Torrent at Vegas Vanguards",
           "session": null,
           "date": "2027-02-12",
           "start": "2027-02-12T03:00:00Z",
@@ -7065,8 +7065,8 @@
           "stale_since": null
         },
         {
-          "uid": "80de82af90dea3da02cd@sports-hub",
-          "name": "Vancouver Goldeneyes at PWHL San Jose",
+          "uid": "432ed39e794ddb42263f@sports-hub",
+          "name": "Vancouver Goldeneyes at San Jose Sea Lions",
           "session": null,
           "date": "2027-02-13",
           "start": "2027-02-13T18:00:00Z",
@@ -7078,8 +7078,8 @@
           "stale_since": null
         },
         {
-          "uid": "7597ded0d9388402989e@sports-hub",
-          "name": "PWHL Detroit at Seattle Torrent",
+          "uid": "d8a74b7e07be8412b643@sports-hub",
+          "name": "Detroit Clutch at Seattle Torrent",
           "session": null,
           "date": "2027-02-13",
           "start": "2027-02-13T20:00:00Z",
@@ -7104,8 +7104,8 @@
           "stale_since": null
         },
         {
-          "uid": "5d64260ebfe5f14d18fa@sports-hub",
-          "name": "Ottawa Charge at PWHL Hamilton",
+          "uid": "8d9bac3361bd322a651f@sports-hub",
+          "name": "Ottawa Charge at Hamilton Havoc",
           "session": null,
           "date": "2027-02-15",
           "start": "2027-02-15T22:00:00Z",
@@ -7156,8 +7156,8 @@
           "stale_since": null
         },
         {
-          "uid": "3c6a0038aace15477ba3@sports-hub",
-          "name": "Ottawa Charge at PWHL San Jose",
+          "uid": "703c83067358a57a8ee5@sports-hub",
+          "name": "Ottawa Charge at San Jose Sea Lions",
           "session": null,
           "date": "2027-02-18",
           "start": "2027-02-18T03:00:00Z",
@@ -7169,8 +7169,8 @@
           "stale_since": null
         },
         {
-          "uid": "bd70bcd550f3a4c10c59@sports-hub",
-          "name": "PWHL Hamilton at PWHL Detroit",
+          "uid": "b91e7ad38dbccec1777b@sports-hub",
+          "name": "Hamilton Havoc at Detroit Clutch",
           "session": null,
           "date": "2027-02-20",
           "start": "2027-02-20T00:00:00Z",
@@ -7182,8 +7182,8 @@
           "stale_since": null
         },
         {
-          "uid": "3fab6121db20eb29c051@sports-hub",
-          "name": "Vancouver Goldeneyes at PWHL Las Vegas",
+          "uid": "89e335f43fb9cd2fc4d4@sports-hub",
+          "name": "Vancouver Goldeneyes at Vegas Vanguards",
           "session": null,
           "date": "2027-02-20",
           "start": "2027-02-20T03:00:00Z",
@@ -7234,8 +7234,8 @@
           "stale_since": null
         },
         {
-          "uid": "371cb7fc06868197dd14@sports-hub",
-          "name": "PWHL Detroit at PWHL San Jose",
+          "uid": "f0c317be52df80abc78f@sports-hub",
+          "name": "Detroit Clutch at San Jose Sea Lions",
           "session": null,
           "date": "2027-02-22",
           "start": "2027-02-22T00:00:00Z",
@@ -7247,8 +7247,8 @@
           "stale_since": null
         },
         {
-          "uid": "e244faf6acd51fb5dcb5@sports-hub",
-          "name": "New York Sirens at PWHL Hamilton",
+          "uid": "17815c43964b252160c4@sports-hub",
+          "name": "New York Sirens at Hamilton Havoc",
           "session": null,
           "date": "2027-02-24",
           "start": "2027-02-24T00:00:00Z",
@@ -7260,8 +7260,8 @@
           "stale_since": null
         },
         {
-          "uid": "13b59733aab6affaf9a8@sports-hub",
-          "name": "Montréal Victoire at PWHL Las Vegas",
+          "uid": "37d8ecb913fe0a834961@sports-hub",
+          "name": "Montréal Victoire at Vegas Vanguards",
           "session": null,
           "date": "2027-02-24",
           "start": "2027-02-24T03:00:00Z",
@@ -7286,8 +7286,8 @@
           "stale_since": null
         },
         {
-          "uid": "1104b047d00c174cddb8@sports-hub",
-          "name": "Vancouver Goldeneyes at PWHL Detroit",
+          "uid": "2df5fecc1ca66eaaeb95@sports-hub",
+          "name": "Vancouver Goldeneyes at Detroit Clutch",
           "session": null,
           "date": "2027-02-25",
           "start": "2027-02-25T00:00:00Z",
@@ -7299,8 +7299,8 @@
           "stale_since": null
         },
         {
-          "uid": "caf413bbfec385fa8235@sports-hub",
-          "name": "PWHL Las Vegas at PWHL Detroit",
+          "uid": "11b79175375f27982bc1@sports-hub",
+          "name": "Vegas Vanguards at Detroit Clutch",
           "session": null,
           "date": "2027-02-27",
           "start": "2027-02-27T00:00:00Z",
@@ -7338,8 +7338,8 @@
           "stale_since": null
         },
         {
-          "uid": "9caf9fa26afd4d6465e9@sports-hub",
-          "name": "Montréal Victoire at PWHL Hamilton",
+          "uid": "c335e7647f20f442a15d@sports-hub",
+          "name": "Montréal Victoire at Hamilton Havoc",
           "session": null,
           "date": "2027-02-28",
           "start": "2027-02-28T18:00:00Z",
@@ -7351,8 +7351,8 @@
           "stale_since": null
         },
         {
-          "uid": "8bcda5313d72f9e16e2b@sports-hub",
-          "name": "PWHL San Jose at PWHL Detroit",
+          "uid": "8694a92e53c2349a50e2@sports-hub",
+          "name": "San Jose Sea Lions at Detroit Clutch",
           "session": null,
           "date": "2027-02-28",
           "start": "2027-02-28T19:00:00Z",
@@ -7377,8 +7377,8 @@
           "stale_since": null
         },
         {
-          "uid": "a9be2e3cbfc03ca6498e@sports-hub",
-          "name": "PWHL Las Vegas at Seattle Torrent",
+          "uid": "4469d18970dbf19b5230@sports-hub",
+          "name": "Vegas Vanguards at Seattle Torrent",
           "session": null,
           "date": "2027-03-01",
           "start": "2027-03-01T00:00:00Z",
@@ -7403,8 +7403,8 @@
           "stale_since": null
         },
         {
-          "uid": "ed893c834e8361c2e4ed@sports-hub",
-          "name": "PWHL Hamilton at Toronto Sceptres",
+          "uid": "0cd0fd39b90c586ffa49@sports-hub",
+          "name": "Hamilton Havoc at Toronto Sceptres",
           "session": null,
           "date": "2027-03-11",
           "start": "2027-03-11T00:00:00Z",
@@ -7416,8 +7416,8 @@
           "stale_since": null
         },
         {
-          "uid": "0100685316b243e29f8b@sports-hub",
-          "name": "PWHL Las Vegas at PWHL Detroit",
+          "uid": "db47b204b5400b63da78@sports-hub",
+          "name": "Vegas Vanguards at Detroit Clutch",
           "session": null,
           "date": "2027-03-11",
           "start": "2027-03-11T00:00:00Z",
@@ -7468,8 +7468,8 @@
           "stale_since": null
         },
         {
-          "uid": "6302be34e8bedd7f2f9f@sports-hub",
-          "name": "PWHL Detroit at Seattle Torrent",
+          "uid": "2a2d2d17800a7a73fa6f@sports-hub",
+          "name": "Detroit Clutch at Seattle Torrent",
           "session": null,
           "date": "2027-03-13",
           "start": "2027-03-13T20:00:00Z",
@@ -7481,8 +7481,8 @@
           "stale_since": null
         },
         {
-          "uid": "42d7e8504a5d424e1141@sports-hub",
-          "name": "PWHL San Jose at Vancouver Goldeneyes",
+          "uid": "5fb5c4d8835c28d64023@sports-hub",
+          "name": "San Jose Sea Lions at Vancouver Goldeneyes",
           "session": null,
           "date": "2027-03-13",
           "start": "2027-03-13T20:00:00Z",
@@ -7507,8 +7507,8 @@
           "stale_since": null
         },
         {
-          "uid": "7636fe4f0ba657925aa9@sports-hub",
-          "name": "PWHL Hamilton at New York Sirens",
+          "uid": "0e6091b2cf050e4ecf42@sports-hub",
+          "name": "Hamilton Havoc at New York Sirens",
           "session": null,
           "date": "2027-03-14",
           "start": "2027-03-14T17:00:00Z",
@@ -7533,8 +7533,8 @@
           "stale_since": null
         },
         {
-          "uid": "9cda032adbf7a4e901b3@sports-hub",
-          "name": "Ottawa Charge at PWHL Detroit",
+          "uid": "84dd3618ca48fe830bdb@sports-hub",
+          "name": "Ottawa Charge at Detroit Clutch",
           "session": null,
           "date": "2027-03-17",
           "start": "2027-03-17T23:00:00Z",
@@ -7546,8 +7546,8 @@
           "stale_since": null
         },
         {
-          "uid": "5974f85704bc2bb8ef2e@sports-hub",
-          "name": "Minnesota Frost at PWHL San Jose",
+          "uid": "6b07c7959bbbdc71dcc9@sports-hub",
+          "name": "Minnesota Frost at San Jose Sea Lions",
           "session": null,
           "date": "2027-03-19",
           "start": "2027-03-19T02:00:00Z",
@@ -7559,8 +7559,8 @@
           "stale_since": null
         },
         {
-          "uid": "43426f7e5aff15dfcb71@sports-hub",
-          "name": "PWHL Las Vegas at Toronto Sceptres",
+          "uid": "86d448dc32cf72731d65@sports-hub",
+          "name": "Vegas Vanguards at Toronto Sceptres",
           "session": null,
           "date": "2027-03-19",
           "start": "2027-03-19T23:00:00Z",
@@ -7572,8 +7572,8 @@
           "stale_since": null
         },
         {
-          "uid": "cd2f589f9f91d223b006@sports-hub",
-          "name": "PWHL Detroit at Minnesota Frost",
+          "uid": "a9a22f0591dffbf6b570@sports-hub",
+          "name": "Detroit Clutch at Minnesota Frost",
           "session": null,
           "date": "2027-03-20",
           "start": "2027-03-20T19:00:00Z",
@@ -7585,8 +7585,8 @@
           "stale_since": null
         },
         {
-          "uid": "6bd0e23bf1e746471f42@sports-hub",
-          "name": "PWHL San Jose at Boston Fleet",
+          "uid": "8c6e98688f83b9d928c8@sports-hub",
+          "name": "San Jose Sea Lions at Boston Fleet",
           "session": null,
           "date": "2027-03-21",
           "start": "2027-03-21T17:00:00Z",
@@ -7611,8 +7611,8 @@
           "stale_since": null
         },
         {
-          "uid": "d0cb03aa356137c23b4d@sports-hub",
-          "name": "Vancouver Goldeneyes at PWHL Las Vegas",
+          "uid": "fa6f7c07c724485da485@sports-hub",
+          "name": "Vancouver Goldeneyes at Vegas Vanguards",
           "session": null,
           "date": "2027-03-21",
           "start": "2027-03-21T20:30:00Z",
@@ -7637,8 +7637,8 @@
           "stale_since": null
         },
         {
-          "uid": "b62bbee4bb3c7658c4a8@sports-hub",
-          "name": "PWHL Las Vegas at Ottawa Charge",
+          "uid": "bfbda9393fe81bedcadb@sports-hub",
+          "name": "Vegas Vanguards at Ottawa Charge",
           "session": null,
           "date": "2027-03-24",
           "start": null,
@@ -7650,8 +7650,8 @@
           "stale_since": null
         },
         {
-          "uid": "c89ca1586647f7a828a1@sports-hub",
-          "name": "Vancouver Goldeneyes at PWHL Hamilton",
+          "uid": "77dd6ccc12a2c3413c19@sports-hub",
+          "name": "Vancouver Goldeneyes at Hamilton Havoc",
           "session": null,
           "date": "2027-03-24",
           "start": "2027-03-24T23:00:00Z",
@@ -7663,8 +7663,8 @@
           "stale_since": null
         },
         {
-          "uid": "71a0b9230ea764f67d08@sports-hub",
-          "name": "PWHL Detroit at PWHL San Jose",
+          "uid": "c1556ef8232b352e5735@sports-hub",
+          "name": "Detroit Clutch at San Jose Sea Lions",
           "session": null,
           "date": "2027-03-26",
           "start": "2027-03-26T02:00:00Z",
@@ -7715,8 +7715,8 @@
           "stale_since": null
         },
         {
-          "uid": "6d34a866aec6a2c3817d@sports-hub",
-          "name": "PWHL Las Vegas at Boston Fleet",
+          "uid": "d2a4f5cdd7fcc90b04b2@sports-hub",
+          "name": "Vegas Vanguards at Boston Fleet",
           "session": null,
           "date": "2027-03-27",
           "start": "2027-03-27T19:00:00Z",
@@ -7728,8 +7728,8 @@
           "stale_since": null
         },
         {
-          "uid": "3dabd55922df15895a03@sports-hub",
-          "name": "Minnesota Frost at PWHL Hamilton",
+          "uid": "e17ab64407bffdc0e67a@sports-hub",
+          "name": "Minnesota Frost at Hamilton Havoc",
           "session": null,
           "date": "2027-03-28",
           "start": "2027-03-28T18:00:00Z",
@@ -7741,8 +7741,8 @@
           "stale_since": null
         },
         {
-          "uid": "589979a5039710c21147@sports-hub",
-          "name": "Seattle Torrent at PWHL Detroit",
+          "uid": "b3e63232ef1683fcdd83@sports-hub",
+          "name": "Seattle Torrent at Detroit Clutch",
           "session": null,
           "date": "2027-03-28",
           "start": "2027-03-28T18:00:00Z",
@@ -7780,8 +7780,8 @@
           "stale_since": null
         },
         {
-          "uid": "c5365c2a9c31a4598862@sports-hub",
-          "name": "PWHL San Jose at Vancouver Goldeneyes",
+          "uid": "f71424166fb39c6b4ede@sports-hub",
+          "name": "San Jose Sea Lions at Vancouver Goldeneyes",
           "session": null,
           "date": "2027-04-02",
           "start": "2027-04-02T02:00:00Z",
@@ -7793,8 +7793,8 @@
           "stale_since": null
         },
         {
-          "uid": "2fd4914c66ac97f26b4c@sports-hub",
-          "name": "PWHL Hamilton at Ottawa Charge",
+          "uid": "a4ade036466d218e8926@sports-hub",
+          "name": "Hamilton Havoc at Ottawa Charge",
           "session": null,
           "date": "2027-04-03",
           "start": "2027-04-03T18:00:00Z",
@@ -7819,8 +7819,8 @@
           "stale_since": null
         },
         {
-          "uid": "724a3224ba419b82849c@sports-hub",
-          "name": "PWHL Detroit at Montréal Victoire",
+          "uid": "5226575187fd05e745be@sports-hub",
+          "name": "Detroit Clutch at Montréal Victoire",
           "session": null,
           "date": "2027-04-03",
           "start": "2027-04-03T23:00:00Z",
@@ -7871,8 +7871,8 @@
           "stale_since": null
         },
         {
-          "uid": "40db4717e95fbc127e24@sports-hub",
-          "name": "PWHL San Jose at PWHL Las Vegas",
+          "uid": "abb3d4cd640fcc91b158@sports-hub",
+          "name": "San Jose Sea Lions at Vegas Vanguards",
           "session": null,
           "date": "2027-04-08",
           "start": "2027-04-08T02:00:00Z",
@@ -7884,8 +7884,8 @@
           "stale_since": null
         },
         {
-          "uid": "454c52e18579c19850c8@sports-hub",
-          "name": "Boston Fleet at PWHL Detroit",
+          "uid": "10fc0d18cdb72edd05e3@sports-hub",
+          "name": "Boston Fleet at Detroit Clutch",
           "session": null,
           "date": "2027-04-08",
           "start": "2027-04-08T23:00:00Z",
@@ -7923,8 +7923,8 @@
           "stale_since": null
         },
         {
-          "uid": "db37026774384a36fca8@sports-hub",
-          "name": "Vancouver Goldeneyes at PWHL San Jose",
+          "uid": "f94ebf44db244f98a57f@sports-hub",
+          "name": "Vancouver Goldeneyes at San Jose Sea Lions",
           "session": null,
           "date": "2027-04-10",
           "start": "2027-04-10T02:00:00Z",
@@ -7936,8 +7936,8 @@
           "stale_since": null
         },
         {
-          "uid": "c22677f949e6cd483cc0@sports-hub",
-          "name": "PWHL Hamilton at Boston Fleet",
+          "uid": "dd499ec346312c414ca1@sports-hub",
+          "name": "Hamilton Havoc at Boston Fleet",
           "session": null,
           "date": "2027-04-10",
           "start": "2027-04-10T19:00:00Z",
@@ -7962,8 +7962,8 @@
           "stale_since": null
         },
         {
-          "uid": "44bf10ebf545bef33a85@sports-hub",
-          "name": "Minnesota Frost at PWHL Detroit",
+          "uid": "fe68a09d8d3e39849448@sports-hub",
+          "name": "Minnesota Frost at Detroit Clutch",
           "session": null,
           "date": "2027-04-11",
           "start": "2027-04-11T17:00:00Z",
@@ -7988,8 +7988,8 @@
           "stale_since": null
         },
         {
-          "uid": "c175e626ceb44c67fc32@sports-hub",
-          "name": "PWHL Detroit at PWHL Las Vegas",
+          "uid": "108dc6b5e262381ff416@sports-hub",
+          "name": "Detroit Clutch at Vegas Vanguards",
           "session": null,
           "date": "2027-04-14",
           "start": "2027-04-14T02:00:00Z",
@@ -8014,8 +8014,8 @@
           "stale_since": null
         },
         {
-          "uid": "6a0790c741fc9c70efc4@sports-hub",
-          "name": "PWHL Las Vegas at Minnesota Frost",
+          "uid": "4fd72361e89c11a81293@sports-hub",
+          "name": "Vegas Vanguards at Minnesota Frost",
           "session": null,
           "date": "2027-04-16",
           "start": null,
@@ -8040,8 +8040,8 @@
           "stale_since": null
         },
         {
-          "uid": "cf82fcac6ab46327a92e@sports-hub",
-          "name": "PWHL San Jose at Seattle Torrent",
+          "uid": "4ddd0444895e07ebc17b@sports-hub",
+          "name": "San Jose Sea Lions at Seattle Torrent",
           "session": null,
           "date": "2027-04-17",
           "start": null,
@@ -8053,8 +8053,8 @@
           "stale_since": null
         },
         {
-          "uid": "5c3e099195d7617cdb75@sports-hub",
-          "name": "PWHL Detroit at Vancouver Goldeneyes",
+          "uid": "bebb881ea14f55db4c14@sports-hub",
+          "name": "Detroit Clutch at Vancouver Goldeneyes",
           "session": null,
           "date": "2027-04-17",
           "start": null,
@@ -8079,8 +8079,8 @@
           "stale_since": null
         },
         {
-          "uid": "126c3e4e147ac70366ad@sports-hub",
-          "name": "New York Sirens at PWHL Hamilton",
+          "uid": "e6e019f2b49e356fd64c@sports-hub",
+          "name": "New York Sirens at Hamilton Havoc",
           "session": null,
           "date": "2027-04-18",
           "start": null,
@@ -8094,21 +8094,8 @@
       ]
     },
     "swimming": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
-        {
-          "uid": "b464ab27c775c2017f49@sports-hub",
-          "name": "World Aquatics Swimming World Cup 2026",
-          "session": null,
-          "date": "2026-10-08",
-          "start": null,
-          "all_day": true,
-          "end_date": "2026-10-10",
-          "location": "Tashkent, Uzbekistan",
-          "tags": [],
-          "source": null,
-          "stale_since": null
-        },
         {
           "uid": "6de9746ca79de1159ea8@sports-hub",
           "name": "World Aquatics Swimming World Cup 2026",
@@ -8190,7 +8177,7 @@
       ]
     },
     "diving": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "2581d58c1e6c352a7614@sports-hub",
@@ -8247,7 +8234,7 @@
       ]
     },
     "motogp": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "ee0fe0208cb0270c90ee@sports-hub",
@@ -9383,7 +9370,7 @@
       ]
     },
     "ireland-rugby/season": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "d419a8db26e2e7963985@sports-hub",
@@ -9427,7 +9414,7 @@
       ]
     },
     "ireland-rugby/six_nations": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "7ce8c30d6571ff43532c@sports-hub",
@@ -9497,7 +9484,7 @@
       ]
     },
     "all-blacks": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "57b151141c281a4021ae@sports-hub",
@@ -9554,7 +9541,7 @@
       ]
     },
     "speed-skating": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "4f5b22e5458f3923c03f@sports-hub",
@@ -9583,8 +9570,8 @@
           "stale_since": null
         },
         {
-          "uid": "7f80990c2346c97a2ff4@sports-hub",
-          "name": "ISU Speed Skating World Cup #3",
+          "uid": "829cfb25bf1aee8f82cb@sports-hub",
+          "name": "ISU Speed Skating World Cup #3 Heerenveen",
           "session": null,
           "date": "2026-12-04",
           "start": null,
@@ -9663,7 +9650,7 @@
       ]
     },
     "short-track": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "f956c00db6efc8f660c8@sports-hub",
@@ -9785,7 +9772,7 @@
       ]
     },
     "gymnastics": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "b553c1c00438d2b28ec9@sports-hub",
@@ -9961,7 +9948,7 @@
       ]
     },
     "world-skate": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "8281b2d5b95e36200f1e@sports-hub",
@@ -9992,7 +9979,7 @@
       ]
     },
     "diamond-league": {
-      "fetched_on": "2026-11-09",
+      "fetched_on": "2026-11-12",
       "events": [
         {
           "uid": "a7cb44d807823fb67de0@sports-hub",
