@@ -20,7 +20,11 @@ API = "https://www.biathlonresults.com/modules/sportapi/api"
 
 
 def fetch(client: httpx.Client, sport: Sport, today: date) -> list[Event]:
-    meetings = _json_list(get(client, f"{API}/Events", {"SeasonId": season_id(today), "Level": "1"}), "meetings")
+    # Since Nov 2026 the API wants the same public key biathlonresults.com's own page sends.
+    headers = {"apikey": sport.params["apikey"]} if "apikey" in sport.params else None
+    meetings = _json_list(
+        get(client, f"{API}/Events", {"SeasonId": season_id(today), "Level": "1"}, headers), "meetings"
+    )
     try:
         races: list[Event] = []
         for meeting in sorted(meetings, key=lambda m: m["StartDate"]):
@@ -29,7 +33,9 @@ def fetch(client: httpx.Client, sport: Sport, today: date) -> list[Event]:
             upcoming = sum(1 for r in races if r.day >= today)
             if _day(meeting["StartDate"]) > horizon(today) and upcoming >= MIN_EVENTS:
                 break
-            entries = _json_list(get(client, f"{API}/Competitions", {"EventId": meeting["EventId"]}), "races")
+            entries = _json_list(
+                get(client, f"{API}/Competitions", {"EventId": meeting["EventId"]}, headers), "races"
+            )
             races.extend(_race(sport.id, meeting, entry) for entry in entries if entry.get("StartTime"))
     except (KeyError, TypeError, ValueError) as exc:
         raise SourceError(f"IBU data has an unexpected shape ({exc})") from exc

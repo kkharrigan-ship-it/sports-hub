@@ -56,6 +56,9 @@ sports:
     name: Biathlon
     category: snow
     source: ibu
+    # Public key from biathlonresults.com's own JavaScript (window.ApiKey in its app bundle).
+    # If Biathlon starts answering HTTP 401 again, IBU has probably rotated it: look there for the new one.
+    params: { apikey: 88a3ac6f-84c0-4e2d-a500-535f77e73875 }
     rights_unconfirmed: true
     watch:
       - { label: Eurovision Sport, type: free, note: free in the US, no VPN }

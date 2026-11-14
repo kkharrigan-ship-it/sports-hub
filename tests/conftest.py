@@ -106,6 +106,8 @@ class FakeInternet:
         for key in (url.host + url.path, url.host):
             if key in self.overrides:
                 return self.overrides[key](request)
+        if url.host == "www.biathlonresults.com" and not request.headers.get("apikey"):
+            return httpx.Response(401)  # like the real API since Nov 2026
         query = url.query.decode()
         for host, path, fragment, filename in ROUTES:
             if url.host == host and url.path == path and fragment in query:

@@ -8,9 +8,14 @@ from sports_hub.errors import SourceError
 USER_AGENT = "sports-hub/0.1 (personal hobby project; twice-weekly schedule refresh; +https://github.com/kkharrigan-ship-it/sports-hub)"
 
 
-def get(client: httpx.Client, url: str, params: dict[str, str] | None = None) -> httpx.Response:
+def get(
+    client: httpx.Client,
+    url: str,
+    params: dict[str, str] | None = None,
+    headers: dict[str, str] | None = None,
+) -> httpx.Response:
     try:
-        response = client.get(url, params=params, headers={"User-Agent": USER_AGENT}, timeout=30)
+        response = client.get(url, params=params, headers={"User-Agent": USER_AGENT, **(headers or {})}, timeout=30)
     except httpx.HTTPError as exc:
         raise SourceError(f"couldn't reach {httpx.URL(url).host} ({type(exc).__name__})") from exc
     if response.status_code != 200:

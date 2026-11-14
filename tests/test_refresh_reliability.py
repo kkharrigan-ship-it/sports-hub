@@ -23,7 +23,7 @@ F1 = Sport(
     offseason_note="The 2027 calendar hasn't been published yet.",
 )
 ALPINE = Sport(id="alpine", name="Alpine Skiing", category="snow", sources=("fis",), params={"sector": "AL"})
-BIATHLON = Sport(id="biathlon", name="Biathlon", category="snow", sources=("ibu",))
+BIATHLON = Sport(id="biathlon", name="Biathlon", category="snow", sources=("ibu",), params={"apikey": "test-key"})
 SPORTS = [F1, ALPINE, BIATHLON]
 
 
