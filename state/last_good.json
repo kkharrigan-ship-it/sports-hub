@@ -1,9 +1,9 @@
 {
-  "refreshed_on": "2026-11-12",
-  "notified_on": "2026-11-09",
+  "refreshed_on": "2026-11-16",
+  "notified_on": "2026-11-16",
   "sports": {
     "f1": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "40fb5583d6075d28d82c@sports-hub",
@@ -1503,7 +1503,7 @@
       ]
     },
     "alpine": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "0e50e9fb9f1eeaa984c4@sports-hub",
@@ -2587,7 +2587,7 @@
       ]
     },
     "snowboard": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "50fb98f3d5c5631feb65@sports-hub",
@@ -3543,7 +3543,7 @@
           "name": "Mt. St. Anne World Cup",
           "session": "Women's Snowboard Cross",
           "date": "2027-03-27",
-          "start": "2027-03-27T16:00:00Z",
+          "start": "2027-03-27T15:00:00Z",
           "all_day": false,
           "end_date": null,
           "location": "Mt. St. Anne, CAN",
@@ -3556,7 +3556,7 @@
           "name": "Mt. St. Anne World Cup",
           "session": "Men's Snowboard Cross",
           "date": "2027-03-27",
-          "start": "2027-03-27T16:00:00Z",
+          "start": "2027-03-27T15:00:00Z",
           "all_day": false,
           "end_date": null,
           "location": "Mt. St. Anne, CAN",
@@ -3569,7 +3569,7 @@
           "name": "Mt. St. Anne World Cup",
           "session": "Women's Snowboard Cross",
           "date": "2027-03-28",
-          "start": "2027-03-28T17:00:00Z",
+          "start": "2027-03-28T16:00:00Z",
           "all_day": false,
           "end_date": null,
           "location": "Mt. St. Anne, CAN",
@@ -3582,7 +3582,7 @@
           "name": "Mt. St. Anne World Cup",
           "session": "Men's Snowboard Cross",
           "date": "2027-03-28",
-          "start": "2027-03-28T17:00:00Z",
+          "start": "2027-03-28T16:00:00Z",
           "all_day": false,
           "end_date": null,
           "location": "Mt. St. Anne, CAN",
@@ -3645,7 +3645,7 @@
       ]
     },
     "freestyle": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "3fcdfb3d571a4674db25@sports-hub",
@@ -4963,7 +4963,7 @@
       ]
     },
     "biathlon": {
-      "fetched_on": "2026-11-02",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "d50b8c116de3aa88dd77@sports-hub",
@@ -5198,11 +5198,219 @@
           "tags": [],
           "source": null,
           "stale_since": null
+        },
+        {
+          "uid": "24997a3d826a4c53bb27@sports-hub",
+          "name": "Pokljuka World Cup",
+          "session": "Men's 10km Sprint",
+          "date": "2027-01-02",
+          "start": "2027-01-02T10:25:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Pokljuka, SLO",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "148e71e933073b8b5bf5@sports-hub",
+          "name": "Pokljuka World Cup",
+          "session": "Women's 7.5km Sprint",
+          "date": "2027-01-02",
+          "start": "2027-01-02T13:10:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Pokljuka, SLO",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "c72c9b7c9b2d55924ebe@sports-hub",
+          "name": "Pokljuka World Cup",
+          "session": "Men's 4x7.5km Relay",
+          "date": "2027-01-03",
+          "start": "2027-01-03T10:35:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Pokljuka, SLO",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "925df4f6a6e6f4738f35@sports-hub",
+          "name": "Pokljuka World Cup",
+          "session": "Women's 4x6km Relay",
+          "date": "2027-01-03",
+          "start": "2027-01-03T13:15:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Pokljuka, SLO",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "85b6ee01ad3979085f73@sports-hub",
+          "name": "Ruhpolding World Cup",
+          "session": "Women's 4x6km Relay",
+          "date": "2027-01-06",
+          "start": "2027-01-06T13:15:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Ruhpolding, GER",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "5cd0e42196988d4a6b0a@sports-hub",
+          "name": "Ruhpolding World Cup",
+          "session": "Men's 4x7.5km Relay",
+          "date": "2027-01-07",
+          "start": "2027-01-07T13:15:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Ruhpolding, GER",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "d61eaeeea328c3888e5d@sports-hub",
+          "name": "Ruhpolding World Cup",
+          "session": "Women's 7.5km Sprint",
+          "date": "2027-01-08",
+          "start": "2027-01-08T13:15:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Ruhpolding, GER",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "9d52f6a219156b2d2e4f@sports-hub",
+          "name": "Ruhpolding World Cup",
+          "session": "Men's 10km Sprint",
+          "date": "2027-01-09",
+          "start": "2027-01-09T13:30:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Ruhpolding, GER",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "cefbfa3e6184b148a1b6@sports-hub",
+          "name": "Ruhpolding World Cup",
+          "session": "Women's 10km Pursuit",
+          "date": "2027-01-10",
+          "start": "2027-01-10T11:00:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Ruhpolding, GER",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "5d643a71323a57841b99@sports-hub",
+          "name": "Ruhpolding World Cup",
+          "session": "Men's 12.5km Pursuit",
+          "date": "2027-01-10",
+          "start": "2027-01-10T13:45:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Ruhpolding, GER",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "542d36377aabffa9cadc@sports-hub",
+          "name": "Antholz-Anterselva World Cup",
+          "session": "Men's 20km Individual",
+          "date": "2027-01-14",
+          "start": "2027-01-14T13:15:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Antholz-Anterselva, ITA",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "2a2fc8af8bc40714b58f@sports-hub",
+          "name": "Antholz-Anterselva World Cup",
+          "session": "Women's 15km Individual",
+          "date": "2027-01-15",
+          "start": "2027-01-15T13:15:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Antholz-Anterselva, ITA",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "9aa205676f0949e8d1d2@sports-hub",
+          "name": "Antholz-Anterselva World Cup",
+          "session": "Single Mixed Relay (M+W)",
+          "date": "2027-01-16",
+          "start": "2027-01-16T10:45:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Antholz-Anterselva, ITA",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "5e68b47114c00865317d@sports-hub",
+          "name": "Antholz-Anterselva World Cup",
+          "session": "Mixed Relay (M+W)",
+          "date": "2027-01-16",
+          "start": "2027-01-16T13:30:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Antholz-Anterselva, ITA",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "2348b490554e4064c534@sports-hub",
+          "name": "Antholz-Anterselva World Cup",
+          "session": "Men's 15km Mass Start",
+          "date": "2027-01-17",
+          "start": "2027-01-17T11:45:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Antholz-Anterselva, ITA",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "789b4ecd110165d5af29@sports-hub",
+          "name": "Antholz-Anterselva World Cup",
+          "session": "Women's 12.5km Mass Start",
+          "date": "2027-01-17",
+          "start": "2027-01-17T14:00:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Antholz-Anterselva, ITA",
+          "tags": [],
+          "source": null,
+          "stale_since": null
         }
       ]
     },
     "wec": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "a46cff9cfa07cd0a0a6e@sports-hub",
@@ -5337,7 +5545,7 @@
       ]
     },
     "sailgp": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "f88e8cbdde06ce9e132e@sports-hub",
@@ -5443,7 +5651,7 @@
       ]
     },
     "curling-ca": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "01d42fdce52ee7e39193@sports-hub",
@@ -5601,7 +5809,7 @@
       ]
     },
     "curling-intl": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "229d89cff60e6fb2f2aa@sports-hub",
@@ -5749,7 +5957,7 @@
       ]
     },
     "pwhl": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "2766fd2da7645e72d5c9@sports-hub",
@@ -6279,7 +6487,7 @@
           "start": "2027-01-02T17:00:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Capital One Arena, Washington, DC",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -8094,7 +8302,7 @@
       ]
     },
     "swimming": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "6de9746ca79de1159ea8@sports-hub",
@@ -8177,7 +8385,7 @@
       ]
     },
     "diving": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "2581d58c1e6c352a7614@sports-hub",
@@ -8234,7 +8442,7 @@
       ]
     },
     "motogp": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "ee0fe0208cb0270c90ee@sports-hub",
@@ -9370,7 +9578,7 @@
       ]
     },
     "ireland-rugby/season": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "d419a8db26e2e7963985@sports-hub",
@@ -9414,7 +9622,7 @@
       ]
     },
     "ireland-rugby/six_nations": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "7ce8c30d6571ff43532c@sports-hub",
@@ -9484,7 +9692,7 @@
       ]
     },
     "all-blacks": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "57b151141c281a4021ae@sports-hub",
@@ -9541,7 +9749,7 @@
       ]
     },
     "speed-skating": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "4f5b22e5458f3923c03f@sports-hub",
@@ -9628,7 +9836,7 @@
           "date": "2027-02-05",
           "start": null,
           "all_day": true,
-          "end_date": "2027-02-07",
+          "end_date": "2027-02-08",
           "location": "Calgary, Canada",
           "tags": [],
           "source": null,
@@ -9650,7 +9858,7 @@
       ]
     },
     "short-track": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "f956c00db6efc8f660c8@sports-hub",
@@ -9772,7 +9980,7 @@
       ]
     },
     "gymnastics": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "b553c1c00438d2b28ec9@sports-hub",
@@ -9948,7 +10156,7 @@
       ]
     },
     "world-skate": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "8281b2d5b95e36200f1e@sports-hub",
@@ -9979,7 +10187,7 @@
       ]
     },
     "diamond-league": {
-      "fetched_on": "2026-11-12",
+      "fetched_on": "2026-11-16",
       "events": [
         {
           "uid": "a7cb44d807823fb67de0@sports-hub",
