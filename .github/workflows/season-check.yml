@@ -141,8 +141,6 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ github.token }}
-          # Temporary: reveal the real error behind the instant $0 failures. Remove once fixed.
-          show_full_output: true
           prompt: |
             You're helping keep a hand-maintained sports calendar accurate. Read
             checked/season-review.md: it lists source pages that changed since
