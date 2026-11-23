@@ -1,9 +1,9 @@
 {
-  "refreshed_on": "2026-11-19",
-  "notified_on": "2026-11-16",
+  "refreshed_on": "2026-11-23",
+  "notified_on": "2026-11-23",
   "sports": {
     "f1": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "40fb5583d6075d28d82c@sports-hub",
@@ -1503,7 +1503,7 @@
       ]
     },
     "alpine": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "0e50e9fb9f1eeaa984c4@sports-hub",
@@ -2587,7 +2587,7 @@
       ]
     },
     "snowboard": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "50fb98f3d5c5631feb65@sports-hub",
@@ -3645,7 +3645,7 @@
       ]
     },
     "freestyle": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "3fcdfb3d571a4674db25@sports-hub",
@@ -4963,7 +4963,7 @@
       ]
     },
     "biathlon": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "d50b8c116de3aa88dd77@sports-hub",
@@ -5406,11 +5406,89 @@
           "tags": [],
           "source": null,
           "stale_since": null
+        },
+        {
+          "uid": "0f4d56b15f503443b945@sports-hub",
+          "name": "Nove Mesto na Morave World Cup",
+          "session": "Women's 7.5km Sprint",
+          "date": "2027-01-21",
+          "start": "2027-01-21T15:30:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Nove Mesto na Morave, CZE",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "362ea4d35860425000c1@sports-hub",
+          "name": "Nove Mesto na Morave World Cup",
+          "session": "Men's 10km Sprint",
+          "date": "2027-01-22",
+          "start": "2027-01-22T15:30:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Nove Mesto na Morave, CZE",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "88d857e3a24328facbe1@sports-hub",
+          "name": "Nove Mesto na Morave World Cup",
+          "session": "Women's 12.5km Mass Start",
+          "date": "2027-01-23",
+          "start": "2027-01-23T13:45:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Nove Mesto na Morave, CZE",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "dbbfeb9c9c7ca46b2d19@sports-hub",
+          "name": "Nove Mesto na Morave World Cup",
+          "session": "Men's 4x7.5km Relay",
+          "date": "2027-01-23",
+          "start": "2027-01-23T16:00:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Nove Mesto na Morave, CZE",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "ddb1ae2a778849c58849@sports-hub",
+          "name": "Nove Mesto na Morave World Cup",
+          "session": "Women's 4x6km Relay",
+          "date": "2027-01-24",
+          "start": "2027-01-24T13:35:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Nove Mesto na Morave, CZE",
+          "tags": [],
+          "source": null,
+          "stale_since": null
+        },
+        {
+          "uid": "082d413bde6cdcf3045e@sports-hub",
+          "name": "Nove Mesto na Morave World Cup",
+          "session": "Men's 15km Mass Start",
+          "date": "2027-01-24",
+          "start": "2027-01-24T16:10:00Z",
+          "all_day": false,
+          "end_date": null,
+          "location": "Nove Mesto na Morave, CZE",
+          "tags": [],
+          "source": null,
+          "stale_since": null
         }
       ]
     },
     "wec": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "a46cff9cfa07cd0a0a6e@sports-hub",
@@ -5545,7 +5623,7 @@
       ]
     },
     "sailgp": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "f88e8cbdde06ce9e132e@sports-hub",
@@ -5651,7 +5729,7 @@
       ]
     },
     "curling-ca": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "01d42fdce52ee7e39193@sports-hub",
@@ -5809,7 +5887,7 @@
       ]
     },
     "curling-intl": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "229d89cff60e6fb2f2aa@sports-hub",
@@ -5957,7 +6035,7 @@
       ]
     },
     "pwhl": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "2766fd2da7645e72d5c9@sports-hub",
@@ -7059,7 +7137,7 @@
           "start": "2027-02-02T23:30:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Scotiabank Centre, Halifax, NS",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -7085,7 +7163,7 @@
           "start": "2027-02-03T23:30:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Scotiabank Centre, Halifax, NS",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -7137,7 +7215,7 @@
           "start": "2027-02-06T17:30:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Lenovo Center, Raleigh, NC",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -7182,14 +7260,14 @@
           "stale_since": null
         },
         {
-          "uid": "4dd013cc15e6764b262f@sports-hub",
-          "name": "Vegas Vanguards at Vancouver Goldeneyes",
+          "uid": "b5f73cf614fae452906a@sports-hub",
+          "name": "Vancouver Goldeneyes at Vegas Vanguards",
           "session": null,
           "date": "2027-02-07",
           "start": "2027-02-07T23:00:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Ball Arena, Denver, CO",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -7280,7 +7358,7 @@
           "start": "2027-02-13T18:00:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Xfinity Mobile Arena, Philadelphia, PA",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -7319,7 +7397,7 @@
           "start": "2027-02-15T22:00:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Scotiabank Saddledome, Calgary, AB",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -7410,7 +7488,7 @@
           "start": "2027-02-20T20:00:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Crypto.com Arena, Los Angeles, CA",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -7566,7 +7644,7 @@
           "start": "2027-02-28T19:00:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Nationwide Arena, Columbus, OH",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -7631,7 +7709,7 @@
           "start": "2027-03-11T00:00:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Capital One Arena, Washington, DC",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -7670,7 +7748,7 @@
           "start": "2027-03-13T00:00:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "PeoplesBank Arena, Hartford, CT",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -7683,7 +7761,7 @@
           "start": "2027-03-13T20:00:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Amerant Bank Arena, Sunrise, FL",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -7722,7 +7800,7 @@
           "start": "2027-03-14T17:00:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "KeyBank Center, Buffalo, NY",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -7819,14 +7897,14 @@
           "stale_since": null
         },
         {
-          "uid": "fa6f7c07c724485da485@sports-hub",
-          "name": "Vancouver Goldeneyes at Vegas Vanguards",
+          "uid": "88f8f230b8d832fb7677@sports-hub",
+          "name": "Vegas Vanguards at Vancouver Goldeneyes",
           "session": null,
           "date": "2027-03-21",
           "start": "2027-03-21T20:30:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Scotiabank Centre, Halifax, NS",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -7917,7 +7995,7 @@
           "start": "2027-03-27T18:00:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Canada Life Centre, Winnipeg, MB",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -8125,7 +8203,7 @@
           "start": "2027-04-10T01:00:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Ball Arena, Denver, CO",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -8164,7 +8242,7 @@
           "start": "2027-04-10T23:30:00Z",
           "all_day": false,
           "end_date": null,
-          "location": "TBD",
+          "location": "Xfinity Mobile Arena, Philadelphia, PA",
           "tags": [],
           "source": null,
           "stale_since": null
@@ -8302,7 +8380,7 @@
       ]
     },
     "swimming": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "ec5d5dfc5eda567f62de@sports-hub",
@@ -8372,7 +8450,7 @@
       ]
     },
     "diving": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "2581d58c1e6c352a7614@sports-hub",
@@ -8429,7 +8507,7 @@
       ]
     },
     "motogp": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "ee0fe0208cb0270c90ee@sports-hub",
@@ -9203,7 +9281,7 @@
           "name": "Grand Prix of Portugal",
           "session": "Qualifying",
           "date": "2026-11-21",
-          "start": "2026-11-21T11:15:00Z",
+          "start": "2026-11-21T11:20:00Z",
           "all_day": false,
           "end_date": null,
           "location": "Autódromo Internacional do Algarve, Portugal",
@@ -9216,7 +9294,7 @@
           "name": "Grand Prix of Portugal",
           "session": "Sprint",
           "date": "2026-11-21",
-          "start": "2026-11-21T15:00:00Z",
+          "start": "2026-11-21T14:30:00Z",
           "all_day": false,
           "end_date": null,
           "location": "Autódromo Internacional do Algarve, Portugal",
@@ -9565,7 +9643,7 @@
       ]
     },
     "ireland-rugby/season": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "d419a8db26e2e7963985@sports-hub",
@@ -9609,7 +9687,7 @@
       ]
     },
     "ireland-rugby/six_nations": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "7ce8c30d6571ff43532c@sports-hub",
@@ -9679,7 +9757,7 @@
       ]
     },
     "all-blacks": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "57b151141c281a4021ae@sports-hub",
@@ -9736,7 +9814,7 @@
       ]
     },
     "speed-skating": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "4f5b22e5458f3923c03f@sports-hub",
@@ -9845,7 +9923,7 @@
       ]
     },
     "short-track": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "f956c00db6efc8f660c8@sports-hub",
@@ -9967,7 +10045,7 @@
       ]
     },
     "gymnastics": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "b553c1c00438d2b28ec9@sports-hub",
@@ -10143,7 +10221,7 @@
       ]
     },
     "world-skate": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "8281b2d5b95e36200f1e@sports-hub",
@@ -10174,7 +10252,7 @@
       ]
     },
     "diamond-league": {
-      "fetched_on": "2026-11-19",
+      "fetched_on": "2026-11-23",
       "events": [
         {
           "uid": "a7cb44d807823fb67de0@sports-hub",
